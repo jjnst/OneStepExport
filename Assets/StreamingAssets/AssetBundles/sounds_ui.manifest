@@ -1,0 +1,51 @@
+ManifestFileVersion: 0
+CRC: 4064356188
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6c1c91f17a159b7e6800c6dd63cfaf56
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sounds/UI/long_buzz.ogg
+- Assets/Sounds/UI/pierce/nasty-knife-stab.ogg
+- Assets/Sounds/UI/unlockExp/ui-interface-positive.ogg
+- Assets/Sounds/UI/battle_start.ogg
+- Assets/Sounds/UI/unlock/ecofuture3.ogg
+- Assets/Sounds/UI/locked_denied.wav
+- Assets/Sounds/UI/shuffle_end.ogg
+- Assets/Sounds/UI/loot_create.wav
+- Assets/Sounds/UI/reward_create.ogg
+- Assets/Sounds/UI/ui_skip.ogg
+- Assets/Sounds/UI/upgrade/ecofuture2.ogg
+- Assets/Sounds/UI/start/start_sound_unlocked.ogg
+- Assets/Sounds/UI/unlockLevel/picked-coin-echo-2.ogg
+- Assets/Sounds/UI/flip/paper-flip-2.ogg
+- Assets/Sounds/UI/shuffle_start.ogg
+- Assets/Sounds/UI/futuristic-shine.ogg
+- Assets/Sounds/UI/card_flip_half.ogg
+- Assets/Sounds/UI/item_collect.ogg
+- Assets/Sounds/UI/chaching.ogg
+- Assets/Sounds/UI/level-up.ogg
+- Assets/Sounds/UI/menu_slide.ogg
+- Assets/Sounds/UI/experience_up.ogg
+- Assets/Sounds/UI/coin-flip-shimmer.ogg
+- Assets/Sounds/UI/choose-alt/triangle-open-03.ogg
+- Assets/Sounds/UI/choose/menu-fx-03-normal.ogg
+- Assets/Sounds/UI/long_buzz_low.ogg
+- Assets/Sounds/UI/cardPickup.ogg
+- Assets/Sounds/UI/unlockTransition/jingle-achievement-00.ogg
+- Assets/Sounds/UI/positive/ui-positive.ogg
+- Assets/Sounds/UI/remove/flare-deploy.ogg
+- Assets/Sounds/UI/upgrade/upgrade_sound.ogg
+- Assets/Sounds/UI/click_light.ogg
+- Assets/Sounds/UI/chooseOption.ogg
+- Assets/Sounds/UI/glass_blip.ogg
+- Assets/Sounds/UI/choose/accept_soft.ogg
+- Assets/Sounds/UI/slide/ui-slide.ogg
+Dependencies: []

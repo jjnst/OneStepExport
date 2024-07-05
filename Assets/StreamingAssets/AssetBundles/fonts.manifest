@@ -1,0 +1,107 @@
+ManifestFileVersion: 0
+CRC: 1676212033
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1f60bdf3039ba227a3a14a33a6111e67
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e033f4fcc08a479b7111151795700756
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 109
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/Fonts/Montserrat-Regular.ttf
+- Assets/Fonts/Montserrat-Bold SDF.asset
+- Assets/Fonts/Ubuntu/Ubuntu-Regular SDF.asset
+- Assets/Fonts/Ubuntu/Ubuntu-Regular SDF-CollectionName.mat
+- Assets/Fonts/Quadraptor SDF - Health.mat
+- Assets/Fonts/NotoSans-Regular.ttf
+- Assets/Fonts/Shaders/TMP_SDF-Mobile Masking_AB.shader
+- Assets/Fonts/NotoSansKR-Regular.otf
+- Assets/Fonts/Quadraptor SDF - Cardtridge.mat
+- Assets/Fonts/NotoSansTC-Regular SDF-I2C.asset
+- Assets/Fonts/Montserrat-Bold SDF-BossName.mat
+- Assets/Fonts/NotoSans-Black SDF.asset
+- Assets/Fonts/Serif/Gabriela-Regular.ttf
+- Assets/Fonts/NotoSans-Bold SDF.asset
+- Assets/Fonts/Montserrat-Regular SDF-CardDmg.mat
+- Assets/Fonts/NotoSans-Regular SDF.asset
+- Assets/Fonts/NotoSansSC-Regular SDF-01.asset
+- Assets/Fonts/Ubuntu/Ubuntu-Regular SDF-Shadow.mat
+- Assets/Fonts/Shaders/TMP_SDF-Surface-Mobile_AB.shader
+- Assets/Fonts/Shaders/TMPro_AB.cginc
+- Assets/Fonts/Aldrich/Aldrich-Regular.ttf
+- Assets/Fonts/NotoSansJP-Regular.otf
+- Assets/Fonts/Ubuntu/Ubuntu-Bold SDF.asset
+- Assets/Fonts/Ubuntu/Ubuntu-Light.ttf
+- Assets/Fonts/JosefinSans-Regular.ttf
+- Assets/Fonts/Quadraptor SDF - ManaBar.mat
+- Assets/Fonts/Montserrat-Regular SDF-BattleText.mat
+- Assets/Fonts/Ubuntu/Ubuntu-Regular SDF Dark.mat
+- Assets/Fonts/NotoSans-Black.ttf
+- Assets/Fonts/Montserrat-Regular SDF-Title.mat
+- Assets/Fonts/NotoSansJP-Regular SDF-01.asset
+- Assets/Fonts/Montserrat-Bold SDF-Mana.mat
+- Assets/Fonts/Quadraptor SDF - Damage.mat
+- Assets/Fonts/NotoSansSC-Regular SDF-04.asset
+- Assets/Fonts/Shaders/TMP_Bitmap-Mobile_AB.shader
+- Assets/Fonts/Ubuntu/UFL.txt
+- Assets/Fonts/JosefinSans-Light.ttf
+- Assets/Fonts/Shaders/TMP_SDF Overlay_AB.shader
+- Assets/Fonts/Shaders/TMP_SDF-Surface_AB.shader
+- Assets/Fonts/Aldrich/Aldrich-Regular SDF Plain.mat
+- Assets/Fonts/NotoSans-SemiBold SDF.asset
+- Assets/Fonts/Shaders/TMPro_Surface_AB.cginc
+- Assets/Fonts/NotoSansSC-Regular.otf
+- Assets/Fonts/Shaders/TMP_Bitmap_AB.shader
+- Assets/Fonts/Aldrich/Aldrich-Regular SDF Default.mat
+- Assets/Fonts/NotoSansSC-Regular SDF-I2C.asset
+- Assets/Fonts/Shaders/TMP_Sprite_AB.shader
+- Assets/Fonts/NotoSansSC-Regular SDF-03.asset
+- Assets/Fonts/Shaders/TMPro_Properties_AB.cginc
+- Assets/Fonts/Ubuntu/Ubuntu-Regular.ttf
+- Assets/Fonts/Shaders/TMP_Bitmap-Custom-Atlas_AB.shader
+- Assets/Fonts/NotoSansSC-Regular SDF-02.asset
+- Assets/Fonts/Serif/Gabriela-Regular SDF.asset
+- Assets/Fonts/Aldrich/Aldrich-Regular SDF.asset
+- Assets/Fonts/NotoSansJP-Regular SDF-I2C.asset
+- Assets/Fonts/Aldrich/Aldrich-Regular SDF Light Outline.mat
+- Assets/Fonts/NotoSans-SemiBold.ttf
+- Assets/Fonts/Shaders/TMP_SDF-Mobile_AB.shader
+- Assets/Fonts/NotoSansKR-Regular SDF-I2C.asset
+- Assets/Fonts/Montserrat-Bold.ttf
+- Assets/Fonts/Montserrat-Regular SDF-List.mat
+- Assets/Fonts/Ubuntu/Ubuntu-Bold SDF CardName.mat
+- Assets/Fonts/Ubuntu/Ubuntu-Bold.ttf
+- Assets/Fonts/Aldrich/OFL.txt
+- Assets/Fonts/JosefinSans-Bold.ttf
+- Assets/Fonts/Shaders/TMP_SDF-Mobile Overlay_AB.shader
+- Assets/Fonts/Montserrat-Regular SDF-BossName.mat
+- Assets/Fonts/Ubuntu/Ubuntu-Regular SDF.mat
+- Assets/Fonts/Montserrat-Regular SDF.asset
+- Assets/Fonts/Ubuntu/Ubuntu-Regular SDF-CardName.mat
+- Assets/Fonts/Aldrich/Aldrich-Regular SDF Dark Outline.mat
+- Assets/Fonts/quadaptor.ttf
+- Assets/Fonts/Shaders/TMP_SDF_AB.shader
+- Assets/Fonts/Quadaptor SDF-Sub.mat
+- Assets/Fonts/NotoSans-Bold.ttf
+- Assets/Fonts/Quadraptor SDF.asset
+- Assets/Fonts/JosefinSans-Regular SDF.asset
+- Assets/Fonts/NotoSansTC-Regular.otf
+Dependencies: []

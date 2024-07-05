@@ -1,0 +1,6 @@
+sniper_idle.png,120,120,4
+sniper_fire.png,120,120,2
+sniper_lift.png,120,120,2
+sniper_drop.png,120,120,2
+sniper_fireS.png,120,120,10
+sniper_hitS.png,120,120,1

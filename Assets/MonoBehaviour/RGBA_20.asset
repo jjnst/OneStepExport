@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1988861619, guid: d475063df6f76640a057743d39c7d5b7, type: 3}
+  m_Name: RGBA_20
+  m_EditorClassIdentifier: 
+  body: {fileID: 11400000, guid: 2257a128a3c4d8d49b66eeef2c59c705, type: 2}
+  side: 2
+  sidePosition: 103
+  sideOffset: 0
+  connections:
+  - {fileID: 11400000, guid: 926aca69abfabb448b4ade7679e390f4, type: 2}
+  typeID: SuperFloat4
+  calculationBlockade: 0

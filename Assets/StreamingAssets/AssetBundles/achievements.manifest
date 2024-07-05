@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 1208165451
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d5b510b08bd0ba64c900d179d3d1be98
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e528ee95423242d30c720075e66837f6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 85035e5637ba6a34bbc5a95a4b4897cd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 457a96bbd48e1d54591c3a6f2814d7a2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 172595ad3dd47e143a862a7502c1e808, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Achievements/The_Best_Defense.asset
+- Assets/Achievements/Not_Even_Close_Baby.asset
+- Assets/Achievements/Eggs_in_a_Basket.asset
+- Assets/Achievements/Defeat_Shopkeeper.asset
+- Assets/Achievements/Terraform.asset
+- Assets/Achievements/Defeat_Hazel.asset
+- Assets/Achievements/Cannibal.asset
+- Assets/Achievements/Bravely_Default.asset
+- Assets/Achievements/All_For_One.asset
+- Assets/Achievements/Plausible_Deniability.asset
+- Assets/Achievements/Defeat_Selicy.asset
+- Assets/Achievements/One_Shot.asset
+- Assets/Achievements/Buzzer_Beater.asset
+- Assets/Achievements/AchievementsCtrl.prefab
+- Assets/Achievements/Back_to_the_Past.asset
+- Assets/Achievements/Desecration.asset
+- Assets/Achievements/Absolute_Zero.asset
+- Assets/Achievements/World_On_Fire.asset
+- Assets/Achievements/Hoarder.asset
+- Assets/Achievements/Happily_Ever_After.asset
+- Assets/Achievements/Terrable.asset
+- Assets/Achievements/Calamity.asset
+- Assets/Achievements/Defeat_Violette.asset
+- Assets/Achievements/Defeat_Shiso.asset
+- Assets/Achievements/Sans-Serif.asset
+- Assets/Achievements/Disguised_Toast.asset
+- Assets/Achievements/Arch_Sage.asset
+- Assets/Achievements/One_Step_From_Eden.asset
+- Assets/Achievements/Solo.asset
+- Assets/Achievements/Defeat_Gunner.asset
+- Assets/Achievements/Defeat_Terra.asset
+- Assets/Achievements/Ascetic.asset
+- Assets/Achievements/Knife_to_a_Gunfight.asset
+- Assets/Achievements/Defeat_Saffron.asset
+- Assets/Achievements/Defeat_Reva.asset
+- Assets/Achievements/Soulless.asset
+Dependencies:
+- prefabs
+- sprites

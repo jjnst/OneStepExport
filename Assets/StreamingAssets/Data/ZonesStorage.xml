@@ -1,0 +1,668 @@
+
+
+  <world num="999" name="Reva" description="Reva Demo">
+    <stage num="1">
+      <set>
+        <enemy name="Hockeyer"></enemy>
+        <enemy name="Icefactory"></enemy>
+      </set>
+      <set>
+        <enemy name="Hockeyer"></enemy>
+        <enemy name="Slasher"></enemy>
+      </set>
+      <set>
+        <enemy name="Hockeyer"></enemy>
+        <enemy name="Spearper"></enemy>
+      </set>
+    </stage>
+    <stage num="2">
+      <set>
+        <enemy name="Slasher"></enemy>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Icefactory"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Hockeyer"></enemy>
+        <enemy name="Icefactory"></enemy>
+      </set>
+      <set>
+        <enemy name="Hockeyer"></enemy>
+        <enemy name="Hockeyer"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+    </stage>
+    <stage num="3" description="End Bosses">
+      <set>
+        <enemy name="BossReva"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  <world num="-3" name="Eden" description="Demo World">
+    <stage num="0">
+      <set>
+        <enemy name="Lurker"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+      </set>
+    </stage>
+    <stage num="1">
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Lurker"></enemy>
+      </set>
+    </stage>
+    <stage num="2">
+      <set>
+        <enemy name="Artillery2"></enemy>
+      </set>
+      <set> 
+        <enemy name="Manticore2"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper2"></enemy>
+      </set>
+    </stage>
+    <stage num="3">
+      <set>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Artillery2"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Artillery2"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore2"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Reaper2"></enemy>
+      </set>
+    </stage>
+    <stage num="4">
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Reaper2"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Reaper2"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore3"></enemy>
+      </set>
+    </stage>
+    <stage num="5">
+      <set>
+        <enemy name="Artillery2"></enemy>
+        <enemy name="Reaper"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery2"></enemy>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Manticore2"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+    </stage>
+    <stage num="6">
+      <set>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Manticore3"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Reaper3"></enemy>
+      </set>
+      <set>
+        <enemy name="Monolithgun"></enemy>
+        <enemy name="Artillery2"></enemy>
+      </set>
+    </stage>
+    <stage num="7">
+      <set>
+        <enemy name="BossShopkeeperDemo"></enemy>
+      </set>
+    </stage>
+    <stage num="8">
+      <set>
+        <enemy name="BossSelicy"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  <world num="-4" name="Purgatory" description="Demo World +">
+    <stage num="0">
+      <set>
+        <enemy name="Manticore3"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery3"></enemy>
+      </set>
+    </stage>
+    <stage num="1">
+      <set>
+        <enemy name="Artillery2"></enemy>
+        <enemy name="Manticore3"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Manticore3"></enemy>
+      </set>
+    </stage>
+    <stage num="2">
+      <set>
+        <enemy name="Artillery2"></enemy>
+        <enemy name="Reaper3"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery3"></enemy>
+        <enemy name="Manticore2"></enemy>
+      </set>
+    </stage>
+    <stage num="3">
+      <set>
+        <enemy name="Artillery2"></enemy>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Manticore2"></enemy>
+      </set>
+    </stage>
+    <stage num="4">
+      <set>
+        <enemy name="Reaper3"></enemy>
+        <enemy name="Artillery3"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery3"></enemy>
+        <enemy name="Manticore3"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper3"></enemy>
+        <enemy name="Manticore3"></enemy>
+      </set>
+    </stage>
+    <stage num="5">
+      <set>
+        <enemy name="Artillery2"></enemy>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Manticore2"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery2"></enemy>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Lurker2"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery2"></enemy>
+        <enemy name="Artillery3"></enemy>
+        <enemy name="Lurker2"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery3"></enemy>
+        <enemy name="Reaper3"></enemy>
+        <enemy name="MonolithIce"></enemy>
+      </set>
+    </stage>
+    <stage num="6">
+      <set>
+        <enemy name="Reaper3"></enemy>
+        <enemy name="Manticore3"></enemy>
+        <enemy name="Artillery3"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper3"></enemy>
+        <enemy name="Manticore3"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery3"></enemy>
+        <enemy name="Manticore3"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper3"></enemy>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper3"></enemy>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Manticore3"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery3"></enemy>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Manticore3"></enemy>
+      </set>
+    </stage>
+    <stage num="7">
+      <set>
+        <enemy name="BossShopkeeperDemo"></enemy>
+      </set>
+    </stage>
+    <stage num="8">
+      <set>
+        <enemy name="BossSelicy"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  <world num="-9" name="Eden" description="Live Demo World">
+    <stage num="0">
+      <set>
+        <enemy name="Lurker"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery"></enemy>
+      </set>
+    </stage>
+    <stage num="1">
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Lurker"></enemy>
+      </set>
+    </stage>
+    <stage num="2">
+      <set>
+        <enemy name="Artillery2"></enemy>
+      </set>
+      <set> 
+        <enemy name="Manticore2"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper2"></enemy>
+      </set>
+    </stage>
+    <stage num="3">
+      <set>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Artillery2"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Artillery2"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore2"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Reaper2"></enemy>
+      </set>
+    </stage>
+    <stage num="4">
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Reaper2"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Reaper2"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore3"></enemy>
+      </set>
+    </stage>
+    <stage num="5">
+      <set>
+        <enemy name="Artillery2"></enemy>
+        <enemy name="Reaper2"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery2"></enemy>
+        <enemy name="Manticore2"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Manticore2"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Manticore2"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+    </stage>
+    <stage num="6">
+      <set>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Manticore2"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore2"></enemy>
+        <enemy name="Manticore3"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Artillery2"></enemy>
+      </set>
+      <set>
+        <enemy name="Monolithgun"></enemy>
+        <enemy name="Artillery3"></enemy>
+      </set>
+      <set>
+        <enemy name="Monolithgun"></enemy>
+        <enemy name="Reaper3"></enemy>
+      </set>
+    </stage>
+    <stage num="7">
+      <set>
+        <enemy name="BossShopkeeperDemo"></enemy>
+      </set>
+    </stage>
+    <stage num="8">
+      <set>
+        <enemy name="BossSelicy"></enemy>
+      </set>
+    </stage>
+  </world>
+
+
+
+
+  <world num="9999" name="Trailers" description="Good Enemy Groups for Trailers" background="Ice" icon="WorldIce" transition="FlowerThree">
+    <stage num="0">
+      <set>
+        <enemy name="Shardshooter"></enemy>
+      </set>
+    </stage>
+    <stage num="0">
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Sniper"></enemy>
+        <enemy name="Lurker"></enemy>
+      </set>
+    </stage>
+    <stage num="0">
+      <set>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Manticore3"></enemy>
+        <enemy name="Slasher"></enemy>
+      </set>
+    </stage>
+    <stage num="0">
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Sniper"></enemy>
+        <enemy name="Lurker"></enemy>
+      </set>
+    </stage>
+    <stage num="7">
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+    </stage>
+
+    <stage description="Miniboss">
+      <set>
+        <enemy name="Monolithice"></enemy>
+      </set>
+    </stage>
+
+    <stage description="Boss">
+      <set>
+        <enemy name="BossTerra"></enemy>
+      </set>
+    </stage>
+  </world>
+
+
+
+
+
+
+
+
+
+  <world num="-9" name="Arcadia" description="Live Demo World" background="Ruins" icon="WorldRuins" transition="FlowerThree">
+    <stage num="0">
+      <set>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery"></enemy>
+      </set>
+    </stage>
+    <stage num="1">
+      <set>
+        <enemy name="Lurker"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Lurker"></enemy>
+      </set>
+    </stage>
+    <stage num="2">
+      <set>
+        <enemy name="Artillery2"></enemy>
+      </set>
+      <set> 
+        <enemy name="Manticore2"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper2"></enemy>
+      </set>
+    </stage>
+    <stage num="3">
+      <set>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Artillery2"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Artillery2"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore2"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Reaper2"></enemy>
+      </set>
+    </stage>
+    <stage num="4">
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Reaper2"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Reaper2"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore3"></enemy>
+      </set>
+    </stage>
+    <stage num="5">
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery2"></enemy>
+        <enemy name="Reaper2"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery2"></enemy>
+        <enemy name="Manticore2"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Manticore2"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Manticore2"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+    </stage>
+    <stage num="6">
+      <set>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Manticore2"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Reaper2"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore2"></enemy>
+        <enemy name="Manticore3"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Artillery2"></enemy>
+      </set>
+      <set>
+        <enemy name="Monolithgun"></enemy>
+        <enemy name="Artillery3"></enemy>
+      </set>
+      <set>
+        <enemy name="Monolithgun"></enemy>
+        <enemy name="Reaper2"></enemy>
+      </set>
+    </stage>
+    <stage num="7" description="Miniboss">
+      <set>
+        <enemy name="BossShopkeeperDemo"></enemy>
+      </set>
+    </stage>
+    <stage num="8" description="Boss">
+      <set>
+        <enemy name="BossSelicy"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  
+
+
+
+  <world num="101" name="Beta" tags="Ending" background="Eden" icon="WorldEden" transition="FlowerThree"><!--Normal-->
+    <stage num="0">
+      <set>
+        <enemy name="BossTerraDarkBeta"></enemy>
+      </set>
+    </stage>
+  </world>

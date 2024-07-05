@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 877522982, guid: d475063df6f76640a057743d39c7d5b7, type: 3}
+  m_Name: Color HSV
+  m_EditorClassIdentifier:
+  rect:
+    x: -341.5
+    y: -119.5
+    width: 172
+    height: 300
+  nodeKnobs:
+  - {fileID: 11400000, guid: 6d89682647d190f42a99d1f8334eff33, type: 2}
+  - {fileID: 11400000, guid: 641b9fa19cff87c49a8377fb15ca85c1, type: 2}
+  Inputs:
+  - {fileID: 11400000, guid: 6d89682647d190f42a99d1f8334eff33, type: 2}
+  Outputs:
+  - {fileID: 11400000, guid: 641b9fa19cff87c49a8377fb15ca85c1, type: 2}
+  Variable: 180
+  Variable2: 1
+  Variable3: 1
+  parametersOK: 1
+  MemoCount: 1

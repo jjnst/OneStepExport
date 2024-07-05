@@ -1,0 +1,2575 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Beings>
+  <Being beingID="SaffronTest">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>1200</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>0</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.65</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Thunder</Deck>
+    <Deck>KineticWave</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>Frostbolt</Deck>
+    <Artifacts>SubTank</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="SaffronAsset">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>1200</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>420</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>1.5</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>OrbitalBeam</Deck>
+    <Deck>StormThunder</Deck>
+    <Deck>InfinityBeam</Deck>
+    <Deck>Shine</Deck>
+    <Deck>LifeSword</Deck>
+    <Deck>Fissure</Deck>
+    <Artifacts>SubTank</Artifacts>
+    <Stats localGunPointPos="30,29" animName="SaffronWitch" overrideMovement="false"
+      splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="RevaAsset">
+    <Name>Reva</Name>
+    <Tags>Test, Reva</Tags>
+    <Description>Combos</Description>
+    <Weapon>CampaignReflector</Weapon>
+    <Health>800</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>99</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2</ManaRegen>
+    <ShuffleTime>1</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Forte</Deck>
+    <Deck>ShieldThrow</Deck>
+    <Deck>CounterStrike</Deck>
+    <Deck>ShieldsUp</Deck>
+    <Deck>Transfuse</Deck>
+    <Deck>DiagBeam</Deck>
+    <Deck>MissMeShield</Deck>
+    <Stats localGunPointPos="30,30" animName="Reva" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="RevaAssetCyber">
+    <Name>Reva</Name>
+    <Tags>Test, Reva</Tags>
+    <Description>Combos</Description>
+    <Weapon>CampaignReflector</Weapon>
+    <Health>800</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>99</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2</ManaRegen>
+    <ShuffleTime>1</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>WarpRays</Deck>
+    <Deck>Flurry</Deck>
+    <Deck>Undertow</Deck>
+    <Deck>PowerSaws</Deck>
+    <Deck>Wildfire</Deck>
+    <Deck>Combust</Deck>
+    <Deck>TractorBeam</Deck>
+    <Deck>Tsunami</Deck>
+    <Deck>PowerSaws</Deck>
+    <Stats localGunPointPos="28,27" animName="RevaCyber" splashSprite="RevaSplash"></Stats>
+  </Being>
+  <Being beingID="SaffronAlt">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>GodGun</Weapon>
+    <Health>1200</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>0</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.9</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Thunder</Deck>
+    <Deck>KineticWave</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>BladeThrow</Deck>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="SaffronMid">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>800</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>0</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.8</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Thunder</Deck>
+    <Deck>KineticWave</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>HyperBeam</Deck>
+    <Deck>Transfuse</Deck>
+    <Deck>ShieldsUp</Deck>
+    <Deck>Glassify</Deck>
+    <Deck>Boomerang</Deck>
+    <Deck>Glitterbomb</Deck>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="SaffronTest">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>GodGun</Weapon>
+    <Health>9000</Health>
+    <MaxHealth>9000</MaxHealth>
+    <Money>10000</Money>
+    <MaxMana>9</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>6</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Flamberge</Deck>
+    <Deck>FateShield</Deck>
+    <Deck>SumTurretgun</Deck>
+    <Deck>SumTurretgun</Deck>
+    <Artifacts>SubTank</Artifacts>
+    <Artifacts>HeartOfTheCards</Artifacts>
+    <Artifacts>DartFrog</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="SaffronTest2">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>GodGun</Weapon>
+    <Health>10</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>10000</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>3</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Fissure</Deck>
+    <Deck>Blink</Deck>
+    <Deck>TimeSlow</Deck>
+    <Deck>KineticWave</Deck>
+    <Deck>KineticWave</Deck>
+    <Deck>OrbitalBeam</Deck>
+    <Deck>Zenith</Deck>
+    <Artifacts>HeartOfTheCards</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="SaffronTest3">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>GodGun</Weapon>
+    <Health>1200</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>420</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>1.5</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Knife</Deck>
+    <Deck>Echo</Deck>
+    <Deck>Echo</Deck>
+    <Deck>Echo</Deck>
+    <Deck>Rest</Deck>
+    <Deck>ShieldsUp</Deck>
+    <Deck>Thunder</Deck>
+    <Deck>Pinch</Deck>
+    <Artifacts>SubTank</Artifacts>
+    <Artifacts>PowerShard</Artifacts>
+    <Artifacts>Tinder</Artifacts>
+    <Artifacts>Flechette</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron"
+      altAnims="SaffronWitch, SaffronLegacy, SaffronShanghai" splashSprite="SaffronSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronTrailer01">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>800</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>340</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Pull</Deck>
+    <Deck>Shotgun</Deck>
+    <Deck>Mine</Deck>
+    <Deck>KineticWave</Deck>
+    <Deck>Ragnarok</Deck>
+    <Deck>Shine</Deck>
+    <Deck>StepSlash</Deck>
+    <Artifacts>ManaGem</Artifacts>
+    <Artifacts>HeartOfTheCards</Artifacts>
+    <Artifacts>Stoplight</Artifacts>
+    <Artifacts>CoverFire</Artifacts>
+    <Artifacts>MicroMissiles</Artifacts>
+    <Artifacts>HitSeeker</Artifacts>
+    <Artifacts>PocketSand</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron"
+      altAnims="SaffronWitch, SaffronLegacy, SaffronShanghai" splashSprite="SaffronSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronTrailer02">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>600</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>340</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Fracture</Deck>
+    <Deck>Doubletap</Deck>
+    <Deck>Guillotine</Deck>
+    <Deck>KineticWave</Deck>
+    <Deck>Minigun</Deck>
+    <Deck>StormThunder</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>ShieldBeam</Deck>
+    <Deck>Upwind</Deck>
+    <Deck>BowSnipe</Deck>
+    <Deck>SwordLine</Deck>
+    <Deck>Guillotine</Deck>
+    <Artifacts>ManaGem</Artifacts>
+    <Artifacts>HeartOfTheCards</Artifacts>
+    <Artifacts>Stoplight</Artifacts>
+    <Artifacts>CoverFire</Artifacts>
+    <Artifacts>MicroMissiles</Artifacts>
+    <Artifacts>HitSeeker</Artifacts>
+    <Artifacts>PocketSand</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron"
+      altAnims="SaffronWitch, SaffronLegacy, SaffronShanghai" splashSprite="SaffronSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronTrailer03">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>600</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>340</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>BowSnipe</Deck>
+    <Deck>Ragnarok</Deck>
+    <Deck>Wildfire</Deck>
+    <Deck>BladeRain</Deck>
+    <Deck>TriForce</Deck>
+    <Deck>LastLetter</Deck>
+    <Deck>Guillotine</Deck>
+    <Deck>FrostBarrage</Deck>
+    <Deck>StormGlitter</Deck>
+    <Artifacts>SecondSoul</Artifacts>
+    <Artifacts>Tinder</Artifacts>
+    <Artifacts>Anthrax</Artifacts>
+    <Artifacts>Wings</Artifacts>
+    <Artifacts>Citrine</Artifacts>
+    <Artifacts>Aether</Artifacts>
+    <Artifacts>HeartOfTheCards</Artifacts>
+    <Artifacts>StepDrone</Artifacts>
+    <Artifacts>UnicornBomb</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron"
+      altAnims="SaffronWitch, SaffronLegacy, SaffronShanghai" splashSprite="SaffronSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronDeck">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>800</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>420</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>PekayFire</Deck>
+    <Deck>Excavate</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>Pyroblast</Deck>
+    <Deck>ShieldBeam</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>Ragnarok</Deck>
+    <Deck>Minigun</Deck>
+    <Deck>Fissure</Deck>
+    <Deck>StormSword</Deck>
+    <Deck>KineticWave</Deck>
+    <Artifacts>SecondSoul</Artifacts>
+    <Artifacts>Tinder</Artifacts>
+    <Artifacts>Anthrax</Artifacts>
+    <Artifacts>Wings</Artifacts>
+    <Artifacts>Citrine</Artifacts>
+    <Artifacts>Aether</Artifacts>
+    <Artifacts>HeartOfTheCards</Artifacts>
+    <Artifacts>StepDrone</Artifacts>
+    <Artifacts>UnicornBomb</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron"
+      altAnims="SaffronWitch, SaffronLegacy, SaffronShanghai" splashSprite="SaffronSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="RevaTrailer01">
+    <Name>Reva</Name>
+    <Tags>Test, Reva, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>CampaignReflector</Weapon>
+    <Health>150</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>340</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>WarpRays</Deck>
+    <Deck>Flurry</Deck>
+    <Deck>Undertow</Deck>
+    <Deck>Wildfire</Deck>
+    <Deck>Combust</Deck>
+    <Deck>SumTurretlaser</Deck>
+    <Deck>Bombard</Deck>
+    <Deck>PowerSaws</Deck>
+    <Deck>PowerSaws</Deck>
+    <Artifacts>ManaGem</Artifacts>
+    <Artifacts>HardenedShields</Artifacts>
+    <Artifacts>MeatShield</Artifacts>
+    <Artifacts>Bubble</Artifacts>
+    <Artifacts>Thorn</Artifacts>
+    <Stats localGunPointPos="28,27" animName="RevaCyber"
+      altAnims="SaffronWitch, SaffronLegacy, SaffronShanghai" splashSprite="SaffronSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="HazelTrailer01">
+    <Name>Hazel</Name>
+    <Tags>Test, Hazel</Tags>
+    <Flavor></Flavor>
+    <Weapon>UpgradeWrench</Weapon>
+    <Health>420</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>PushUp</Deck>
+    <Deck>PushDown</Deck>
+    <Deck>SumTurretgun</Deck>
+    <Deck>Salamander</Deck>
+    <Deck>PekayFire</Deck>
+    <Deck>Flamberge</Deck>
+    <Deck>Rage</Deck>
+    <Deck>SumTurretlaser</Deck>
+    <Deck>CarpetBomb</Deck>
+    <Deck>Wildfire</Deck>
+    <Artifacts>Adamantium</Artifacts>
+    <Artifacts>Fragment</Artifacts>
+    <Artifacts>Medkit</Artifacts>
+    <Stats localGunPointPos="33,34" animName="HazelPriestess" splashSprite="HazelSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="HazelTrailer02">
+    <Name>Hazel</Name>
+    <Tags>Test, Hazel</Tags>
+    <Flavor></Flavor>
+    <Weapon>UpgradeWrench</Weapon>
+    <Health>420</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>SumTurretgun</Deck>
+    <Deck>ForcePushUp</Deck>
+    <Deck>ForcePushDown</Deck>
+    <Deck>Salamander</Deck>
+    <Deck>PekayFire</Deck>
+    <Deck>Flamberge</Deck>
+    <Deck>Rage</Deck>
+    <Deck>SumTurretlaser</Deck>
+    <Deck>CarpetBomb</Deck>
+    <Deck>Wildfire</Deck>
+    <Stats localGunPointPos="30,30" animName="Hazel" splashSprite="HazelSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SelicyTrailer01">
+    <Name>Selicy</Name>
+    <Tags>Test, Selicy</Tags>
+    <Flavor></Flavor>
+    <Weapon>SelicyFrostStep</Weapon>
+    <Health>540</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>IceNeedle</Deck>
+    <Deck>Zenith</Deck>
+    <Deck>Crossfire</Deck>
+    <Deck>StormIce</Deck>
+    <Deck>FrostBarrage</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>MagicClaw</Deck>
+    <Deck>Excalibur</Deck>
+    <Deck>MagicClaw</Deck>
+    <Deck>Frostbolt</Deck>
+    <Stats localGunPointPos="30,26" animName="Selicy" splashSprite="SelicySplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SelicyTrailer02">
+    <Name>Selicy</Name>
+    <Tags>Test, Selicy</Tags>
+    <Weapon>SelicyFrostStep</Weapon>
+    <Health>700</Health>
+    <MaxHealth>900</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>4</ManaRegen>
+    <ShuffleTime>1</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>StormIce</Deck>
+    <Deck>FrostBarrage</Deck>
+    <Deck>Excalibur</Deck>
+    <Deck>ColdSnap</Deck>
+    <Deck>IceNeedle</Deck>
+    <Deck>Frostbolt</Deck>
+    <Deck>ColdSnap</Deck>
+    <Deck>Frostbite</Deck>
+    <Deck>IceShield</Deck>
+    <Deck>Zenith</Deck>
+    <Stats localGunPointPos="30,26" animName="Selicy" altAnims="SelicyCatgirl"
+      splashSprite="SelicySplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SelicyTrailer03">
+    <Name>Selicy</Name>
+    <Tags>Test, Selicy</Tags>
+    <Weapon>SelicyFrostStep</Weapon>
+    <Health>20</Health>
+    <MaxHealth>900</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>4</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>1</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Crossfire</Deck>
+    <Deck>Echo</Deck>
+    <Deck>Energizer</Deck>
+    <Deck>Frostbite</Deck>
+    <Artifacts>PocketWatch</Artifacts>
+    <Stats localGunPointPos="30,26" animName="Selicy" altAnims="SelicyCatgirl"
+      splashSprite="SelicySplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronDeath">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Weapon>GodGun</Weapon>
+    <Health>800</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>10000</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>3</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Flurry</Deck>
+    <Deck>Fissure</Deck>
+    <Deck>Blink</Deck>
+    <Deck>Align</Deck>
+    <Deck>Undertow</Deck>
+    <Deck>Tsunami</Deck>
+    <Artifacts>Instadeath</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="HazelTrailer02">
+    <Name>Hazel</Name>
+    <Tags>Test, Hazel</Tags>
+    <Flavor></Flavor>
+    <Weapon>UpgradeWrench</Weapon>
+    <Health>500</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>ForcePushUp</Deck>
+    <Deck>SumTurretlaser</Deck>
+    <Deck>ForcePushDown</Deck>
+    <Deck>PekayFire</Deck>
+    <Deck>Salamander</Deck>
+    <Deck>SumTurretgun</Deck>
+    <Deck>Flamberge</Deck>
+    <Deck>Rage</Deck>
+    <Deck>CarpetBomb</Deck>
+    <Deck>Wildfire</Deck>
+    <Stats localGunPointPos="30,30" animName="Hazel" splashSprite="HazelSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="GunnerTrailer01">
+    <Name>Gunner</Name>
+    <Title>Bullet Hell</Title>
+    <Tags>Test, Gunner, Attack</Tags>
+    <Weapon>GunnerMachineHoming</Weapon>
+    <Health>100</Health>
+    <MaxHealth>600</MaxHealth>
+    <Money>20</Money>
+    <MaxMana>2</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>1.8</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>BombToss</Deck>
+    <Deck>TimeSlow</Deck>
+    <Stats localGunPointPos="30,25" animName="Gunner" altAnims="GunnerBuccaneer"
+      splashSprite="GunnerSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="GunnerTrailer02">
+    <Name>Gunner</Name>
+    <Title>Bullet Hell</Title>
+    <Tags>Test, Gunner, Attack</Tags>
+    <Weapon>GunnerMachineHoming</Weapon>
+    <Health>420</Health>
+    <MaxHealth>600</MaxHealth>
+    <Money>20</Money>
+    <MaxMana>7</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.4</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>BombToss</Deck>
+    <Deck>SwordLine</Deck>
+    <Deck>Pyroblast</Deck>
+    <Deck>Minefield</Deck>
+    <Deck>Hellfire</Deck>
+    <Deck>SuperMinigun</Deck>
+    <Deck>HyperBeam</Deck>
+    <Deck>Sweeper</Deck>
+    <Deck>BombToss</Deck>
+    <Stats localGunPointPos="30,25" animName="Gunner" altAnims="GunnerBuccaneer"
+      splashSprite="GunnerSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SelicyTest">
+    <Name>Selicy</Name>
+    <Title>Canon</Title>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description>Loves the cold. Loves sharing.</Description>
+    <Flavor>She's never lost a snowball fight, and isn't about to start now.</Flavor>
+    <Weapon>SelicyStep</Weapon>
+    <Health>800</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>0</Money>
+    <MaxMana>4</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.9</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Zenith</Deck>
+    <Deck>Crossfire</Deck>
+    <Deck>Excalibur</Deck>
+    <Deck>Excalibur</Deck>
+    <Artifacts>ManaGem</Artifacts>
+    <Artifacts>PetTurtle</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Selicy" splashSprite="SelicySplash"></Stats>
+  </Being>
+  <Being beingID="RevaCombo02">
+    <Name>Reva</Name>
+    <Tags>Test, Reva</Tags>
+    <Description>Combos</Description>
+    <Weapon>CampaignReflector</Weapon>
+    <Health>300</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>99</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2</ManaRegen>
+    <ShuffleTime>1</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Forte</Deck>
+    <Deck>ShieldThrow</Deck>
+    <Deck>CounterStrike</Deck>
+    <Deck>ShieldsUp</Deck>
+    <Deck>Transfuse</Deck>
+    <Deck>DiagBeam</Deck>
+    <Deck>MissMeShield</Deck>
+    <Stats localGunPointPos="30,30" animName="Reva" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="VioletteTrailer">
+    <Name>Violette</Name>
+    <Title>Canon</Title>
+    <Tags>Test, Violette</Tags>
+    <Description>A graceful violinist.</Description>
+    <Flavor>She'll take you on without missing a beat.</Flavor>
+    <Weapon>ViGun</Weapon>
+    <Health>60</Health>
+    <MaxHealth>900</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>OrbitalBeam</Deck>
+    <Deck>Trisect</Deck>
+    <Deck>Frostbite</Deck>
+    <Deck>PowerSaws</Deck>
+    <Deck>ManaSteal</Deck>
+    <Deck>Corset</Deck>
+    <Deck>HiredGun</Deck>
+    <Deck>Upwind</Deck>
+    <Deck>SumMonument</Deck>
+    <Stats localGunPointPos="22,21" animName="VioletteJRock" altAnims="VioletteJRock"
+      splashSprite="GunnerSplash" overrideMovement="false"></Stats>
+  </Being>
+  <Being beingID="VioletteTrailer02">
+    <Name>Violette</Name>
+    <Title>Canon</Title>
+    <Tags>Test, Violette</Tags>
+    <Description>A graceful violinist.</Description>
+    <Flavor>She'll take you on without missing a beat.</Flavor>
+    <Weapon>ViGun</Weapon>
+    <Health>600</Health>
+    <MaxHealth>900</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>BladeRain</Deck>
+    <Deck>SumMonument</Deck>
+    <Deck>MagicClaw</Deck>
+    <Deck>ManaSteal</Deck>
+    <Deck>Sunshine</Deck>
+    <Deck>ShatterSaw</Deck>
+    <Deck>Frostbite</Deck>
+    <Deck>Upwind</Deck>
+    <Deck>HiredGun</Deck>
+    <Deck>LastLetter</Deck>
+    <Stats localGunPointPos="30,30" animName="Violette" altAnims="VioletteJRock"
+      splashSprite="VioletteSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="ShisoTest01">
+    <Name>Shiso</Name>
+    <Title>Canon</Title>
+    <Tags>Shiso</Tags>
+    <Weapon>ShisoGun</Weapon>
+    <Health>400</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>540</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>1.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Northwind</Deck>
+    <Deck>ClawTraps</Deck>
+    <Deck>Align</Deck>
+    <Deck>Whirl</Deck>
+    <Deck>DoubleTap</Deck>
+    <Deck>HiredGun</Deck>
+    <Deck>RockTomb</Deck>
+    <Artifacts>DoubleEdge</Artifacts>
+    <Artifacts>SoulFood</Artifacts>
+    <Artifacts>BloodMoney</Artifacts>
+    <Artifacts>CreditCard</Artifacts>
+    <Stats localGunPointPos="27,30" animName="Shiso" altAnims="" splashSprite="ShisoSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="TerraTrailer01">
+    <Name>Terra</Name>
+    <Tags>Test, Terra</Tags>
+    <Flavor></Flavor>
+    <Weapon>Terraform</Weapon>
+    <Health>690</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>OrbitalBeam</Deck>
+    <Deck>Entangle</Deck>
+    <Deck>DiagBeam</Deck>
+    <Deck>IonCannon</Deck>
+    <Deck>TileFire</Deck>
+    <Deck>Excavate</Deck>
+    <Deck>FlatEarth</Deck>
+    <Deck>EarthWyrm</Deck>
+    <Deck>EarthenArmor</Deck>
+    <Deck>Entrench</Deck>
+    <Artifacts>UnicornBomb</Artifacts>
+    <Artifacts>Thermite</Artifacts>
+    <Artifacts>ImmuneSystem</Artifacts>
+    <Artifacts>Luna</Artifacts>
+    <Artifacts>MeatShield</Artifacts>
+    <Stats localGunPointPos="20,28" animName="Terra" splashSprite="TerraSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="ShopkeeperTest">
+    <Name>Shopkeeper</Name>
+    <Tags>Shopkeeper</Tags>
+    <Description>Capitalism ho.</Description>
+    <Flavor>Sells stuff...</Flavor>
+    <Weapon>ShopkeeperGun</Weapon>
+    <Health>500</Health>
+    <MaxHealth>500</MaxHealth>
+    <Money>400</Money>
+    <MaxMana>7</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>1.7</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Innervate</Deck>
+    <Deck>Meditate</Deck>
+    <Deck>Unleash</Deck>
+    <Deck>LimitBreak</Deck>
+    <Deck>HiredGun</Deck>
+    <Deck>Showdown</Deck>
+    <Deck>BowSnipe</Deck>
+    <Deck>CounterStrike</Deck>
+    <Deck>RockTomb</Deck>
+    <Deck>Thunder</Deck>
+    <Artifacts>Beret</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Shopcreeper" altAnims="ShopcreeperLegacy"
+      splashSprite="ShopkeeperSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="VioletteTrailer02">
+    <Name>Violette</Name>
+    <Title>Canon</Title>
+    <Tags>Test, Violette</Tags>
+    <Description>A graceful violinist.</Description>
+    <Flavor>She'll take you on without missing a beat.</Flavor>
+    <Weapon>ViGun</Weapon>
+    <Health>600</Health>
+    <MaxHealth>900</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>BladeThrow</Deck>
+    <Deck>SumMonument</Deck>
+    <Deck>MagicClaw</Deck>
+    <Deck>ManaSteal</Deck>
+    <Deck>BladeRain</Deck>
+    <Deck>ShatterSaw</Deck>
+    <Deck>Frostbite</Deck>
+    <Deck>Upwind</Deck>
+    <Deck>HiredGun</Deck>
+    <Deck>LastLetter</Deck>
+    <Artifacts>Feather</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Violette" altAnims="VioletteJRock"
+      splashSprite="VioletteSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="GunnerTrailer01">
+    <Name>Gunner</Name>
+    <Tags>Test, Gunner</Tags>
+    <Flavor></Flavor>
+    <Weapon>GunnerGun</Weapon>
+    <Health>420</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>7</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>ShardToss</Deck>
+    <Deck>Trisect</Deck>
+    <Deck>BombToss</Deck>
+    <Deck>Sweeper</Deck>
+    <Deck>MissileTow</Deck>
+    <Deck>Reflector</Deck>
+    <Deck>Glaive</Deck>
+    <Deck>OrbitalBeam</Deck>
+    <Deck>Entrench</Deck>
+    <Artifacts>GripTape</Artifacts>
+    <Artifacts>Acupuncture</Artifacts>
+    <Artifacts>MicroMissiles</Artifacts>
+    <Artifacts>HitSeeker</Artifacts>
+    <Artifacts>Flechette</Artifacts>
+    <Artifacts>Anthrax</Artifacts>
+    <Stats localGunPointPos="30,25" animName="Gunner" splashSprite="GunnerSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="HazelTrailer02">
+    <Name>Hazel</Name>
+    <Tags>Test, Hazel</Tags>
+    <Flavor></Flavor>
+    <Weapon>UpgradeWrench</Weapon>
+    <Health>420</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>SumTurretlaser</Deck>
+    <Deck>ForcePushDown</Deck>
+    <Deck>Castle</Deck>
+    <Deck>Sidewinder</Deck>
+    <Deck>Volley</Deck>
+    <Deck>Align</Deck>
+    <Deck>Flamberge</Deck>
+    <Deck>Bombard</Deck>
+    <Deck>Rage</Deck>
+    <Deck>SumTurretlaser</Deck>
+    <Deck>Wildfire</Deck>
+    <Stats localGunPointPos="30,30" animName="Hazel" splashSprite="HazelSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="TerraTrailer01">
+    <Name>Terra</Name>
+    <Tags>Test, Terra</Tags>
+    <Flavor></Flavor>
+    <Weapon>Terraform</Weapon>
+    <Health>700</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>OrbitalBeam</Deck>
+    <Deck>TileFire</Deck>
+    <Deck>EarthWyrm</Deck>
+    <Deck>IonCannon</Deck>
+    <Deck>EarthenArmor</Deck>
+    <Deck>Excavate</Deck>
+    <Deck>FlatEarth</Deck>
+    <Deck>Fissure</Deck>
+    <Deck>KineticWave</Deck>
+    <Deck>Flurry</Deck>
+    <Artifacts>UnicornBomb</Artifacts>
+    <Artifacts>Thermite</Artifacts>
+    <Artifacts>ImmuneSystem</Artifacts>
+    <Artifacts>Luna</Artifacts>
+    <Artifacts>MeatShield</Artifacts>
+    <Stats localGunPointPos="20,28" animName="Terra" splashSprite="TerraSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SelicyAsset01">
+    <Name>Selicy</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description>Loves the cold. Loves sharing.</Description>
+    <Flavor>She's never lost a snowball fight, and isn't about to start now.</Flavor>
+    <Weapon>SelicyStep</Weapon>
+    <Health>800</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>0</Money>
+    <MaxMana>4</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>1.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Crossfire</Deck>
+    <Deck>Shotgun</Deck>
+    <Deck>ColdSnap</Deck>
+    <Deck>IceNeedle</Deck>
+    <Deck>IceShield</Deck>
+    <Deck>SpiritSword</Deck>
+    <Deck>Breakout</Deck>
+    <Deck>FrostBarrage</Deck>
+    <Deck>LifeSword</Deck>
+    <Deck>Doubletap</Deck>
+    <Artifacts>ManaGem</Artifacts>
+    <Artifacts>PetDragon</Artifacts>
+    <Artifacts>Citrine</Artifacts>
+    <Artifacts>Adamantium</Artifacts>
+    <Artifacts>Fragment</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Selicy" splashSprite="SelicySplash"></Stats>
+  </Being>
+  <Being beingID="GunnerTrailer01">
+    <Name>Gunner</Name>
+    <Tags>Test, Gunner</Tags>
+    <Flavor></Flavor>
+    <Weapon>GunnerGun</Weapon>
+    <Health>420</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>7</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>SuperMinigun</Deck>
+    <Deck>Sweeper</Deck>
+    <Deck>BowSnipe</Deck>
+    <Deck>TimeStop</Deck>
+    <Deck>LifeSword</Deck>
+    <Deck>Reflector</Deck>
+    <Deck>Glaive</Deck>
+    <Deck>HyperBeam</Deck>
+    <Deck>Entrench</Deck>
+    <Artifacts>GripTape</Artifacts>
+    <Artifacts>Acupuncture</Artifacts>
+    <Artifacts>Anthrax</Artifacts>
+    <Stats localGunPointPos="30,25" animName="Gunner" splashSprite="GunnerSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SelicyTrailer01">
+    <Name>Selicy</Name>
+    <Tags>Test, Selicy</Tags>
+    <Flavor></Flavor>
+    <Weapon>SelicyFrostStep</Weapon>
+    <Health>540</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>IceNeedle</Deck>
+    <Deck>Zenith</Deck>
+    <Deck>Crossfire</Deck>
+    <Deck>StormIce</Deck>
+    <Deck>FrostBarrage</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>MagicClaw</Deck>
+    <Deck>Excalibur</Deck>
+    <Deck>MagicClaw</Deck>
+    <Deck>Frostbolt</Deck>
+    <Artifacts>Bulwark</Artifacts>
+    <Artifacts>DoubleMint</Artifacts>
+    <Artifacts>IceFloe</Artifacts>
+    <Artifacts>HeartOfTheCards</Artifacts>
+    <Artifacts>Riffle</Artifacts>
+    <Stats localGunPointPos="30,26" animName="Selicy" splashSprite="SelicySplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SelicyTrailer02">
+    <Name>Selicy</Name>
+    <Tags>Test, Selicy</Tags>
+    <Weapon>SelicyFrostStep</Weapon>
+    <Health>120</Health>
+    <MaxHealth>900</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>4</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>1</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>IceShield</Deck>
+    <Deck>StormIce</Deck>
+    <Deck>IceNeedle</Deck>
+    <Deck>FrostBarrage</Deck>
+    <Deck>Zenith</Deck>
+    <Deck>Excalibur</Deck>
+    <Deck>Frostbolt</Deck>
+    <Deck>ColdSnap</Deck>
+    <Deck>Frostbite</Deck>
+    <Stats localGunPointPos="30,26" animName="Selicy" altAnims="SelicyCatgirl"
+      splashSprite="SelicySplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SelicyTrailer03">
+    <Name>Selicy</Name>
+    <Tags>Test, Selicy</Tags>
+    <Weapon>SelicyFrostStep</Weapon>
+    <Health>120</Health>
+    <MaxHealth>900</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>4</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>1</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>IceShield</Deck>
+    <Deck>StormIce</Deck>
+    <Deck>IceNeedle</Deck>
+    <Deck>FrostBarrage</Deck>
+    <Deck>Zenith</Deck>
+    <Deck>Excalibur</Deck>
+    <Deck>Frostbolt</Deck>
+    <Deck>ColdSnap</Deck>
+    <Deck>Frostbite</Deck>
+    <Stats localGunPointPos="30,26" animName="Selicy" altAnims="SelicyCatgirl"
+      splashSprite="SelicySplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronMag">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>GodGun</Weapon>
+    <Health>800</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>800</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>1.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>SumTurretlaser</Deck>
+    <Deck>BladeThrow</Deck>
+    <Deck>BladeRain</Deck>
+    <Deck>Ragnarok</Deck>
+    <Deck>StormGlitter</Deck>
+    <Deck>Rage</Deck>
+    <Deck>HyperBeam</Deck>
+    <Deck>StepSlash</Deck>
+    <Artifacts>HeartOfTheCards</Artifacts>
+    <Artifacts>Citrine</Artifacts>
+    <Artifacts>ManaGem</Artifacts>
+    <Artifacts>Adamantium</Artifacts>
+    <Artifacts>Fragment</Artifacts>
+    <Stats localGunPointPos="33,34" animName="SaffronWitch"
+      altAnims="SaffronWitch, SaffronLegacy, SaffronShanghai" splashSprite="SaffronSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronMag2">
+    <Name>Reva</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>CampaignReflector</Weapon>
+    <Health>600</Health>
+    <MaxHealth>600</MaxHealth>
+    <Money>800</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>1.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>BowSnipe</Deck>
+    <Deck>Tsunami</Deck>
+    <Deck>FrostBarrage</Deck>
+    <Deck>Sweeper</Deck>
+    <Deck>TimeStop</Deck>
+    <Deck>SuperMinigun</Deck>
+    <Deck>InfinityBeam</Deck>
+    <Artifacts>GripTape</Artifacts>
+    <Artifacts>Acupuncture</Artifacts>
+    <Artifacts>Stoplight</Artifacts>
+    <Artifacts>Adamantium</Artifacts>
+    <Artifacts>Medkit</Artifacts>
+    <Stats localGunPointPos="33,34" animName="RevaCyber"
+      altAnims="SaffronWitch, SaffronLegacy, SaffronShanghai" splashSprite="SaffronSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronTest4">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>GodGun</Weapon>
+    <Health>800</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>10000</Money>
+    <MaxMana>9</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Thunder</Deck>
+    <Deck>KineticWave</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>Frostbolt</Deck>
+    <Deck>ShieldsUp</Deck>
+    <Deck>MissileTow</Deck>
+    <Deck>IceShield</Deck>
+    <Deck>Minigun</Deck>
+    <Deck>Wildfire</Deck>
+    <Artifacts>SubTank</Artifacts>
+    <Artifacts>ColdBlooded</Artifacts>
+    <Artifacts>PoisonVial</Artifacts>
+    <Artifacts>Bulwark</Artifacts>
+    <Artifacts>Riffle</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="SelicyTestFrost">
+    <Name>Selicy</Name>
+    <Tags>Test, Selicy, Attack</Tags>
+    <Weapon>SelicyFrostStep</Weapon>
+    <Health>840</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>IceNeedle</Deck>
+    <Deck>TractorBeam</Deck>
+    <Deck>Zenith</Deck>
+    <Deck>StormSword</Deck>
+    <Artifacts>UnicornBomb</Artifacts>
+    <Artifacts>Thermite</Artifacts>
+    <Artifacts>ImmuneSystem</Artifacts>
+    <Artifacts>Luna</Artifacts>
+    <Artifacts>MeatShield</Artifacts>
+    <Stats localGunPointPos="30,26" animName="Selicy" splashSprite="SelicySplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="HazelTestFlame">
+    <Name>Hazel</Name>
+    <Tags>Test, Hazel</Tags>
+    <Flavor></Flavor>
+    <Weapon>UpgradeWrench</Weapon>
+    <Health>1000</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>1.3</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Firewall</Deck>
+    <Deck>BowSnipe</Deck>
+    <Deck>Minigun</Deck>
+    <Deck>ShieldsUp</Deck>
+    <Deck>ShieldsUp</Deck>
+    <Deck>Frostbolt</Deck>
+    <Deck>MatKunais</Deck>
+    <Artifacts>SubTank</Artifacts>
+    <Stats localGunPointPos="33,34" animName="HazelPriestess" splashSprite="HazelSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronChronoTest">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>1000</Health>
+    <MaxHealth>9999</MaxHealth>
+    <Money>10000</Money>
+    <MaxMana>9</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>4</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>OrbitalBeam</Deck>
+    <Deck>Wildfire</Deck>
+    <Deck>FrostBarrage</Deck>
+    <Deck>Minigun</Deck>
+    <Deck>BowSnipe</Deck>
+    <Deck>Boomerang</Deck>
+    <Deck>SumTurretlaser</Deck>
+    <Deck>TimeSlow</Deck>
+    <Deck>TimeStop</Deck>
+    <Deck>Rage</Deck>
+    <Artifacts>Bulwark</Artifacts>
+    <Artifacts>Riffle</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronDeath">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Weapon>GodGun</Weapon>
+    <Health>800</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>10000</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>3</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Flurry</Deck>
+    <Deck>Fissure</Deck>
+    <Deck>Blink</Deck>
+    <Deck>Align</Deck>
+    <Deck>Undertow</Deck>
+    <Deck>Tsunami</Deck>
+    <Artifacts>Instadeath</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="SaffronTrinity">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>GodGun</Weapon>
+    <Health>800</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>10000</Money>
+    <MaxMana>9</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>4</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>TriRag</Deck>
+    <Deck>TriRag</Deck>
+    <Deck>TriShot</Deck>
+    <Deck>TriShot</Deck>
+    <Deck>TriForce</Deck>
+    <Artifacts>Tesselate</Artifacts>
+    <Artifacts>Citrine</Artifacts>
+    <Artifacts>Thermite</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="SaffronFrost">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>GodGun</Weapon>
+    <Health>800</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>10000</Money>
+    <MaxMana>9</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>4</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>ColdSnap</Deck>
+    <Deck>Frostbolt</Deck>
+    <Deck>Cryokinesis</Deck>
+    <Deck>ColdMedicine</Deck>
+    <Artifacts>Citrine</Artifacts>
+    <Artifacts>Thermite</Artifacts>
+    <Artifacts>DoubleMint</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="SaffronPoison">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>GodGun</Weapon>
+    <Health>800</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>10000</Money>
+    <MaxMana>9</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>4</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>PoisonDart</Deck>
+    <Deck>PoisonDart</Deck>
+    <Deck>PoisonDart</Deck>
+    <Deck>PoisonDart</Deck>
+    <Deck>PoisonDart</Deck>
+    <Deck>PoisonDart</Deck>
+    <Artifacts>Citrine</Artifacts>
+    <Artifacts>Thermite</Artifacts>
+    <Artifacts>DoubleMint</Artifacts>
+    <Artifacts>ImmuneSystem</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="SaffronFlow">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>GodGun</Weapon>
+    <Health>800</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>10000</Money>
+    <MaxMana>9</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>4</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Fracture</Deck>
+    <Deck>Fracture</Deck>
+    <Deck>RockCycle</Deck>
+    <Deck>Entrench</Deck>
+    <Deck>Coldstone</Deck>
+    <Artifacts>Citrine</Artifacts>
+    <Artifacts>Thermite</Artifacts>
+    <Artifacts>DoubleMint</Artifacts>
+    <Artifacts>Elysium</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="SaffronFrantic">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>GodGun</Weapon>
+    <Health>800</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>10000</Money>
+    <MaxMana>9</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>4</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>CarpetBomb</Deck>
+    <Deck>Frostbite</Deck>
+    <Deck>CarpetBomb</Deck>
+    <Deck>Frostbite</Deck>
+    <Deck>Pinch</Deck>
+    <Deck>Pinch</Deck>
+    <Artifacts>Citrine</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="GunnerTrailer01">
+    <Name>Gunner</Name>
+    <Title>Bullet Hell</Title>
+    <Tags>Test, Gunner, Attack</Tags>
+    <Weapon>GunnerMachineHoming</Weapon>
+    <Health>100</Health>
+    <MaxHealth>600</MaxHealth>
+    <Money>20</Money>
+    <MaxMana>2</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>1.8</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>BombToss</Deck>
+    <Deck>TimeSlow</Deck>
+    <Stats localGunPointPos="30,25" animName="Gunner" altAnims="GunnerBuccaneer"
+      splashSprite="GunnerSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SelicyTest">
+    <Name>Selicy</Name>
+    <Title>Canon</Title>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description>Loves the cold. Loves sharing.</Description>
+    <Flavor>She's never lost a snowball fight, and isn't about to start now.</Flavor>
+    <Weapon>SelicyStep</Weapon>
+    <Health>800</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>0</Money>
+    <MaxMana>4</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.9</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Zenith</Deck>
+    <Deck>Crossfire</Deck>
+    <Deck>Excalibur</Deck>
+    <Deck>Excalibur</Deck>
+    <Artifacts>ManaGem</Artifacts>
+    <Artifacts>PetTurtle</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Selicy" splashSprite="SelicySplash"></Stats>
+  </Being>
+  <Being beingID="RevaCombo02">
+    <Name>Reva</Name>
+    <Tags>Test, Reva</Tags>
+    <Description>Combos</Description>
+    <Weapon>CampaignReflector</Weapon>
+    <Health>300</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>99</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2</ManaRegen>
+    <ShuffleTime>1</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Forte</Deck>
+    <Deck>ShieldThrow</Deck>
+    <Deck>CounterStrike</Deck>
+    <Deck>ShieldsUp</Deck>
+    <Deck>Transfuse</Deck>
+    <Deck>DiagBeam</Deck>
+    <Deck>MissMeShield</Deck>
+    <Stats localGunPointPos="30,30" animName="Reva" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="VioletteTrailer">
+    <Name>Violette</Name>
+    <Title>Canon</Title>
+    <Tags>Test, Violette</Tags>
+    <Description>A graceful violinist.</Description>
+    <Flavor>She'll take you on without missing a beat.</Flavor>
+    <Weapon>ViGun</Weapon>
+    <Health>60</Health>
+    <MaxHealth>900</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>OrbitalBeam</Deck>
+    <Deck>Trisect</Deck>
+    <Deck>Frostbite</Deck>
+    <Deck>PowerSaws</Deck>
+    <Deck>ManaSteal</Deck>
+    <Deck>Corset</Deck>
+    <Deck>HiredGun</Deck>
+    <Deck>Upwind</Deck>
+    <Deck>SumMonument</Deck>
+    <Stats localGunPointPos="22,21" animName="VioletteJRock" altAnims="VioletteJRock"
+      splashSprite="GunnerSplash" overrideMovement="false"></Stats>
+  </Being>
+  <Being beingID="HazelTest">
+    <Name>Hazel</Name>
+    <Title>Canon</Title>
+    <Tags>Test, Hazel</Tags>
+    <Description>Hexawan engineer, builds dangerous things.</Description>
+    <Flavor>She didn't manage to stop the enemy, but she did manage to escape with a couple turrets of her own.</Flavor>
+    <Weapon>UpgradeWrench</Weapon>
+    <Health>1000</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>4</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.9</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Minigun</Deck>
+    <Deck>SumTurretgun</Deck>
+    <Deck>Upwind</Deck>
+    <Deck>SumMonument</Deck>
+    <Deck>Salvage</Deck>
+    <Artifacts>HexBadge</Artifacts>
+    <Artifacts>Thermite</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Hazel" splashSprite="HazelSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="RevaDemo">
+    <Name>Reva</Name>
+    <Tags>Test, Reva</Tags>
+    <Description>Demo Reva</Description>
+    <Weapon>CampaignReflector</Weapon>
+    <Health>800</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>0</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.65</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>ShieldCatch</Deck>
+    <Deck>ShieldThrow</Deck>
+    <Deck>DiagBeam</Deck>
+    <Deck>ShieldBeam</Deck>
+    <Artifacts>Eschaton</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Reva" splashSprite="RevaSplash"></Stats>
+  </Being>
+  <Being beingID="RevaCombo0S">
+    <Name>Refva</Name>
+    <Tags>Test, Reva</Tags>
+    <Description>Combos</Description>
+    <Weapon>CampaignReflector</Weapon>
+    <Health>800</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>99</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.8</ManaRegen>
+    <ShuffleTime>1</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>ShieldsUp</Deck>
+    <Deck>CounterStrike</Deck>
+    <Deck>Forte</Deck>
+    <Deck>Transfuse</Deck>
+    <Deck>ShieldThrow</Deck>
+    <Artifacts>MiningRig</Artifacts>
+    <Artifacts>HeartOfTheCards</Artifacts>
+    <Artifacts>Thornmail</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Reva" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="VioletteTest">
+    <Name>Violette</Name>
+    <Title>Canon</Title>
+    <Tags>Violette</Tags>
+    <Description>A graceful violinist.</Description>
+    <Flavor>She'll take you on without missing a beat.</Flavor>
+    <Weapon>GodGun</Weapon>
+    <Health>900</Health>
+    <MaxHealth>900</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.3</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Corset</Deck>
+    <Deck>IronWill</Deck>
+    <Deck>Frostbite</Deck>
+    <Deck>ManaSteal</Deck>
+    <Artifacts>Feather</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Violette" altAnims="VioletteJRock"
+      splashSprite="VioletteSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="RevaDemoVid">
+    <Name>Refva</Name>
+    <Tags>Test, Reva</Tags>
+    <Description>Demo Reva</Description>
+    <Weapon>CampaignReflector</Weapon>
+    <Health>600</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>0</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.65</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>ShieldCatch</Deck>
+    <Deck>ShieldThrow</Deck>
+    <Deck>DiagBeam</Deck>
+    <Deck>ShieldsUp</Deck>
+    <Deck>Forte</Deck>
+    <Deck>ShieldBeam</Deck>
+    <Artifacts>Eschaton</Artifacts>
+    <Artifacts>Mjolnir</Artifacts>
+    <Artifacts>Wings</Artifacts>
+    <Artifacts>Tinder</Artifacts>
+    <Artifacts>Riffle</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Reva" splashSprite="RevaSplash"></Stats>
+  </Being>
+  <Being beingID="SaffronPvPTest">
+    <Name>Saffron</Name>
+    <Title>Canon</Title>
+    <Tags>Attack</Tags>
+    <Description>Battle ready Saffron</Description>
+    <Flavor>Battle ready Saffron</Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>1000</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.7</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stats localGunPointPos="33,34" animName="Saffron" altAnims="SaffronShanghai"
+      splashSprite="SaffronSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="Saffron">
+    <Name>Saffron</Name>
+    <Title>Canon</Title>
+    <Tags>Campaign, Default, Saffron, Attack</Tags>
+    <Description>A military scientist, she's adept with all types of spells.</Description>
+    <Flavor>She brought her tried and true spells</Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>1200</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Thunder</Deck>
+    <Deck>KineticWave</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>Frostbolt</Deck>
+    <Artifacts>SubTank</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron"
+      altAnims="SaffronWitch, SaffronLea,  SaffronLegacy, SaffronShanghai"
+      splashSprite="SaffronSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronAlt">
+    <Name>Saffron</Name>
+    <Title>Chrono</Title>
+    <Tags>Campaign, Saffron</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>ChronoGun</Weapon>
+    <Health>1200</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>4</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Minigun</Deck>
+    <Deck>Whirl</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>Thunder</Deck>
+    <Artifacts>HeartOfTheCards</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"
+      altAnims="SaffronWitch, SaffronLea,  SaffronLegacy, SaffronShanghai"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronGen">
+    <Name>Saffron</Name>
+    <Title>One</Title>
+    <Tags>Campaign, Test, Saffron, Attack</Tags>
+    <Flavor>One spell was all she needed.</Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>10</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>4</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2</ManaRegen>
+    <ShuffleTime>0.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Ragnarok</Deck>
+    <Artifacts>SubTank</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron"
+      altAnims="SaffronWitch, SaffronLea,  SaffronLegacy, SaffronShanghai"
+      splashSprite="SaffronSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronTest">
+    <Name>Saffron</Name>
+    <Title>Cheat</Title>
+    <Tags>Campaign, Saffron, Attack</Tags>
+    <Flavor>In the middle of field testing? Again??</Flavor>
+    <Weapon>GodGun</Weapon>
+    <Health>1200</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>4</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2</ManaRegen>
+    <ShuffleTime>0.5</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Frostbolt</Deck>
+    <Deck>Frostbolt</Deck>
+    <Artifacts>SubTank</Artifacts>
+    <Artifacts>ManaGem</Artifacts>
+    <Artifacts>ManaGem</Artifacts>
+    <Artifacts>SubTank</Artifacts>
+    <Artifacts>HeartOfTheCards</Artifacts>
+    <Artifacts>Sunglasses</Artifacts>
+    <Artifacts>MintTea</Artifacts>
+    <Artifacts>FlashLoader</Artifacts>
+    <Artifacts>ExplosiveTendons</Artifacts>
+    <Artifacts>BlazeOfGlory</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron"
+      altAnims="SaffronWitch, SaffronLea,  SaffronLegacy, SaffronShanghai"
+      splashSprite="SaffronSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronPvPDev">
+    <Name>SaffronX</Name>
+    <Title>Canon</Title>
+    <Tags>Attack, PvP</Tags>
+    <Description>Test battle saffron</Description>
+    <Weapon>GodGun</Weapon>
+    <Health>200</Health>
+    <MaxHealth>200</MaxHealth>
+    <Money>20</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.7</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Thunder</Deck>
+    <Deck>KineticWave</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>Frostbolt</Deck>
+    <Stats localGunPointPos="33,34" animName="Saffron"
+      altAnims="SaffronWitch, SaffronLea,  SaffronLegacy, SaffronShanghai"
+      splashSprite="SaffronSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronPvP">
+    <Name>Saffron</Name>
+    <Title>Canon</Title>
+    <Tags>Default, Saffron, Attack, PvP, Unlock</Tags>
+    <Description>Battle ready Saffron</Description>
+    <Weapon>CampaignGun</Weapon>
+    <Health>600</Health>
+    <MaxHealth>600</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.7</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Thunder</Deck>
+    <Deck>KineticWave</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>Frostbolt</Deck>
+    <Artifacts>SubTank</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron"
+      altAnims="SaffronWitch, SaffronLea,  SaffronLegacy, SaffronShanghai"
+      splashSprite="SaffronSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronDemoLive">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description>Demo</Description>
+    <Weapon>CampaignGun</Weapon>
+    <Health>1400</Health>
+    <MaxHealth>1400</MaxHealth>
+    <Money>0</Money>
+    <MaxMana>5</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.65</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Thunder</Deck>
+    <Deck>KineticWave</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>Frostbolt</Deck>
+    <Artifacts>SubTank</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"></Stats>
+  </Being>
+  <Being beingID="SaffronAllBrands">
+    <Name>Saffron</Name>
+    <Tags>Test, Saffron, Attack</Tags>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>GodGun</Weapon>
+    <Health>1000</Health>
+    <MaxHealth>99999</MaxHealth>
+    <Money>420</Money>
+    <MaxMana>7</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>2.5</ManaRegen>
+    <ShuffleTime>1.5</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Thunder</Deck>
+    <Deck>Whirl</Deck>
+    <Deck>Preload</Deck>
+    <Deck>Energizer</Deck>
+    <Deck>Entangle</Deck>
+    <Deck>Mine</Deck>
+    <Deck>BowSnipe</Deck>
+    <Deck>Detox</Deck>
+    <Deck>ShieldsUp</Deck>
+    <Deck>StepSlash</Deck>
+    <Stats localGunPointPos="33,34" animName="Saffron"
+      altAnims="SaffronWitch, SaffronLea, SaffronLegacy" splashSprite="SaffronSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="ReferenceTemplate">
+    <Name>Saffron</Name>
+    <Description></Description>
+    <Flavor></Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>800</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>100</Money>
+    <MaxMana>9</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>1.5</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stats localGunPointPos="33,34" animName="Saffron" splashSprite="SaffronSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="Reva">
+    <Name>Reva</Name>
+    <Title>Canon</Title>
+    <Tags>Campaign, Default, Reva</Tags>
+    <Description>Shieldmaiden and activist. A shield for the defenseless.</Description>
+    <Flavor>Society may have collapsed, but there are still people worth protecting out there.</Flavor>
+    <Weapon>CampaignReflector</Weapon>
+    <Health>800</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>ShieldCatch</Deck>
+    <Deck>ShieldThrow</Deck>
+    <Deck>DiagBeam</Deck>
+    <Deck>ShieldBeam</Deck>
+    <Artifacts>Eschaton</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Reva" altAnims="RevaCyber" splashSprite="RevaSplash"
+      startingBrands="Phalanx,None"></Stats>
+  </Being>
+  <Being beingID="RevaAlt">
+    <Name>Reva</Name>
+    <Title>Canon</Title>
+    <Tags>Campaign, Reva</Tags>
+    <Flavor>Her duty is to shield others from harm.</Flavor>
+    <Weapon>CampaignReflector</Weapon>
+    <Health>700</Health>
+    <MaxHealth>700</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Pinch</Deck>
+    <Deck>SteelSkin</Deck>
+    <Deck>Corset</Deck>
+    <Deck>SoulLink</Deck>
+    <Artifacts>FlakJacket</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Reva" altAnims="RevaCyber" splashSprite="RevaSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="RevaPvP">
+    <Name>Reva</Name>
+    <Title>Canon</Title>
+    <Tags>Default, Reva, PvP, Unlock</Tags>
+    <Description>Shieldmaiden and activist. A shield for the defenseless.</Description>
+    <Weapon>CampaignReflector</Weapon>
+    <Health>800</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.6</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>ShieldCatch</Deck>
+    <Deck>ShieldThrow</Deck>
+    <Deck>DiagBeam</Deck>
+    <Deck>ShieldBeam</Deck>
+    <Artifacts>Eschaton</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Reva" altAnims="RevaCyber" splashSprite="RevaSplash"
+      startingBrands="Phalanx,None"></Stats>
+  </Being>
+  <Being beingID="Gunner">
+    <Name>Gunner</Name>
+    <Title>Canon</Title>
+    <Tags>Campaign, Default, Gunner, Attack</Tags>
+    <Description>Mercenary hot shot, uses his gun to solve problems.</Description>
+    <Flavor>This is just like any other mission.</Flavor>
+    <Weapon>GunnerGun</Weapon>
+    <Health>1000</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>4</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Innervate</Deck>
+    <Deck>BombToss</Deck>
+    <Deck>PekayFire</Deck>
+    <Deck>BlueBullets</Deck>
+    <Artifacts>CoverFire</Artifacts>
+    <Stats localGunPointPos="30,25" animName="Gunner" altAnims="GunnerBuccaneer"
+      splashSprite="GunnerSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="GunnerAlt">
+    <Name>Gunner</Name>
+    <Title>Bullet Hell</Title>
+    <Tags>Campaign, Gunner, Attack</Tags>
+    <Description>Bullet hell</Description>
+    <Flavor>I call it "Vera"</Flavor>
+    <Weapon>GunnerMachine</Weapon>
+    <Health>400</Health>
+    <MaxHealth>400</MaxHealth>
+    <Money>20</Money>
+    <MaxMana>2</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.1</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>BombToss</Deck>
+    <Artifacts>CoverFire</Artifacts>
+    <Stats localGunPointPos="30,25" animName="Gunner" altAnims="GunnerBuccaneer"
+      splashSprite="GunnerSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="GunnerPvP">
+    <Name>Gunner</Name>
+    <Title>Canon</Title>
+    <Tags>Default, Gunner, Attack, PvP, Unlock</Tags>
+    <Description>Mercenary hot shot, uses his gun to solve problems.</Description>
+    <Weapon>GunnerGun</Weapon>
+    <Health>1000</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>4</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.25</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Innervate</Deck>
+    <Deck>BombToss</Deck>
+    <Deck>PekayFire</Deck>
+    <Deck>BlueBullets</Deck>
+    <Artifacts>CoverFire</Artifacts>
+    <Stats localGunPointPos="30,25" animName="Gunner" altAnims="GunnerBuccaneer"
+      splashSprite="GunnerSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="Selicy">
+    <Name>Selicy</Name>
+    <Title>Canon</Title>
+    <Tags>Campaign, Default, Selicy, Attack</Tags>
+    <Description>Over your cold, dead body.</Description>
+    <Flavor>Loves the cold and sharing the things she loves.</Flavor>
+    <Weapon>SelicyFrostStep</Weapon>
+    <Health>900</Health>
+    <MaxHealth>900</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.4</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>IceNeedle</Deck>
+    <Deck>ColdMedicine</Deck>
+    <Deck>FateShield</Deck>
+    <Deck>Zenith</Deck>
+    <Artifacts>Bulwark</Artifacts>
+    <Stats localGunPointPos="30,26" animName="Selicy" altAnims="SelicyCatgirl"
+      splashSprite="SelicySplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SelicyAlt">
+    <Name>Selicy</Name>
+    <Title>Invade</Title>
+    <Tags>Campaign, Selicy, Attack</Tags>
+    <Flavor>Doesn't mind getting in your face.</Flavor>
+    <Weapon>SelicyStep</Weapon>
+    <Health>900</Health>
+    <MaxHealth>900</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.1</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Frostbite</Deck>
+    <Deck>ColdMedicine</Deck>
+    <Deck>Zenith</Deck>
+    <Deck>Crossfire</Deck>
+    <Artifacts>CoolShoes</Artifacts>
+    <Stats localGunPointPos="30,26" animName="Selicy" altAnims="SelicyCatgirl"
+      splashSprite="SelicySplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SelicyPvP">
+    <Name>Selicy</Name>
+    <Title>Canon</Title>
+    <Tags>Default, Selicy, Attack, PvP, Unlock</Tags>
+    <Description>Over your cold, dead body.</Description>
+    <Weapon>SelicyFrostStep</Weapon>
+    <Health>900</Health>
+    <MaxHealth>900</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>IceNeedle</Deck>
+    <Deck>ColdMedicine</Deck>
+    <Deck>FateShield</Deck>
+    <Deck>Zenith</Deck>
+    <Artifacts>ShieldBattery</Artifacts>
+    <Stats localGunPointPos="30,26" animName="Selicy" altAnims="SelicyCatgirl"
+      splashSprite="SelicySplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="Hazel">
+    <Name>Hazel</Name>
+    <Title>Canon</Title>
+    <Tags>Campaign, Default, Hazel</Tags>
+    <Description>Hexawan engineer, builds dangerous things.</Description>
+    <Flavor>She couldn't stop them, but she did manage to escape with a couple turrets of her own.</Flavor>
+    <Weapon>UpgradeWrench</Weapon>
+    <Health>1000</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Minigun</Deck>
+    <Deck>SumTurretgun</Deck>
+    <Deck>ForcePushUp</Deck>
+    <Deck>ForcePushDown</Deck>
+    <Artifacts>HexBadge</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Hazel" altAnims="HazelPriestess"
+      splashSprite="HazelSplash" startingBrands="Hexawan,None"></Stats>
+  </Being>
+  <Being beingID="HazelAlt">
+    <Name>Hazel</Name>
+    <Title>Alt</Title>
+    <Tags>Campaign, Hazel</Tags>
+    <Flavor>Sometimes she just can't stop taking things apart.</Flavor>
+    <Weapon>DismantleWrench</Weapon>
+    <Health>1000</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Pull</Deck>
+    <Deck>SumWall</Deck>
+    <Deck>Blastcrystals</Deck>
+    <Deck>Minigun</Deck>
+    <Artifacts>Fragment</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Hazel" altAnims="HazelPriestess"
+      splashSprite="HazelSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="HazelPvP">
+    <Name>Hazel</Name>
+    <Title>Canon</Title>
+    <Tags>PvP, Default, Hazel</Tags>
+    <Description>Hexawan engineer, builds dangerous things.</Description>
+    <Flavor>She couldn't stop them, but she did manage to escape with a couple turrets of her own.</Flavor>
+    <Weapon>UpgradeWrench</Weapon>
+    <Health>800</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Minigun</Deck>
+    <Deck>SumTurretgun</Deck>
+    <Deck>ForcePushUp</Deck>
+    <Deck>ForcePushDown</Deck>
+    <Artifacts>HexBadge</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Hazel" altAnims="HazelPriestess"
+      splashSprite="HazelSplash" startingBrands="Hexawan,None"></Stats>
+  </Being>
+  <Being beingID="Terra">
+    <Name>Terra</Name>
+    <Title>Canon</Title>
+    <Tags>Campaign, Default, Terra, Attack</Tags>
+    <Description>Cult leader who likes to break things.</Description>
+    <Flavor>The earth trembles beneath her feet.</Flavor>
+    <Weapon>Terraform</Weapon>
+    <Health>1000</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Entangle</Deck>
+    <Deck>Flurry</Deck>
+    <Deck>Excavate</Deck>
+    <Deck>Mine</Deck>
+    <Artifacts>Moonstone</Artifacts>
+    <Stats localGunPointPos="20,28" animName="Terra" altAnims="TerraDreadwyrm"
+      splashSprite="TerraSplash" startingBrands="Hearth,None"></Stats>
+  </Being>
+  <Being beingID="TerraAlt">
+    <Name>Terra</Name>
+    <Title>Fire</Title>
+    <Tags>Campaign, Terra, Attack</Tags>
+    <Flavor>She just wants to watch the world burn.</Flavor>
+    <Weapon>Terraflare</Weapon>
+    <Health>1000</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>SwordLine</Deck>
+    <Deck>Combust</Deck>
+    <Deck>Meditate</Deck>
+    <Deck>PekayFire</Deck>
+    <Artifacts>Citrine</Artifacts>
+    <Stats localGunPointPos="20,28" animName="Terra" altAnims="TerraDreadwyrm"
+      splashSprite="TerraSplash" startingBrands="Anima,None"></Stats>
+  </Being>
+  <Being beingID="TerraPvP">
+    <Name>Terra</Name>
+    <Title>Canon</Title>
+    <Tags>Default, Terra, Attack, PvP</Tags>
+    <Description>Cult leader who likes to break things.</Description>
+    <Weapon>Terraform</Weapon>
+    <Health>1000</Health>
+    <MaxHealth>1000</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.3</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Entangle</Deck>
+    <Deck>Flurry</Deck>
+    <Deck>Excavate</Deck>
+    <Deck>Mine</Deck>
+    <Artifacts>Moonstone</Artifacts>
+    <Stats localGunPointPos="20,28" animName="Terra" altAnims="TerraDreadwyrm"
+      splashSprite="TerraSplash" startingBrands="Hearth,None"></Stats>
+  </Being>
+  <Being beingID="Shiso">
+    <Name>Shiso</Name>
+    <Title>Canon</Title>
+    <Tags>Campaign, Default, Shiso</Tags>
+    <Description>Judge, jury, and executioner.</Description>
+    <Flavor>One shot.</Flavor>
+    <Weapon>ShisoGun</Weapon>
+    <Health>800</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>80</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>OrbitalBeam</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>Align</Deck>
+    <Deck>ClawTraps</Deck>
+    <Stats localGunPointPos="27,30" animName="Shiso" altAnims="ShisoCowboy"
+      splashSprite="ShisoSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="ShisoAlt">
+    <Name>Shiso</Name>
+    <Title>Kunai</Title>
+    <Tags>Campaign, Shiso</Tags>
+    <Description>Judge, jury, and executioner.</Description>
+    <Flavor>Runs with scissors</Flavor>
+    <Weapon>KunaiCatch</Weapon>
+    <Health>800</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>20</Money>
+    <MaxMana>2</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Kunai</Deck>
+    <Deck>CollectRing</Deck>
+    <Deck>MatKunais</Deck>
+    <Deck>ClawTraps</Deck>
+    <Stats localGunPointPos="27,30" animName="Shiso" altAnims="ShisoCowboy"
+      splashSprite="ShisoSplash" startingBrands="Slashfik,None"></Stats>
+  </Being>
+  <Being beingID="ShisoPvP">
+    <Name>Shiso</Name>
+    <Title>Canon</Title>
+    <Tags>PvP, Default, Shiso</Tags>
+    <Description>Judge, jury, and executioner.</Description>
+    <Flavor>One shot.</Flavor>
+    <Weapon>ShisoGun</Weapon>
+    <Health>800</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>300</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>OrbitalBeam</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>Align</Deck>
+    <Deck>ClawTraps</Deck>
+    <Artifacts>SpeedLoader</Artifacts>
+    <Stats localGunPointPos="27,30" animName="Shiso" altAnims="ShisoCowboy"
+      splashSprite="ShisoSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="Violette">
+    <Name>Violette</Name>
+    <Title>Canon</Title>
+    <Tags>Campaign, Default, Violette</Tags>
+    <Description>A graceful violinist.</Description>
+    <Flavor>She'll take you on without missing a beat.</Flavor>
+    <Weapon>ViGun</Weapon>
+    <Health>900</Health>
+    <MaxHealth>900</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.3</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Corset</Deck>
+    <Deck>IronWill</Deck>
+    <Deck>Frostbite</Deck>
+    <Deck>ManaSteal</Deck>
+    <Artifacts>Feather</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Violette" altAnims="VioletteJRock"
+      splashSprite="VioletteSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="VioletteAlt">
+    <Name>Violette</Name>
+    <Title>Alt</Title>
+    <Tags>Campaign, Violette</Tags>
+    <Flavor>Performing was energizing yet exhausting. Still, nothing made her happier.</Flavor>
+    <Weapon>ViCharge</Weapon>
+    <Health>900</Health>
+    <MaxHealth>900</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>4</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.3</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>LaserSolo</Deck>
+    <Deck>Incline</Deck>
+    <Deck>SludgeBomb</Deck>
+    <Deck>SapphireRing</Deck>
+    <Artifacts>Vaccine</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Violette" altAnims="VioletteJRock"
+      splashSprite="VioletteSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="ViolettePvP">
+    <Name>Violette</Name>
+    <Title>Alt</Title>
+    <Tags>PvP, Default, Violette</Tags>
+    <Flavor>Performing was energizing yet exhausting. Still, nothing made her happier.</Flavor>
+    <Weapon>ViCharge</Weapon>
+    <Health>900</Health>
+    <MaxHealth>900</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.2</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>LaserSolo</Deck>
+    <Deck>Incline</Deck>
+    <Deck>SludgeBomb</Deck>
+    <Deck>SapphireRing</Deck>
+    <Artifacts>PowerShard</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Violette" altAnims="VioletteJRock"
+      splashSprite="VioletteSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="Shopkeeper">
+    <Name>Shopkeeper</Name>
+    <Title>Canon</Title>
+    <Tags>Campaign, Default, Shopkeeper</Tags>
+    <Description>Capitalism ho.</Description>
+    <Flavor>Sells stuff...</Flavor>
+    <Weapon>ShopkeeperGun</Weapon>
+    <Health>400</Health>
+    <MaxHealth>400</MaxHealth>
+    <Money>400</Money>
+    <MaxMana>4</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>HiredGun</Deck>
+    <Deck>BowSnipe</Deck>
+    <Deck>CounterStrike</Deck>
+    <Deck>Swipe</Deck>
+    <Artifacts>Beret</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Shopcreeper" altAnims="ShopcreeperLegacy"
+      splashSprite="ShopkeeperSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="ShopkeeperPvP">
+    <Name>Shopkeeper</Name>
+    <Title>Canon</Title>
+    <Tags>PvP, Default, Shopkeeper</Tags>
+    <Description>Capitalism ho.</Description>
+    <Flavor>Sells stuff...</Flavor>
+    <Weapon>ShopkeeperGun</Weapon>
+    <Health>600</Health>
+    <MaxHealth>600</MaxHealth>
+    <Money>600</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.6</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>HiredGun</Deck>
+    <Deck>BowSnipe</Deck>
+    <Deck>CounterStrike</Deck>
+    <Deck>Swipe</Deck>
+    <Artifacts>Beret</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Shopcreeper" altAnims="ShopcreeperLegacy"
+      splashSprite="ShopkeeperSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="SaffronLegacy">
+    <Name>Saffron</Name>
+    <Title>Legacy</Title>
+    <Tags>Saffron, Skin</Tags>
+    <Description>Unlocked by achieving Arch Sage</Description>
+    <Flavor>Ready for field testing.</Flavor>
+    <Stats localGunPointPos="33,34" animName="SaffronLegacy"></Stats>
+  </Being>
+  <Being beingID="SaffronShanghai">
+    <Name>Saffron</Name>
+    <Title>Shanghai</Title>
+    <Tags>Saffron, Skin</Tags>
+    <Description>Unlocked by achieving Back To The Past</Description>
+    <Flavor>F</Flavor>
+    <Stats localGunPointPos="33,34" animName="SaffronShanghai"></Stats>
+  </Being>
+  <Being beingID="SaffronLea">
+    <Name>Saffron</Name>
+    <Title>Shanghai</Title>
+    <Tags>Saffron, Skin</Tags>
+    <Description>Unlocked by achieving Calamity</Description>
+    <Flavor>Hi. Lea. Bye!</Flavor>
+    <Stats localGunPointPos="33,34" animName="SaffronLea"></Stats>
+  </Being>
+  <Being beingID="SaffronWitch">
+    <Name>Saffron</Name>
+    <Title>Witch</Title>
+    <Tags>Saffron, Skin</Tags>
+    <Flavor>Magical in every reality.</Flavor>
+    <Stats localGunPointPos="30,29" animName="SaffronWitch" overrideMovement="false"></Stats>
+  </Being>
+  <Being beingID="RevaCyber">
+    <Name>Hazel</Name>
+    <Title>Reva</Title>
+    <Tags>Reva, Skin</Tags>
+    <Flavor>A Cyber from Glitch City.</Flavor>
+    <Stats localGunPointPos="28,27" animName="RevaCyber"></Stats>
+  </Being>
+  <Being beingID="GunnerBuccaneer">
+    <Name>Gunner</Name>
+    <Title>Buccaneer</Title>
+    <Tags>Gunner, Skin</Tags>
+    <Stats localGunPointPos="22,21" animName="GunnerBuccaneer"></Stats>
+  </Being>
+  <Being beingID="SelicyCatgirl">
+    <Name>Selicy</Name>
+    <Title>Catgirl</Title>
+    <Tags>Selicy, Skin</Tags>
+    <Stats localGunPointPos="22,21" animName="SelicyCatgirl"></Stats>
+  </Being>
+  <Being beingID="HazelPriestess">
+    <Name>Hazel</Name>
+    <Title>Priestess</Title>
+    <Tags>Hazel, Skin</Tags>
+    <Flavor>A White Priestess from the town of Serafew.</Flavor>
+    <Stats localGunPointPos="32,25" animName="HazelPriestess"></Stats>
+  </Being>
+  <Being beingID="ShisoCowboy">
+    <Name>Shiso</Name>
+    <Title>High Noon</Title>
+    <Tags>Shiso, Skin</Tags>
+    <Stats localGunPointPos="22,21" animName="ShisoCowboy"></Stats>
+  </Being>
+  <Being beingID="TerraDreadwyrm">
+    <Name>Terra</Name>
+    <Title>Dreadwyrm Heir</Title>
+    <Tags>Terra, Skin</Tags>
+    <Stats localGunPointPos="22,21" animName="TerraDreadwyrm"></Stats>
+  </Being>
+  <Being beingID="VioletteJRock">
+    <Name>Violette</Name>
+    <Title>Rock</Title>
+    <Tags>Violette, Skin</Tags>
+    <Flavor>She'd daydream about being in a light music club.</Flavor>
+    <Stats localGunPointPos="22,21" animName="VioletteJRock" overrideMovement="false"></Stats>
+  </Being>
+  <Being beingID="ShopkeeperLegacy">
+    <Name>Shopkeeper</Name>
+    <Title>Dreadwyrm Heir</Title>
+    <Tags>Shopkeeper, Skin</Tags>
+    <Stats localGunPointPos="22,21" animName="ShopcreeperLegacy"></Stats>
+  </Being>
+</Beings>

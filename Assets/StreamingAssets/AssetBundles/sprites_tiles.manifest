@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 3855260305
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ce6c6fe2b64be4c9202f1851a2b0eaf5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 03970310989e9ae0e8cd1c6f532688cc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sprites/Tiles/_spritesheets.txt
+- Assets/Sprites/Tiles/TileNeutral.psd
+- Assets/Sprites/Tiles/old/TileRedRoundedX.psd
+- Assets/Sprites/Tiles/TileRed.psd
+- Assets/Sprites/Tiles/TileOccupied.psd
+- Assets/Sprites/Tiles/old/TileOccupiedX.psd
+- Assets/Sprites/Tiles/TileBlue.psd
+- Assets/Sprites/Tiles/old/TileBasicTallX.psd
+- Assets/Sprites/Tiles/tile-breaking.png
+- Assets/Sprites/Tiles/old/TileCrackedX.psd
+- Assets/Sprites/Tiles/Cracked.psd
+- Assets/Sprites/Tiles/Broken.psd
+- Assets/Sprites/Tiles/Normal.psd
+- Assets/Sprites/Tiles/tile-breaking.psd
+- Assets/Sprites/Tiles/TileShadow.psd
+- Assets/Sprites/Tiles/old/TileBrokenX.psd
+- Assets/Sprites/Tiles/TileNone.psd
+- Assets/Sprites/Tiles/TileSpiked.psd
+Dependencies: []

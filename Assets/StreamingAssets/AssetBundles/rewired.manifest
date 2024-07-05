@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 2647716399
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3424a248704f44f41f0e432995fa1a42
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2c6072de0ee8a014d4c23e033b7dc0a9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9e9c60e1db6fcae4d8667e50bc98c695, type: 3}
+- Class: 114
+  Script: {fileID: -2084043497, guid: 09c9b883b79ef864a99683bb36c5776d, type: 3}
+- Class: 114
+  Script: {fileID: 1213223493, guid: 09c9b883b79ef864a99683bb36c5776d, type: 3}
+- Class: 114
+  Script: {fileID: -494268833, guid: 09c9b883b79ef864a99683bb36c5776d, type: 3}
+- Class: 114
+  Script: {fileID: 49295205, guid: 09c9b883b79ef864a99683bb36c5776d, type: 3}
+- Class: 114
+  Script: {fileID: 264498797, guid: 09c9b883b79ef864a99683bb36c5776d, type: 3}
+- Class: 114
+  Script: {fileID: 323110133, guid: 09c9b883b79ef864a99683bb36c5776d, type: 3}
+- Class: 114
+  Script: {fileID: 1351212051, guid: 09c9b883b79ef864a99683bb36c5776d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 581b3e3c96df0ef42aef16b63b27b87f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Rewired/InputManager.prefab
+Dependencies: []

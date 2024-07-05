@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0eef81c3cfddd6692439cd66ba14e60, type: 3}
+  m_Name: One_Shot
+  m_EditorClassIdentifier:
+  achievementName: One_Shot
+  hidden: 0
+  localizationNameKey: One_Shot
+  localizationDescriptionKey: One_Shot
+  localizationAchievedDescriptionKey: One_Shot
+  achievementImage: {fileID: 2800000, guid: 4730e7df848e07946b60384cc9ec2042, type: 3}
+  steamID: One_Shot
+  xboxOneID:
+  ps4ID: 26
+  uwpID:
+  gameCenterID:
+  androidID:
+  gogID: One_Shot

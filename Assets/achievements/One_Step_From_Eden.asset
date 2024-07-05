@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0eef81c3cfddd6692439cd66ba14e60, type: 3}
+  m_Name: One_Step_From_Eden
+  m_EditorClassIdentifier:
+  achievementName: One_Step_From_Eden
+  hidden: 1
+  localizationNameKey: One_Step_From_Eden
+  localizationDescriptionKey: One_Step_From_Eden
+  localizationAchievedDescriptionKey: One_Step_From_Eden
+  achievementImage: {fileID: 2800000, guid: 5979715036407834989212ad7ae6f945, type: 3}
+  steamID: One_Step_From_Eden
+  xboxOneID:
+  ps4ID: 27
+  uwpID:
+  gameCenterID:
+  androidID:
+  gogID: One_Step_From_Eden

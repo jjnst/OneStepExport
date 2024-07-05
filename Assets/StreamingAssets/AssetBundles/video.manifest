@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 2857962082
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bc96a45630eb1e5982d5da540b82675d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4c6c8fc99ead083a5f8ccf318eab7a09
+HashAppended: 0
+ClassTypes:
+- Class: 329
+  Script: {instanceID: 0}
+Assets:
+- Assets/Video/Tut_LookDeck.webm
+- Assets/Video/Tut_SpellsComeBack.webm
+- Assets/Video/Tut_CheckSpellsArtifact.webm
+- Assets/Video/Tut_Remove.webm
+- Assets/Video/Tut_CastSpells.webm
+- Assets/Video/Scene_bad.webm
+- Assets/Video/Tut_Shuffle.webm
+- Assets/Video/Scene_good_true.webm
+- Assets/Video/Tut_Upgrade.webm
+- Assets/Video/Tut_Move.webm
+- Assets/Video/Tut_Practice.webm
+- Assets/Video/Tut_ChooseZone.webm
+- Assets/Video/Scene_good_false.webm
+- Assets/Video/Tut_Focus.webm
+Dependencies: []

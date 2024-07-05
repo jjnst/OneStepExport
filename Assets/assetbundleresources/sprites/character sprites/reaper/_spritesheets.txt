@@ -1,0 +1,4 @@
+turret_fire.png,120,120,4
+reaper_atk.png,120,120,7
+reaper_atkS.png,120,120,9
+reaper_idleS.png,120,120,4

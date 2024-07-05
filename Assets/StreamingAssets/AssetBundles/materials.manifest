@@ -1,0 +1,119 @@
+ManifestFileVersion: 0
+CRC: 2937679740
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f0ee14de06ece2c2f40eacc68e46d043
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 628e2de992db4e9a699edbf3fee8c368
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+- Class: 109
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 90ec3a51e031a9f42a8eeb9d470525f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4caff27366054dd44a30ddb5be369acc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c227bed38d7095d4ca0e793d05e14cea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0e0c2324a9ab1224ebe3edad393e3544, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 581338470a42731488b9cb162c0b4498, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f6ab6487237ff124ea4c2aa5de9ce3fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e230be58aa5c47b4ebf34d4bb1742e31, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3ebf1778e0c8c814695cefc3c463671e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e6c9be3a1f801b14d96cd8e674f801b8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: da0a24bab1293f04d997dae2ec51c468, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: da83aafcc606b7d45aa7edeb817fd09f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 42e7026d0da7df848ab67d517ac12d74, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2ba85f3efcdcc284fa71bce404eb9319, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 86c3b76e065295041b194bcb001d3647, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Materials/SpriteShaders/CameraDepthTexture.shader
+- Assets/Materials/Sprites-Black.mat
+- Assets/Materials/SpriteShaders/SpritesPixelLit.shader
+- Assets/Materials/Dissolve.mat
+- Assets/Materials/Trail.mat
+- Assets/Materials/SpriteShaders/CardtridgeOverback.asset
+- Assets/Materials/SpriteShaders/HitShader.asset
+- Assets/Materials/Upgrade.mat
+- Assets/Materials/SpriteShaders/SpritesTiers.asset
+- Assets/Materials/BCH Effects.shader
+- Assets/Materials/SpriteShaders/Sprites-Diffuse.shader
+- Assets/Materials/SpriteShaders/CardtridgeOverlay.shader
+- Assets/Materials/SpriteShaders/SpritesDefault.shader
+- Assets/Materials/SpriteShaders/CGIncludes/SpriteUnlit.cginc
+- Assets/Materials/Heart.mat
+- Assets/Materials/Dissolve.shader
+- Assets/Materials/Sprites-Additive.shader
+- Assets/Materials/TEST.mat
+- Assets/Materials/SpriteShaders/CameraDepthNormalsTexture.shader
+- Assets/Materials/SpriteShaders/EnemyTier2.shader
+- Assets/Materials/Upgrade.shader
+- Assets/Materials/SpriteShaders/CardtridgeOverlay.asset
+- Assets/Materials/Sprites-Customizable.mat
+- Assets/Materials/SpriteShaders/SpritesCustomizableP2.shader
+- Assets/Materials/SpriteShaders/GateHitShader.shader
+- Assets/Materials/Sprites-TileHighlight-Heal.mat
+- Assets/Materials/CardtridgeOverlayMat.mat
+- Assets/Materials/FMVTexture.shader
+- Assets/Materials/Sprites-DiffuseCustomizable.mat
+- Assets/Materials/SpriteShaders/CGIncludes/ShaderShared.cginc
+- Assets/Materials/Sprites-TileHighlight-Player.mat
+- Assets/Materials/SpriteShaders/CGIncludes/SpriteShadows.cginc
+- Assets/Materials/SpriteShaders/SpritesUnlit.shader
+- Assets/Materials/SpriteShaders/CGIncludes/SpritePixelLighting.cginc
+- Assets/Materials/ChronoOverlay.mat
+- Assets/Materials/ChronoOverlay.shader
+- Assets/Materials/SpriteShaders/EnemyTier3.shader
+- Assets/Materials/Sprites-TileHighlight-Enemy.mat
+- Assets/Materials/CardtridgeOverbackMat.mat
+- Assets/Materials/Starry.mat
+- Assets/Materials/Sprites-Level2.mat
+- Assets/Materials/Sprites-Diffuse.mat
+- Assets/Materials/SpriteShaders/CGIncludes/ShaderMaths.cginc
+- Assets/Materials/PressToPlay.mat
+- Assets/Materials/SpriteShaders/CGIncludes/SpriteLighting.cginc
+- Assets/Materials/FMVTexture.mat
+- Assets/Materials/SpriteShaders/HitShader.shader
+- Assets/Materials/SpriteShaders/CardtridgeOverback.shader
+- Assets/Materials/Sprites-Purple.mat
+- Assets/Materials/SpriteShaders/SpritesDiffuseCustomizable.shader
+- Assets/Materials/SpriteShaders/SpritesCustomizable.shader
+- Assets/Materials/Cross.mat
+- Assets/Materials/SpriteShaders/CameraNormalsTexture.shader
+- Assets/Materials/SpriteShaders/SpritesVertexLit.shader
+- Assets/Materials/Sprites-TopNav.mat
+- Assets/Materials/SpriteShaders/CGIncludes/SpriteSpecular.cginc
+- Assets/Materials/SpriteShaders/EnemyTier4.shader
+- Assets/Materials/SpriteShaders/SpritesOutline.shader
+- Assets/Materials/Diamond.mat
+- Assets/Materials/Sprites-Additive.mat
+- Assets/Materials/SpriteShaders/CGIncludes/SpriteVertexLighting.cginc
+- Assets/Materials/Sprites-DefaultTransparent.mat
+- Assets/Materials/SpellReferenceRenderTexture.renderTexture
+Dependencies:
+- fonts
+- sprites_ui
+- common

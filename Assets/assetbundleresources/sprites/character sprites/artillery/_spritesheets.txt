@@ -1,0 +1,2 @@
+artillery_idle.png,120,120,4
+artillery_fire.png,120,120,5

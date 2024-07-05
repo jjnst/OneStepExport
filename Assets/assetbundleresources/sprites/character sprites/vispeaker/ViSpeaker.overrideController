@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ViSpeaker
+  m_Controller: {fileID: 9100000, guid: f824863d795cd264492d6f3f336407ed, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: d737c4942d6f3914db393b057bb2dcd5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a7c934b7eaa556a4087fd40b92e1208d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d54de9fda3f481b4b9d3261ad4dfadf7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4deabf38d1981c044bc9d2f3bad5a5b0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 71e8f0027d1665743a8677c293cfad12, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 318cb9cf2750d7741825c72a6eacbc39, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fff0562eedbbd6549a216b2f3b89ce82, type: 2}
+    m_OverrideClip: {fileID: 0}
+  - m_OriginalClip: {fileID: 7400000, guid: bdccb0251dc036944a2ef3763bfe0714, type: 2}
+    m_OverrideClip: {fileID: 0}

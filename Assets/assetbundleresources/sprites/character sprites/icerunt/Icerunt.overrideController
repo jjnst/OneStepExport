@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Icerunt
+  m_Controller: {fileID: 9100000, guid: f824863d795cd264492d6f3f336407ed, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: d737c4942d6f3914db393b057bb2dcd5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 90f4864d0b3e66342a69bacbe227f704, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d54de9fda3f481b4b9d3261ad4dfadf7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 50f1a48af51b0ed439c73fa920425a9f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fff0562eedbbd6549a216b2f3b89ce82, type: 2}
+    m_OverrideClip: {fileID: 0}
+  - m_OriginalClip: {fileID: 7400000, guid: 71e8f0027d1665743a8677c293cfad12, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fd3747a1c1a713a4db9bb921af2bfc12, type: 2}

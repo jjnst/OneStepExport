@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<WorkshopItemInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PublishedFileId>2060289728</PublishedFileId>
+  <Name>Harmony Example</Name>
+  <Description>Example of a Harmony mod. Added .dll file 3</Description>
+  <IconFileName>workshopIcon.png</IconFileName>
+  <Tags />
+  <Priority>0</Priority>
+  <ModVersion>0</ModVersion>
+  <GameVersion>1.3</GameVersion>
+</WorkshopItemInfo>

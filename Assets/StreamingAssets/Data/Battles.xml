@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- xpos and zpos are spawning tiles, inner value is the enemy prefab -->
+<document>
+  <battle name="Test01" background="Wasteland">
+    <enemy xpos="4" ypos="1">Sniper</enemy>
+    <enemy xpos="5" ypos="3">Manticore</enemy>
+    <enemy xpos="6" ypos="2">Hostage</enemy>
+    <enemy xpos="7" ypos="0">Weakbot</enemy>
+  </battle>
+  <battle name="1">
+    <enemy xpos="6" ypos="2">5</enemy>
+  </battle>
+  <battle name="2">
+    <enemy xpos="6" ypos="2">6</enemy>
+  </battle>
+  <battle name="3">
+    <enemy xpos="9" ypos="3">4</enemy>
+    <enemy xpos="8" ypos="1">6</enemy>
+    <enemy xpos="5" ypos="0">5</enemy>
+  </battle>
+  <battle name="4">
+    <enemy xpos="7" ypos="3">3</enemy>
+  </battle>
+</document>

@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1482405892
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a288b8f22171e3b333d8d9a91da15cc8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sprites/CG/CG_Evil_2.jpg
+- Assets/Sprites/CG/CG_Good_2.jpg
+- Assets/Sprites/CG/CG_Good_Alt_2.jpg
+Dependencies: []

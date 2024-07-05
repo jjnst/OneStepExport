@@ -1,0 +1,2 @@
+monolith_atk.png,120,120,4
+monolith_charge.png,120,120,18

@@ -1,0 +1,3 @@
+tracker_aim.png,120,120,7
+tracker_idle.png,120,120,6
+tracker_fire.png,120,120,6

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spells>
+  <Spell itemID="Alt-tillery">
+    <Stats animWarning="WarningDangerC" animObj="Alt-tilleryShot" animBlast="ArtilleryBlast"
+      animShot="" castSound="energy_shot" shotSound="explosion_bump" setToGunPoint="Both"
+      timeToTravel="0.7" bending="100"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>ArtilleryShot4</Name>
+    <Tags>Cpu</Tags>
+    <Unlock></Unlock>
+    <Action>Mortar</Action>
+    <Description></Description>
+    <Meta>Shoots multiple mortars at player location cross</Meta>
+    <Damage>50</Damage>
+    <Shots>3</Shots>
+    <Tiles>5</Tiles>
+    <Location Shape="CrossSmall">Player</Location>
+    <TimeBetweenShots>0.5</TimeBetweenShots>
+    <ShotVelocity>0</ShotVelocity>
+    <ShotDuration>0.1</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0</CastDelay>
+    <BlastDuration>0</BlastDuration>
+    <DestroyOnHit></DestroyOnHit>
+    <OnCast></OnCast>
+  </Spell>
+</Spells>

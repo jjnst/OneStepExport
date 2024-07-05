@@ -1,0 +1,2 @@
+TalkBubbleS.png,210,66,5
+OverlayStrokesS.png,1920,1080,13

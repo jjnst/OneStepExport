@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 1657592832
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 094fde76caf94eeaa497e57010d138a1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3c0d55001e4713dbd4085230756721c7
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
+Assets:
+- Assets/LapinerTools/Steam/Shared/Textures/GUI/GUIBtnDown.png
+- Assets/ShaderoSprite/Examples/Sprites/slimedistortion.jpg
+- Assets/Editor Default Resources/Koreographer/Icons/MultiMusicPlayer Icon.png
+- Assets/Plugins/Introloop/Icons/Icon_IntroloopAudio.png
+- Assets/Editor Default Resources/Koreographer/Icons/AudioSourceVisor Icon.png
+- Assets/LapinerTools/Steam/Shared/Textures/GUI/GUIBtnHover.png
+- Assets/Editor Default Resources/Koreographer/Icons/SimpleMusicPlayer Icon.png
+- Assets/Editor Default Resources/Koreographer/Icons/Koreographer Icon.png
+- Assets/LapinerTools/Steam/Shared/Textures/GUI/DropdownBtn.png
+- Assets/Gizmos/SonicBloom/Koreo/Koreography Icon.png
+- Assets/ShaderoSprite/Plugins/EditorResources/Textures/previews/_maintexture.png
+- Assets/Main.mixer
+- Assets/ShaderoSprite/Examples/Sprites/bubble.jpg
+- Assets/Gizmos/SonicBloom/Koreo/KoreographyTrack Icon.png
+Dependencies: []

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+  <parameters>
+    <useTestSceneData>false</useTestSceneData>
+    <installModsOnStart>true</installModsOnStart>
+
+    <beingID>SaffronTest3</beingID>
+    <startingUpgrades>20</startingUpgrades>
+
+    <worldName>Defaultia</worldName>
+    <worldTier>0</worldTier>
+    <zoneNum>0</zoneNum>
+    <zoneType>Battle</zoneType>
+    <gScene>TestZone</gScene>
+    <zonesPerWorld>7</zonesPerWorld>
+
+    <devTools>true</devTools>
+    <console>true</console>
+    <matchDeckOrder>false</matchDeckOrder>
+    <animations>true</animations>
+  </parameters>
+</document>
+
+
+<!-- READ BELOW!
+<beingID> - References Beings.xml
+<worldName> - References Zones.xml
+-->
+
+<!-- 
+ZoneType:
+  Battle,
+  Boss,
+  Miniboss,
+  Campsite,
+  Danger,
+  DarkShop,
+  Distress,
+  Random,
+  Shop,
+  Treasure,
+  World,
+  Pacifist,
+  Normal,
+  Genocide,
+  Idle,
+  PvP
+-->
+
+<!--
+GScene:
+  AllTestZones,
+  CoOp,
+  DemoLive,
+  GameOver,
+  HeroSelect,
+  Idle,
+  MainMenu,
+  PvP,
+  SpellLoop,
+  TestZone,
+  Victory,
+  VictoryEvil,
+  VictoryFalse
+-->
+
+<!--
+  WARNING: Please backup any save data and confirm it's backed up properly before continuing! 
+  (Your data may be saved outside of the folder where the game is installed!)
+
+  Set <useTestSceneData> above to "true" to enable.
+
+
+  Cheat keyboard shortcuts:
+  Shift+C = toggle cheat menu
+  Shift+G = re-roll spell rewards
+  Shift+F = re-roll artifact rewards
+  Shift+` = toggle console
+  Shift+P = pause
+  Shift+] = next frame (paused)
+  Shift+T = auto battle
+  Shift+H = hide HUD (3 steps)
+  Shift+U = hide background
+  Shift+M = hide deck
+  Shift+L = DebugLog
+  Shift+R = Reload
+
+
+  Console:
+  help = help, "Print this help.");
+  hide = hide, "Hide the console.");
+    repeatCmdName, repeatCommand, "Repeat last command.");
+  reload = reload, "Reload game.");
+  r = reload, "Reload game.");
+  spawn = spawn, "Spawn a being on x and y. {enemy int, field x, field y}");
+  phealth = pHealth, "Set player health");
+  pdefense = pDefense, "Set player defense");
+  money = money, "Set player money");
+  resetprefs = resetPrefs, "(WARNING) Reset & saves SavedData.");
+  clear = clear, "Go to Zone {world int, zone int}");
+  gotozone = goToZone, "Go to Zone {world int, zone int}");
+  bg = changeBG, "Change bg to {bgName}");
+  addspell = addSpell, "Add spell {spellName} to end of deck");
+  animations = setAnimations, "Set animations to {bool}");
+  campaign = setCampaign, "Set Campaign to {bool}");
+  dev = dev, "Set MainMenu to {bool}");
+  transitioncheck = transitionCheck, "Check transitions");
+
+
+  Visit discord.gg #modding channel for more info
+  -->

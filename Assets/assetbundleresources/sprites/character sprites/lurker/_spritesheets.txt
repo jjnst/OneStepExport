@@ -1,0 +1,4 @@
+lurker_idle.png,120,120,6
+lurker_lift.png,120,120,3
+lurker_hit.png,120,120,1
+lurker_hitS.png,120,120,1

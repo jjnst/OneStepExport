@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1203275066, guid: d475063df6f76640a057743d39c7d5b7, type: 3}
+  m_Name: Main Texture
+  m_EditorClassIdentifier:
+  rect:
+    x: -1013.79956
+    y: 207
+    width: 148
+    height: 215
+  nodeKnobs:
+  - {fileID: 11400000, guid: 9ee21d7f059333a4ab89136a7cc26d1a, type: 2}
+  - {fileID: 11400000, guid: 0273ab021a6b0d344a8e17fedbbd24fa, type: 2}
+  Inputs:
+  - {fileID: 11400000, guid: 9ee21d7f059333a4ab89136a7cc26d1a, type: 2}
+  Outputs:
+  - {fileID: 11400000, guid: 0273ab021a6b0d344a8e17fedbbd24fa, type: 2}
+  Variable: _MainTex_
+  MemoCount: 1

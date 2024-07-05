@@ -1,0 +1,702 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1754097197803115
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4455943647214449}
+  - component: {fileID: 114423797454710820}
+  m_Layer: 0
+  m_Name: HelpResources
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4455943647214449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754097197803115}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114423797454710820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754097197803115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814b585e2e7cdc3a4b05823c46f6e080, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  defaultJoystickIcon: {fileID: 0}
+  defaultXboxOneIcon: {fileID: 0}
+  defaultPS4Icon: {fileID: 0}
+  defaultSwitchHandheldIcon: {fileID: 0}
+  defaultSwitchDualJoyconIcon: {fileID: 0}
+  defaultSwitchJoyconLeftIcon: {fileID: 0}
+  defaultSwitchJoyconRightIcon: {fileID: 0}
+  defaultSwitchProIcon: {fileID: 0}
+  defaultSteamIcon: {fileID: 0}
+  defaultKeyboardIcon: {fileID: 0}
+  defaultMouseIcon: {fileID: 0}
+  joystickIcons:
+  - {fileID: 21300000, guid: bb6ed1883c473454fb72443f7e6900dd, type: 2}
+  - {fileID: 21300000, guid: 2c99cd5537e4b1249bb83cd205885deb, type: 2}
+  - {fileID: 21300000, guid: cbce4adb3fd9d5a4d8d07381ed3bbc1b, type: 2}
+  - {fileID: 21300000, guid: 346931036e4f3dd41934693c7da96674, type: 2}
+  - {fileID: 21300000, guid: 7f4c5d10635837c4b91b7236de024e08, type: 2}
+  - {fileID: 21300000, guid: e288625ccaf81bb428cd00ce6713c116, type: 2}
+  - {fileID: 21300000, guid: 4b7d06d0b436e4e4397b1eb9d97723a0, type: 2}
+  - {fileID: 21300000, guid: 8f4f9c5490dabd74ca604c6213ae7710, type: 2}
+  - {fileID: 21300000, guid: 579dd5a5999b6f6408867940a0ff7ead, type: 2}
+  - {fileID: 21300000, guid: 596fa05426326984c932c7476fa70321, type: 2}
+  - {fileID: 21300000, guid: 218f228abd407fe408fa2e1844e96f2c, type: 2}
+  - {fileID: 21300000, guid: 86ad1329066f8484089d259b9ddce715, type: 2}
+  - {fileID: 21300000, guid: 67d2537b70c1d134dbad12a7f25597f1, type: 2}
+  - {fileID: 21300000, guid: 928ca036bbc14a94eac3343809899f58, type: 2}
+  - {fileID: 21300000, guid: cfcb5a0d319e5f44d98324276871b093, type: 2}
+  - {fileID: 21300000, guid: caef45318db15e740b879d20665c5c33, type: 2}
+  - {fileID: 21300000, guid: d11cb7424b24bb345ae0f2238e282ac2, type: 2}
+  - {fileID: 21300000, guid: 271bb87b9362c6e42b6ba794c66d4ebc, type: 2}
+  - {fileID: 21300000, guid: 71470b568cc97ed4dad240a5a16dbb02, type: 2}
+  - {fileID: 21300000, guid: 69bfcdca9d877f4489bf7f0c525aabdf, type: 2}
+  xboxOneIcons:
+  - {fileID: 21300000, guid: bb6ed1883c473454fb72443f7e6900dd, type: 2}
+  - {fileID: 21300000, guid: 2c99cd5537e4b1249bb83cd205885deb, type: 2}
+  - {fileID: 21300000, guid: cbce4adb3fd9d5a4d8d07381ed3bbc1b, type: 2}
+  - {fileID: 21300000, guid: 346931036e4f3dd41934693c7da96674, type: 2}
+  - {fileID: 21300000, guid: 7f4c5d10635837c4b91b7236de024e08, type: 2}
+  - {fileID: 21300000, guid: e288625ccaf81bb428cd00ce6713c116, type: 2}
+  - {fileID: 21300000, guid: 4b7d06d0b436e4e4397b1eb9d97723a0, type: 2}
+  - {fileID: 21300000, guid: 8f4f9c5490dabd74ca604c6213ae7710, type: 2}
+  - {fileID: 21300000, guid: 579dd5a5999b6f6408867940a0ff7ead, type: 2}
+  - {fileID: 21300000, guid: 596fa05426326984c932c7476fa70321, type: 2}
+  - {fileID: 21300000, guid: 8aef5d30ccfc8424dae95895bf575c03, type: 2}
+  - {fileID: 21300000, guid: bf671b8c9e0b3334a8b5aa80efe37b67, type: 2}
+  - {fileID: 21300000, guid: 5a3045256ba5918469de39af8ffce38b, type: 2}
+  - {fileID: 21300000, guid: a9423bab674effa4486499cc05d2805e, type: 2}
+  - {fileID: 21300000, guid: cfcb5a0d319e5f44d98324276871b093, type: 2}
+  - {fileID: 21300000, guid: caef45318db15e740b879d20665c5c33, type: 2}
+  - {fileID: 21300000, guid: d11cb7424b24bb345ae0f2238e282ac2, type: 2}
+  - {fileID: 21300000, guid: 271bb87b9362c6e42b6ba794c66d4ebc, type: 2}
+  - {fileID: 21300000, guid: 71470b568cc97ed4dad240a5a16dbb02, type: 2}
+  - {fileID: 21300000, guid: 69bfcdca9d877f4489bf7f0c525aabdf, type: 2}
+  ps4Icons:
+  - {fileID: 21300000, guid: bb6ed1883c473454fb72443f7e6900dd, type: 2}
+  - {fileID: 21300000, guid: 2c99cd5537e4b1249bb83cd205885deb, type: 2}
+  - {fileID: 21300000, guid: cbce4adb3fd9d5a4d8d07381ed3bbc1b, type: 2}
+  - {fileID: 21300000, guid: 346931036e4f3dd41934693c7da96674, type: 2}
+  - {fileID: 21300000, guid: 8ac7d436176a0ef4f9295d3925203ca9, type: 2}
+  - {fileID: 21300000, guid: 91f744e3d3d0cf448bfa315b36a93887, type: 2}
+  - {fileID: 21300000, guid: 031fd23186d206c408edc5c3c8538594, type: 2}
+  - {fileID: 21300000, guid: caf9c2c3dca97f64aabfe7e4406f042e, type: 2}
+  - {fileID: 21300000, guid: 73df104b53465744dbbc752d594f006b, type: 2}
+  - {fileID: 21300000, guid: de877bd5db7f00e4c8ff803608e042ef, type: 2}
+  - {fileID: 21300000, guid: 31c6221141196ee4386c47797a6e5dc2, type: 2}
+  - {fileID: 21300000, guid: 9b4605f0015bb6049aa47f2ec92563b5, type: 2}
+  - {fileID: 21300000, guid: a123333cd51f7374bb30ddebd6381962, type: 2}
+  - {fileID: 21300000, guid: 95d93c0ba893ec94c80455155167254a, type: 2}
+  - {fileID: 21300000, guid: 87e7b8972289a834f93a9b8be7abd168, type: 2}
+  - {fileID: 21300000, guid: 88b57e03d4c47544d826d33ec62318b8, type: 2}
+  - {fileID: 21300000, guid: c2e956bb135e1834790b4535b61cec3a, type: 2}
+  - {fileID: 21300000, guid: 4d32b487d6980e349a95eabafd425f8c, type: 2}
+  - {fileID: 21300000, guid: 277f712e06d752940b1d5de3565e1f66, type: 2}
+  - {fileID: 21300000, guid: 91bdd081fda07bd499aa52cda37e1882, type: 2}
+  - {fileID: 21300000, guid: 8e3692cea6567ad408fec585d90d1481, type: 2}
+  - {fileID: 21300000, guid: 28c277d08f6734c47a78e112139eb865, type: 2}
+  switchHandheldIcons:
+  - {fileID: 21300000, guid: bb6ed1883c473454fb72443f7e6900dd, type: 2}
+  - {fileID: 21300000, guid: 2c99cd5537e4b1249bb83cd205885deb, type: 2}
+  - {fileID: 21300000, guid: cbce4adb3fd9d5a4d8d07381ed3bbc1b, type: 2}
+  - {fileID: 21300000, guid: 346931036e4f3dd41934693c7da96674, type: 2}
+  - {fileID: 21300000, guid: 2cff1d35e3b0a0a4480df64e76f10731, type: 2}
+  - {fileID: 21300000, guid: 9fc3e91a17c600f4abb1c767cbd85853, type: 2}
+  - {fileID: 21300000, guid: d5c5ea9229b2b6d46a03c1d9e41ced6c, type: 2}
+  - {fileID: 21300000, guid: 71bfd2e4f1f1f19468efb6e78e64766f, type: 2}
+  - {fileID: 21300000, guid: 218f228abd407fe408fa2e1844e96f2c, type: 2}
+  - {fileID: 21300000, guid: 86ad1329066f8484089d259b9ddce715, type: 2}
+  - {fileID: 21300000, guid: ee4997746affcc54b859a656a3697db4, type: 2}
+  - {fileID: 21300000, guid: 71a10aa5e392d214986719b635bc3d7e, type: 2}
+  - {fileID: 21300000, guid: 455d279b0603c4044b80acfd23026fcb, type: 2}
+  - {fileID: 21300000, guid: 6be0b308078125040bff0ddcc0f5f3bd, type: 2}
+  - {fileID: 21300000, guid: 58641cae800abe44a84e9cc74565b5f3, type: 2}
+  - {fileID: 21300000, guid: ff1bc97bd5bc9f64c88f9cea5c50218b, type: 2}
+  - {fileID: 21300000, guid: 3c8df136ea1fbf54590c57dc71793ac1, type: 2}
+  - {fileID: 21300000, guid: 1fee90b363a3c304c865d9e139d2f0bd, type: 2}
+  - {fileID: 21300000, guid: e6b0a449534aa8241a1d9a4e434d99dd, type: 2}
+  - {fileID: 21300000, guid: 471ae66c390c1484998043a0c20003c4, type: 2}
+  - {fileID: 21300000, guid: 2a87c6f148756f749b6599ab43dcc74f, type: 2}
+  - {fileID: 21300000, guid: 23a3b8e4a82fc0040a49c21b7d498f2a, type: 2}
+  switchDualJoyconIcons:
+  - {fileID: 21300000, guid: bb6ed1883c473454fb72443f7e6900dd, type: 2}
+  - {fileID: 21300000, guid: 2c99cd5537e4b1249bb83cd205885deb, type: 2}
+  - {fileID: 21300000, guid: cbce4adb3fd9d5a4d8d07381ed3bbc1b, type: 2}
+  - {fileID: 21300000, guid: 346931036e4f3dd41934693c7da96674, type: 2}
+  - {fileID: 21300000, guid: 2cff1d35e3b0a0a4480df64e76f10731, type: 2}
+  - {fileID: 21300000, guid: 9fc3e91a17c600f4abb1c767cbd85853, type: 2}
+  - {fileID: 21300000, guid: d5c5ea9229b2b6d46a03c1d9e41ced6c, type: 2}
+  - {fileID: 21300000, guid: 71bfd2e4f1f1f19468efb6e78e64766f, type: 2}
+  - {fileID: 21300000, guid: 218f228abd407fe408fa2e1844e96f2c, type: 2}
+  - {fileID: 21300000, guid: 86ad1329066f8484089d259b9ddce715, type: 2}
+  - {fileID: 21300000, guid: ee4997746affcc54b859a656a3697db4, type: 2}
+  - {fileID: 21300000, guid: 71a10aa5e392d214986719b635bc3d7e, type: 2}
+  - {fileID: 21300000, guid: 455d279b0603c4044b80acfd23026fcb, type: 2}
+  - {fileID: 21300000, guid: 6be0b308078125040bff0ddcc0f5f3bd, type: 2}
+  - {fileID: 21300000, guid: 58641cae800abe44a84e9cc74565b5f3, type: 2}
+  - {fileID: 21300000, guid: ff1bc97bd5bc9f64c88f9cea5c50218b, type: 2}
+  - {fileID: 21300000, guid: 3c8df136ea1fbf54590c57dc71793ac1, type: 2}
+  - {fileID: 21300000, guid: 1fee90b363a3c304c865d9e139d2f0bd, type: 2}
+  - {fileID: 21300000, guid: e6b0a449534aa8241a1d9a4e434d99dd, type: 2}
+  - {fileID: 21300000, guid: 471ae66c390c1484998043a0c20003c4, type: 2}
+  - {fileID: 21300000, guid: 2a87c6f148756f749b6599ab43dcc74f, type: 2}
+  - {fileID: 21300000, guid: 23a3b8e4a82fc0040a49c21b7d498f2a, type: 2}
+  switchJoyconLeftIcons:
+  - {fileID: 21300000, guid: bb6ed1883c473454fb72443f7e6900dd, type: 2}
+  - {fileID: 21300000, guid: 2c99cd5537e4b1249bb83cd205885deb, type: 2}
+  - {fileID: 21300000, guid: d70f7ecdb133fcb438bbb40b06805b93, type: 2}
+  - {fileID: 21300000, guid: 74781d731b036f048b5ec2660d731c18, type: 2}
+  - {fileID: 21300000, guid: 3407eeeae4b3377488fe5f7ef1a7fa72, type: 2}
+  - {fileID: 21300000, guid: df6722fe8faf4db47811889b14672b30, type: 2}
+  - {fileID: 21300000, guid: 670e2e3b8c09f964091bd9b9f7882930, type: 2}
+  - {fileID: 21300000, guid: 7df12290477210342b519e08d74e9d8d, type: 2}
+  - {fileID: 21300000, guid: 036bbc80a723b1944be227571ca6a7e2, type: 2}
+  - {fileID: 21300000, guid: ee4997746affcc54b859a656a3697db4, type: 2}
+  - {fileID: 21300000, guid: 58641cae800abe44a84e9cc74565b5f3, type: 2}
+  - {fileID: 21300000, guid: 455d279b0603c4044b80acfd23026fcb, type: 2}
+  - {fileID: 21300000, guid: 3c8df136ea1fbf54590c57dc71793ac1, type: 2}
+  switchJoyconRightIcons:
+  - {fileID: 21300000, guid: cbce4adb3fd9d5a4d8d07381ed3bbc1b, type: 2}
+  - {fileID: 21300000, guid: 346931036e4f3dd41934693c7da96674, type: 2}
+  - {fileID: 21300000, guid: d70f7ecdb133fcb438bbb40b06805b93, type: 2}
+  - {fileID: 21300000, guid: 74781d731b036f048b5ec2660d731c18, type: 2}
+  - {fileID: 21300000, guid: 3407eeeae4b3377488fe5f7ef1a7fa72, type: 2}
+  - {fileID: 21300000, guid: df6722fe8faf4db47811889b14672b30, type: 2}
+  - {fileID: 21300000, guid: 670e2e3b8c09f964091bd9b9f7882930, type: 2}
+  - {fileID: 21300000, guid: 7df12290477210342b519e08d74e9d8d, type: 2}
+  - {fileID: 21300000, guid: ee81bfdbea0cacc48a04c37c6300235c, type: 2}
+  - {fileID: 21300000, guid: 71a10aa5e392d214986719b635bc3d7e, type: 2}
+  - {fileID: 21300000, guid: ff1bc97bd5bc9f64c88f9cea5c50218b, type: 2}
+  - {fileID: 21300000, guid: 6be0b308078125040bff0ddcc0f5f3bd, type: 2}
+  - {fileID: 21300000, guid: 1fee90b363a3c304c865d9e139d2f0bd, type: 2}
+  switchProIcons:
+  - {fileID: 21300000, guid: bb6ed1883c473454fb72443f7e6900dd, type: 2}
+  - {fileID: 21300000, guid: 2c99cd5537e4b1249bb83cd205885deb, type: 2}
+  - {fileID: 21300000, guid: cbce4adb3fd9d5a4d8d07381ed3bbc1b, type: 2}
+  - {fileID: 21300000, guid: 346931036e4f3dd41934693c7da96674, type: 2}
+  - {fileID: 21300000, guid: 2cff1d35e3b0a0a4480df64e76f10731, type: 2}
+  - {fileID: 21300000, guid: 9fc3e91a17c600f4abb1c767cbd85853, type: 2}
+  - {fileID: 21300000, guid: d5c5ea9229b2b6d46a03c1d9e41ced6c, type: 2}
+  - {fileID: 21300000, guid: 71bfd2e4f1f1f19468efb6e78e64766f, type: 2}
+  - {fileID: 21300000, guid: 218f228abd407fe408fa2e1844e96f2c, type: 2}
+  - {fileID: 21300000, guid: 86ad1329066f8484089d259b9ddce715, type: 2}
+  - {fileID: 21300000, guid: ee4997746affcc54b859a656a3697db4, type: 2}
+  - {fileID: 21300000, guid: 71a10aa5e392d214986719b635bc3d7e, type: 2}
+  - {fileID: 21300000, guid: 455d279b0603c4044b80acfd23026fcb, type: 2}
+  - {fileID: 21300000, guid: 6be0b308078125040bff0ddcc0f5f3bd, type: 2}
+  - {fileID: 21300000, guid: 58641cae800abe44a84e9cc74565b5f3, type: 2}
+  - {fileID: 21300000, guid: ff1bc97bd5bc9f64c88f9cea5c50218b, type: 2}
+  - {fileID: 21300000, guid: 3c8df136ea1fbf54590c57dc71793ac1, type: 2}
+  - {fileID: 21300000, guid: 1fee90b363a3c304c865d9e139d2f0bd, type: 2}
+  - {fileID: 21300000, guid: 7467a9410a276ca45a3de01d89ee0f6e, type: 2}
+  - {fileID: 21300000, guid: 35c4f454a15cded40aa6709f48749f43, type: 2}
+  - {fileID: 21300000, guid: e58516e759850044c9a5f82beb23ec0b, type: 2}
+  - {fileID: 21300000, guid: e774b7aa2ff1d0e4ea7265b72f939dcf, type: 2}
+  steamIcons:
+  - {fileID: 21300000, guid: bb6ed1883c473454fb72443f7e6900dd, type: 2}
+  - {fileID: 21300000, guid: 2c99cd5537e4b1249bb83cd205885deb, type: 2}
+  - {fileID: 21300000, guid: cbce4adb3fd9d5a4d8d07381ed3bbc1b, type: 2}
+  - {fileID: 21300000, guid: 346931036e4f3dd41934693c7da96674, type: 2}
+  - {fileID: 21300000, guid: 7f4c5d10635837c4b91b7236de024e08, type: 2}
+  - {fileID: 21300000, guid: e288625ccaf81bb428cd00ce6713c116, type: 2}
+  - {fileID: 21300000, guid: 9fc3e91a17c600f4abb1c767cbd85853, type: 2}
+  - {fileID: 21300000, guid: 2cff1d35e3b0a0a4480df64e76f10731, type: 2}
+  - {fileID: 21300000, guid: 71bfd2e4f1f1f19468efb6e78e64766f, type: 2}
+  - {fileID: 21300000, guid: d5c5ea9229b2b6d46a03c1d9e41ced6c, type: 2}
+  - {fileID: 21300000, guid: 8aef5d30ccfc8424dae95895bf575c03, type: 2}
+  - {fileID: 21300000, guid: bf671b8c9e0b3334a8b5aa80efe37b67, type: 2}
+  - {fileID: 21300000, guid: acdaa3f16158a264294903532226c7ef, type: 2}
+  - {fileID: 21300000, guid: ee1879e40861f504ea0c9b6f2f353efe, type: 2}
+  - {fileID: 21300000, guid: a7ac7d241426be04596b67de10aed635, type: 2}
+  - {fileID: 21300000, guid: c258f638612a0a04fa8db4de5f91dc63, type: 2}
+  - {fileID: 21300000, guid: 621ca5b2a39eef549b0f4b1d658912d1, type: 2}
+  - {fileID: 21300000, guid: e02118d1c5bdbe046a82e13fa3f4d6bc, type: 2}
+  - {fileID: 21300000, guid: 4ea03376ffa98b64390585b667223629, type: 2}
+  - {fileID: 21300000, guid: c1f18eb017b885c46aaf96176b73e42a, type: 2}
+  keyboardIcons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 8e27c1d2c4835c34a901fd38c0254ba9, type: 2}
+  - {fileID: 21300000, guid: 5e2f13679975b95489a65b9e241962e2, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 8688c03a75b6a40409c5019783071c30, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 754ef26acc61e9644868d0ef508f74e8, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: e8c904e52fa5e7445986585ccc5eded7, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: a50e32b0cbb63d943844e7e79bdf7db8, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: a07fa0f6a21abad49bfe885bd4cb3cc5, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 92e09b5e45e1fcc4cb91cdc63f888764, type: 2}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 6d33d679c504f1849ab7937d8a6b0ddd, type: 2}
+  - {fileID: 21300000, guid: 14cea998a32d02e428fc017b6db62b43, type: 2}
+  - {fileID: 21300000, guid: 403dae7b9ef32d94a8f98f2baf2647e4, type: 2}
+  - {fileID: 21300000, guid: 20e13908a1fab2e409c279406e2968b8, type: 2}
+  - {fileID: 21300000, guid: 4f503705f6fae0746a1930018013bf4d, type: 2}
+  - {fileID: 21300000, guid: 105b8afc027d69445b873f0a9eed714f, type: 2}
+  - {fileID: 21300000, guid: ca8144736f48ff54895588d03c87f576, type: 2}
+  - {fileID: 21300000, guid: 6c26baf906b9f5c4cb36816237cdda1a, type: 2}
+  - {fileID: 21300000, guid: 213b56e0ca35d464183f9bba6a637e9e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: bd229bcc59833554680d05107f4bb57b, type: 2}
+  - {fileID: 21300000, guid: 077b90cea2c94634d8ee0a873b6e2aab, type: 2}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 2fe563709c0c5644fac8bbec6684f7a8, type: 2}
+  - {fileID: 21300000, guid: 51b9154c9cbfa9141b7dcbc132d6ab2a, type: 2}
+  - {fileID: 21300000, guid: d82c6062ade13ed49899aab618911cd3, type: 2}
+  - {fileID: 21300000, guid: fd73195903c3cff478d14e9237c6b78e, type: 2}
+  - {fileID: 21300000, guid: 4ee82fc290e3b5246b5234b1584537fe, type: 2}
+  - {fileID: 21300000, guid: c669930080ca5c14fb6a9d8d3cb36a0a, type: 2}
+  - {fileID: 21300000, guid: 3acc5b8e9941d9b499268c269e4061e6, type: 2}
+  - {fileID: 21300000, guid: c1fade0aaaa772e4d97546328555ef17, type: 2}
+  - {fileID: 21300000, guid: 5c6730a98a2e2874c882a51e732160cf, type: 2}
+  - {fileID: 21300000, guid: 4869a42a11893644a808eb53025025cc, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 0adc4b7137985be4ca3eae4a2a8d9a5f, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  mouseIcons:
+  - {fileID: 21300000, guid: f0445027fb65df04bbe6f1807f151692, type: 2}
+  - {fileID: 21300000, guid: 57451666ca57ba9498e4fc30fd7cbd40, type: 2}
+  - {fileID: 21300000, guid: 14795e29997d3e84c912b6563a4fc1e4, type: 2}
+  joystickLeftStickVerticalIcon: {fileID: 21300000, guid: 2c99cd5537e4b1249bb83cd205885deb, type: 2}
+  joystickLeftStickHorizontalIcon: {fileID: 21300000, guid: bb6ed1883c473454fb72443f7e6900dd, type: 2}
+  joystickRightStickVerticalIcon: {fileID: 21300000, guid: 346931036e4f3dd41934693c7da96674, type: 2}
+  joystickRightStickHorizontalIcon: {fileID: 21300000, guid: cbce4adb3fd9d5a4d8d07381ed3bbc1b, type: 2}
+  joystickDPadVerticalIcon: {fileID: 21300000, guid: f974820b2af1dfc4bb54a0d1fd4d7d8f, type: 2}
+  joystickDPadHorizontalIcon: {fileID: 21300000, guid: 046143dcc51cffd4f9910734ad3ddf92, type: 2}
+  joystickBumpersIcon: {fileID: 21300000, guid: 41eef412b71a0f942b8f6a78421f4b0a, type: 2}
+  joystickTriggersIcon: {fileID: 21300000, guid: 0d14aa9a29ade654785c3d701b5c7221, type: 2}
+  joystickLeftStickUpIcon: {fileID: 21300000, guid: 4906ccddaffbc294588b0a1766e5ad2b, type: 2}
+  joystickLeftStickDownIcon: {fileID: 21300000, guid: a49cec9000fe6fb41b950f2a550f87d1, type: 2}
+  joystickLeftStickLeftIcon: {fileID: 21300000, guid: 3997374b290ce0d40a309bf06ad39878, type: 2}
+  joystickLeftStickRightIcon: {fileID: 21300000, guid: 65d1da20b1e3b9a47ae71d8ec6d72453, type: 2}
+  joystickRightStickUpIcon: {fileID: 21300000, guid: 27fe5ed3bca2cbd4a8783b0f550096cc, type: 2}
+  joystickRightStickDownIcon: {fileID: 21300000, guid: a165dc91f0edff749942eae6bfe00d34, type: 2}
+  joystickRightStickLeftIcon: {fileID: 21300000, guid: 77234d8ecd309ec4382ccb015ceeee42, type: 2}
+  joystickRightStickRightIcon: {fileID: 21300000, guid: b9512fe1dc8ae5742acdb675f03d0d9e, type: 2}
+  xboxOneLeftStickVerticalIcon: {fileID: 21300000, guid: 2c99cd5537e4b1249bb83cd205885deb, type: 2}
+  xboxOneLeftStickHorizontalIcon: {fileID: 21300000, guid: bb6ed1883c473454fb72443f7e6900dd, type: 2}
+  xboxOneRightStickVerticalIcon: {fileID: 21300000, guid: 346931036e4f3dd41934693c7da96674, type: 2}
+  xboxOneRightStickHorizontalIcon: {fileID: 21300000, guid: cbce4adb3fd9d5a4d8d07381ed3bbc1b, type: 2}
+  xboxOneDPadVerticalIcon: {fileID: 21300000, guid: f974820b2af1dfc4bb54a0d1fd4d7d8f, type: 2}
+  xboxOneDPadHorizontalIcon: {fileID: 21300000, guid: 046143dcc51cffd4f9910734ad3ddf92, type: 2}
+  xboxOneBumpersIcon: {fileID: 21300000, guid: 1d1294dd2d0935045b1f6522213f6a84, type: 2}
+  xboxOneTriggersIcon: {fileID: 21300000, guid: 0d14aa9a29ade654785c3d701b5c7221, type: 2}
+  xboxOneLeftStickUpIcon: {fileID: 21300000, guid: 4906ccddaffbc294588b0a1766e5ad2b, type: 2}
+  xboxOneLeftStickDownIcon: {fileID: 21300000, guid: a49cec9000fe6fb41b950f2a550f87d1, type: 2}
+  xboxOneLeftStickLeftIcon: {fileID: 21300000, guid: 3997374b290ce0d40a309bf06ad39878, type: 2}
+  xboxOneLeftStickRightIcon: {fileID: 21300000, guid: 65d1da20b1e3b9a47ae71d8ec6d72453, type: 2}
+  xboxOneRightStickUpIcon: {fileID: 21300000, guid: 27fe5ed3bca2cbd4a8783b0f550096cc, type: 2}
+  xboxOneRightStickDownIcon: {fileID: 21300000, guid: a165dc91f0edff749942eae6bfe00d34, type: 2}
+  xboxOneRightStickLeftIcon: {fileID: 21300000, guid: 77234d8ecd309ec4382ccb015ceeee42, type: 2}
+  xboxOneRightStickRightIcon: {fileID: 21300000, guid: b9512fe1dc8ae5742acdb675f03d0d9e, type: 2}
+  ps4LeftStickVerticalIcon: {fileID: 21300000, guid: 2c99cd5537e4b1249bb83cd205885deb, type: 2}
+  ps4LeftStickHorizontalIcon: {fileID: 21300000, guid: bb6ed1883c473454fb72443f7e6900dd, type: 2}
+  ps4RightStickVerticalIcon: {fileID: 21300000, guid: 346931036e4f3dd41934693c7da96674, type: 2}
+  ps4RightStickHorizontalIcon: {fileID: 21300000, guid: cbce4adb3fd9d5a4d8d07381ed3bbc1b, type: 2}
+  ps4DPadVerticalIcon: {fileID: 21300000, guid: 32b708fd3e19028459774c6de4de6966, type: 2}
+  ps4DPadHorizontalIcon: {fileID: 21300000, guid: 907b8d8c0500ed6499c3db61dc4f2585, type: 2}
+  ps4BumpersIcon: {fileID: 21300000, guid: 79d008659d7d6ed41b4d2a1365f0c2b4, type: 2}
+  ps4TriggersIcon: {fileID: 21300000, guid: 3a1c54385e3c02147b5ef287881e7faa, type: 2}
+  ps4LeftStickUpIcon: {fileID: 21300000, guid: 4906ccddaffbc294588b0a1766e5ad2b, type: 2}
+  ps4LeftStickDownIcon: {fileID: 21300000, guid: a49cec9000fe6fb41b950f2a550f87d1, type: 2}
+  ps4LeftStickLeftIcon: {fileID: 21300000, guid: 3997374b290ce0d40a309bf06ad39878, type: 2}
+  ps4LeftStickRightIcon: {fileID: 21300000, guid: 65d1da20b1e3b9a47ae71d8ec6d72453, type: 2}
+  ps4RightStickUpIcon: {fileID: 21300000, guid: 27fe5ed3bca2cbd4a8783b0f550096cc, type: 2}
+  ps4RightStickDownIcon: {fileID: 21300000, guid: a165dc91f0edff749942eae6bfe00d34, type: 2}
+  ps4RightStickLeftIcon: {fileID: 21300000, guid: 77234d8ecd309ec4382ccb015ceeee42, type: 2}
+  ps4RightStickRightIcon: {fileID: 21300000, guid: b9512fe1dc8ae5742acdb675f03d0d9e, type: 2}
+  switchHandheldLeftStickVerticalIcon: {fileID: 21300000, guid: 2c99cd5537e4b1249bb83cd205885deb, type: 2}
+  switchHandheldLeftStickHorizontalIcon: {fileID: 21300000, guid: bb6ed1883c473454fb72443f7e6900dd, type: 2}
+  switchHandheldRightStickVerticalIcon: {fileID: 21300000, guid: 346931036e4f3dd41934693c7da96674, type: 2}
+  switchHandheldRightStickHorizontalIcon: {fileID: 21300000, guid: cbce4adb3fd9d5a4d8d07381ed3bbc1b, type: 2}
+  switchHandheldDPadVerticalIcon: {fileID: 21300000, guid: a6f92854f03708a4cb9bedcb90f0b60e, type: 2}
+  switchHandheldDPadHorizontalIcon: {fileID: 21300000, guid: b2cf9ca7ea6ee654a965186ece8b9ccc, type: 2}
+  switchHandheldBumpersIcon: {fileID: 21300000, guid: e49903240fd52cd41a57af53c32655c5, type: 2}
+  switchHandheldTriggersIcon: {fileID: 21300000, guid: aec3ec67ce6ef4a45ac030bd50a05520, type: 2}
+  switchHandheldLeftStickUpIcon: {fileID: 21300000, guid: 4906ccddaffbc294588b0a1766e5ad2b, type: 2}
+  switchHandheldLeftStickDownIcon: {fileID: 21300000, guid: a49cec9000fe6fb41b950f2a550f87d1, type: 2}
+  switchHandheldLeftStickLeftIcon: {fileID: 21300000, guid: 3997374b290ce0d40a309bf06ad39878, type: 2}
+  switchHandheldLeftStickRightIcon: {fileID: 21300000, guid: 65d1da20b1e3b9a47ae71d8ec6d72453, type: 2}
+  switchHandheldRightStickUpIcon: {fileID: 21300000, guid: 27fe5ed3bca2cbd4a8783b0f550096cc, type: 2}
+  switchHandheldRightStickDownIcon: {fileID: 21300000, guid: a165dc91f0edff749942eae6bfe00d34, type: 2}
+  switchHandheldRightStickLeftIcon: {fileID: 21300000, guid: 77234d8ecd309ec4382ccb015ceeee42, type: 2}
+  switchHandheldRightStickRightIcon: {fileID: 21300000, guid: b9512fe1dc8ae5742acdb675f03d0d9e, type: 2}
+  switchDualJoyconLeftStickVerticalIcon: {fileID: 21300000, guid: 2c99cd5537e4b1249bb83cd205885deb, type: 2}
+  switchDualJoyconLeftStickHorizontalIcon: {fileID: 21300000, guid: bb6ed1883c473454fb72443f7e6900dd, type: 2}
+  switchDualJoyconRightStickVerticalIcon: {fileID: 21300000, guid: 346931036e4f3dd41934693c7da96674, type: 2}
+  switchDualJoyconRightStickHorizontalIcon: {fileID: 21300000, guid: cbce4adb3fd9d5a4d8d07381ed3bbc1b, type: 2}
+  switchDualJoyconDPadVerticalIcon: {fileID: 21300000, guid: a6f92854f03708a4cb9bedcb90f0b60e, type: 2}
+  switchDualJoyconDPadHorizontalIcon: {fileID: 21300000, guid: b2cf9ca7ea6ee654a965186ece8b9ccc, type: 2}
+  switchDualJoyconBumpersIcon: {fileID: 21300000, guid: e49903240fd52cd41a57af53c32655c5, type: 2}
+  switchDualJoyconTriggersIcon: {fileID: 21300000, guid: aec3ec67ce6ef4a45ac030bd50a05520, type: 2}
+  switchDualJoyconLeftStickUpIcon: {fileID: 21300000, guid: 4906ccddaffbc294588b0a1766e5ad2b, type: 2}
+  switchDualJoyconLeftStickDownIcon: {fileID: 21300000, guid: a49cec9000fe6fb41b950f2a550f87d1, type: 2}
+  switchDualJoyconLeftStickLeftIcon: {fileID: 21300000, guid: 3997374b290ce0d40a309bf06ad39878, type: 2}
+  switchDualJoyconLeftStickRightIcon: {fileID: 21300000, guid: 65d1da20b1e3b9a47ae71d8ec6d72453, type: 2}
+  switchDualJoyconRightStickUpIcon: {fileID: 21300000, guid: 27fe5ed3bca2cbd4a8783b0f550096cc, type: 2}
+  switchDualJoyconRightStickDownIcon: {fileID: 21300000, guid: a165dc91f0edff749942eae6bfe00d34, type: 2}
+  switchDualJoyconRightStickLeftIcon: {fileID: 21300000, guid: 77234d8ecd309ec4382ccb015ceeee42, type: 2}
+  switchDualJoyconRightStickRightIcon: {fileID: 21300000, guid: b9512fe1dc8ae5742acdb675f03d0d9e, type: 2}
+  switchJoyconLeftLeftStickVerticalIcon: {fileID: 21300000, guid: 2c99cd5537e4b1249bb83cd205885deb, type: 2}
+  switchJoyconLeftLeftStickHorizontalIcon: {fileID: 21300000, guid: bb6ed1883c473454fb72443f7e6900dd, type: 2}
+  switchJoyconLeftBumpersIcon: {fileID: 21300000, guid: e598903a218eee34386f8b616ea951bb, type: 2}
+  switchJoyconLeftLeftStickUpIcon: {fileID: 21300000, guid: 4906ccddaffbc294588b0a1766e5ad2b, type: 2}
+  switchJoyconLeftLeftStickDownIcon: {fileID: 21300000, guid: a49cec9000fe6fb41b950f2a550f87d1, type: 2}
+  switchJoyconLeftLeftStickLeftIcon: {fileID: 21300000, guid: 3997374b290ce0d40a309bf06ad39878, type: 2}
+  switchJoyconLeftLeftStickRightIcon: {fileID: 21300000, guid: 65d1da20b1e3b9a47ae71d8ec6d72453, type: 2}
+  switchJoyconRightRightStickVerticalIcon: {fileID: 21300000, guid: 346931036e4f3dd41934693c7da96674, type: 2}
+  switchJoyconRightRightStickHorizontalIcon: {fileID: 21300000, guid: cbce4adb3fd9d5a4d8d07381ed3bbc1b, type: 2}
+  switchJoyconRightBumpersIcon: {fileID: 21300000, guid: e598903a218eee34386f8b616ea951bb, type: 2}
+  switchJoyconRightRightStickUpIcon: {fileID: 21300000, guid: 27fe5ed3bca2cbd4a8783b0f550096cc, type: 2}
+  switchJoyconRightRightStickDownIcon: {fileID: 21300000, guid: a165dc91f0edff749942eae6bfe00d34, type: 2}
+  switchJoyconRightRightStickLeftIcon: {fileID: 21300000, guid: 77234d8ecd309ec4382ccb015ceeee42, type: 2}
+  switchJoyconRightRightStickRightIcon: {fileID: 21300000, guid: b9512fe1dc8ae5742acdb675f03d0d9e, type: 2}
+  switchProLeftStickVerticalIcon: {fileID: 21300000, guid: 2c99cd5537e4b1249bb83cd205885deb, type: 2}
+  switchProLeftStickHorizontalIcon: {fileID: 21300000, guid: bb6ed1883c473454fb72443f7e6900dd, type: 2}
+  switchProRightStickVerticalIcon: {fileID: 21300000, guid: 346931036e4f3dd41934693c7da96674, type: 2}
+  switchProRightStickHorizontalIcon: {fileID: 21300000, guid: cbce4adb3fd9d5a4d8d07381ed3bbc1b, type: 2}
+  switchProDPadVerticalIcon: {fileID: 21300000, guid: f974820b2af1dfc4bb54a0d1fd4d7d8f, type: 2}
+  switchProDPadHorizontalIcon: {fileID: 21300000, guid: 046143dcc51cffd4f9910734ad3ddf92, type: 2}
+  switchProBumpersIcon: {fileID: 21300000, guid: e49903240fd52cd41a57af53c32655c5, type: 2}
+  switchProTriggersIcon: {fileID: 21300000, guid: aec3ec67ce6ef4a45ac030bd50a05520, type: 2}
+  switchProLeftStickUpIcon: {fileID: 21300000, guid: 4906ccddaffbc294588b0a1766e5ad2b, type: 2}
+  switchProLeftStickDownIcon: {fileID: 21300000, guid: a49cec9000fe6fb41b950f2a550f87d1, type: 2}
+  switchProLeftStickLeftIcon: {fileID: 21300000, guid: 3997374b290ce0d40a309bf06ad39878, type: 2}
+  switchProLeftStickRightIcon: {fileID: 21300000, guid: 65d1da20b1e3b9a47ae71d8ec6d72453, type: 2}
+  switchProRightStickUpIcon: {fileID: 21300000, guid: 27fe5ed3bca2cbd4a8783b0f550096cc, type: 2}
+  switchProRightStickDownIcon: {fileID: 21300000, guid: a165dc91f0edff749942eae6bfe00d34, type: 2}
+  switchProRightStickLeftIcon: {fileID: 21300000, guid: 77234d8ecd309ec4382ccb015ceeee42, type: 2}
+  switchProRightStickRightIcon: {fileID: 21300000, guid: b9512fe1dc8ae5742acdb675f03d0d9e, type: 2}
+  steamLeftStickVerticalIcon: {fileID: 21300000, guid: 2c99cd5537e4b1249bb83cd205885deb, type: 2}
+  steamLeftStickHorizontalIcon: {fileID: 21300000, guid: bb6ed1883c473454fb72443f7e6900dd, type: 2}
+  steamRightStickVerticalIcon: {fileID: 21300000, guid: 346931036e4f3dd41934693c7da96674, type: 2}
+  steamRightStickHorizontalIcon: {fileID: 21300000, guid: cbce4adb3fd9d5a4d8d07381ed3bbc1b, type: 2}
+  steamDPadVerticalIcon: {fileID: 21300000, guid: a8bad1019f8017b4385dfe1f732d05cb, type: 2}
+  steamDPadHorizontalIcon: {fileID: 21300000, guid: 55c6f841faa283846b7e95513ba43aed, type: 2}
+  steamBumpersIcon: {fileID: 21300000, guid: 41eef412b71a0f942b8f6a78421f4b0a, type: 2}
+  steamTriggersIcon: {fileID: 21300000, guid: 0d14aa9a29ade654785c3d701b5c7221, type: 2}
+  steamLeftStickUpIcon: {fileID: 21300000, guid: 4906ccddaffbc294588b0a1766e5ad2b, type: 2}
+  steamLeftStickDownIcon: {fileID: 21300000, guid: a49cec9000fe6fb41b950f2a550f87d1, type: 2}
+  steamLeftStickLeftIcon: {fileID: 21300000, guid: 3997374b290ce0d40a309bf06ad39878, type: 2}
+  steamLeftStickRightIcon: {fileID: 21300000, guid: 65d1da20b1e3b9a47ae71d8ec6d72453, type: 2}
+  steamRightStickUpIcon: {fileID: 21300000, guid: 27fe5ed3bca2cbd4a8783b0f550096cc, type: 2}
+  steamRightStickDownIcon: {fileID: 21300000, guid: a165dc91f0edff749942eae6bfe00d34, type: 2}
+  steamRightStickLeftIcon: {fileID: 21300000, guid: 77234d8ecd309ec4382ccb015ceeee42, type: 2}
+  steamRightStickRightIcon: {fileID: 21300000, guid: b9512fe1dc8ae5742acdb675f03d0d9e, type: 2}
+  keyboardWASDVerticalIcon: {fileID: 0}
+  keyboardWASDHorizontalIcon: {fileID: 0}
+  keyboardArrowVerticalIcon: {fileID: 0}
+  keyboardArrowHorizontalIcon: {fileID: 0}
+  keyboardControlIcon: {fileID: 21300000, guid: ea4717db647428e4783447cd41811339, type: 2}
+  keyboardShiftIcon: {fileID: 21300000, guid: 08c64e855dd8ad140a603f92b5349c89, type: 2}

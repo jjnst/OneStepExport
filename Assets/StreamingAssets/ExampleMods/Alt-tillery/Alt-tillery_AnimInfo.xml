@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Animations>
+	<Animation loop="true" name="Alt-tillery_idle" frameDuration="140">
+	  <Frame image="char/Alt-tillery_idle.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Alt-tillery_lift" frameDuration="100">
+	  <Frame image="char/Alt-tillery_lift1.png"></Frame>
+	  <Frame image="char/Alt-tillery_lift2.png"></Frame>
+	  <Frame image="char/Alt-tillery_lift3.png"></Frame>
+	  <Frame image="char/Alt-tillery_lift4.png"></Frame>
+	  <Frame image="char/Alt-tillery_lift5.png"></Frame>
+	</Animation>
+
+	<Animation loop="true" name="Alt-tillery_fire" frameDuration="100">
+	  <Frame image="char/Alt-tillery_fire1.png"></Frame>
+	  <Frame image="char/Alt-tillery_fire2.png"></Frame>
+	  <Frame image="char/Alt-tillery_fire3.png"></Frame>
+	  <Frame image="char/Alt-tillery_fire4.png"></Frame>
+	  <Frame image="char/Alt-tillery_fire5.png"></Frame>
+	  <Frame image="char/Alt-tillery_fire6.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Alt-tillery_hit" frameDuration="70">
+	  <Frame image="char/Lea_front.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Alt-tillery_death" frameDuration="70">
+	  <Frame image="char/Alt-tillery_death1.png"></Frame>
+	  <Frame image="char/Alt-tillery_death2.png"></Frame>
+	</Animation>
+</Animations>

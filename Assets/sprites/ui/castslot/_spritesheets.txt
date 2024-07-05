@@ -1,0 +1,2 @@
+SlotFrame_Cast.png,50,50,4
+SlotFrame_Eject.png,50,50,6

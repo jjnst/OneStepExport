@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Tile
+  - Projectile
+  - ESlash
+  - ETrigger
+  - Occupied
+  - Bullet
+  - EBullet
+  - Effect
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - TileTriggers
+  - 3D
+  - Background
+  - HiddenUI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1831654565
+    locked: 0
+  - name: BG Effects
+    uniqueID: 2062083687
+    locked: 0
+  - name: Tiles
+    uniqueID: 2677182133
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: ProjChar
+    uniqueID: 2855078201
+    locked: 0
+  - name: Effects
+    uniqueID: 1308045669
+    locked: 0
+  - name: UI
+    uniqueID: 1886323819
+    locked: 0

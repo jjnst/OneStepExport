@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0eef81c3cfddd6692439cd66ba14e60, type: 3}
+  m_Name: Happily_Ever_After
+  m_EditorClassIdentifier:
+  achievementName: Happily_Ever_After
+  hidden: 1
+  localizationNameKey: Happily_Ever_After
+  localizationDescriptionKey: Happily_Ever_After
+  localizationAchievedDescriptionKey: Happily_Ever_After
+  achievementImage: {fileID: 2800000, guid: 69856a4924a1b68449d327dbf119ba98, type: 3}
+  steamID: Happily_Ever_After
+  xboxOneID:
+  ps4ID: 22
+  uwpID:
+  gameCenterID:
+  androidID:
+  gogID: Happily_Ever_After

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprout
+  m_Controller: {fileID: 9100000, guid: f824863d795cd264492d6f3f336407ed, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: d737c4942d6f3914db393b057bb2dcd5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5ed41afde57ba464a9adb5c5ef16f2df, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d54de9fda3f481b4b9d3261ad4dfadf7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9fe70ac1c5d3a0941a1ecdcce9d7993d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 71e8f0027d1665743a8677c293cfad12, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b49736e5ba7cc354b89429398a315507, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fff0562eedbbd6549a216b2f3b89ce82, type: 2}
+    m_OverrideClip: {fileID: 0}

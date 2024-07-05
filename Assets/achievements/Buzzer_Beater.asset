@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0eef81c3cfddd6692439cd66ba14e60, type: 3}
+  m_Name: Buzzer_Beater
+  m_EditorClassIdentifier:
+  achievementName: Buzzer_Beater
+  hidden: 0
+  localizationNameKey: Buzzer_Beater
+  localizationDescriptionKey: Buzzer_Beater
+  localizationAchievedDescriptionKey: Buzzer_Beater
+  achievementImage: {fileID: 2800000, guid: 3cf7f2e4ee251674db2876884d524cfb, type: 3}
+  steamID: Buzzer_Beater
+  xboxOneID:
+  ps4ID: 7
+  uwpID:
+  gameCenterID:
+  androidID:
+  gogID: Buzzer_Beater

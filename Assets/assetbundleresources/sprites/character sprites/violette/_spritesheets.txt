@@ -1,0 +1,2 @@
+violette_attack_01S.png,120,120,3
+violette_idleS.png,120,120,6

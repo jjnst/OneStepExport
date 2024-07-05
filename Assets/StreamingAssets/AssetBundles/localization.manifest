@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 805111169
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 56e3cd4cdc57dd987e31a4f44300342e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a77105f662e3b38fd9a2233238c7ee72
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/AssetBundleResources/Localization/I2Languages.asset
+Dependencies:
+- fonts

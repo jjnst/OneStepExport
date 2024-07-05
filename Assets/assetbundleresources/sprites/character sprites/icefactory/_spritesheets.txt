@@ -1,0 +1,5 @@
+lurker_idle.png,120,120,6
+lurker_lift.png,120,120,3
+manticore_idle.png,120,120,2
+manticore_chargeS.png,120,120,3
+icefactory_idleS.png,120,120,1

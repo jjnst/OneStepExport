@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LuxCharge
+  m_Controller: {fileID: 9100000, guid: fc4a0f1134396d44d8c65b6ae2df01da, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 2aea4af98c6b6dc43a5fc675ddd22ed5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 19082bdc161e14743b49d5ccc8bc10f1, type: 2}

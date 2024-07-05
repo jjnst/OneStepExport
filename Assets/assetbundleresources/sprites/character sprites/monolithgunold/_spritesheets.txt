@@ -1,0 +1,5 @@
+monolith_atk.png,120,120,4
+monolith_charge.png,120,120,18
+monolithGun_atk.png,120,120,7
+monolithGun_atkS.png,120,120,7
+monolithGun_chargeS.png,120,120,3

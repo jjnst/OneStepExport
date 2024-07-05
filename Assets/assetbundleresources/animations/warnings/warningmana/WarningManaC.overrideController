@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WarningManaC
+  m_Controller: {fileID: 9100000, guid: aacf776514aeaf44081e923bdb5c9422, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e9e3b58344506d3449f95156ee9af2f5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7ac9aefc69feb0f4fbeaf064ada2401d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: cec4a4cda966c8e4d86e8ff457d3a13b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f0b24eb7e37a58c4185518e1fb217298, type: 2}

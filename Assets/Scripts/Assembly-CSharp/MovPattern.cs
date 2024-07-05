@@ -1,0 +1,28 @@
+public enum MovPattern
+{
+	None = 0,
+	JumpToPlayerEndField = 1,
+	JumpRandomEndFront = 2,
+	PatrolRandomEmpty = 3,
+	MoveToRandom = 4,
+	TeleportRandom = 5,
+	TeleportRandomEndFront = 6,
+	TeleportVerticalToPlayer = 7,
+	PatrolRandomEmptyHorizontal = 8,
+	PatrolRandomEmptyVertical = 9,
+	PatrolRandomEmptyVerticalToPlayer = 10,
+	DashRandomEmptyToPlayerRow = 11,
+	PlayerHalfField = 12,
+	Clockwise = 13,
+	CClockwise = 14,
+	Forward = 15,
+	Up = 16,
+	Down = 17,
+	Back = 18,
+	CClockwiseOtherEdges = 19,
+	BounceGrid = 20,
+	Diamond = 21,
+	ToPlayer = 22,
+	Ricochet = 23,
+	ZigZag = 24
+}

@@ -1,0 +1,104 @@
+ManifestFileVersion: 0
+CRC: 2868414924
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3f3a9897f49436453190e070e9b7e9d5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a583c74753f545c900cc2c6cc3ab606f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sprites/Effects/FrostPopS.png
+- Assets/Sprites/Effects/WarningHeal.psd
+- Assets/Sprites/Effects/WarningHealS.png
+- Assets/Sprites/Effects/WarningShieldS.png
+- Assets/Sprites/Effects/WarningBreakS.png
+- Assets/Sprites/Effects/Shadow.psd
+- Assets/Sprites/Effects/hitFX-bigS.png
+- Assets/Sprites/Effects/hitFX-FrostS.png
+- Assets/Sprites/Effects/WarningDanger.psd
+- Assets/Sprites/Effects/_spritesheets.txt
+- Assets/Sprites/Effects/ExplosionGenericS.png
+- Assets/Sprites/Effects/hitFX-PoisonPopS.png
+- Assets/Sprites/Effects/ChronoS.png
+- Assets/Sprites/Effects/fxAimMarker.psd
+- Assets/Sprites/Effects/ReflectKnockbackS.png
+- Assets/Sprites/Effects/WarningBlade.psd
+- Assets/Sprites/Effects/TrinityS.png
+- Assets/Sprites/Effects/WarningDanger3.psd
+- Assets/Sprites/Effects/WarningBladeS.png
+- Assets/Sprites/Effects/fxAimMarkerAlt.psd
+- Assets/Sprites/Effects/ExplosionGeneric.psd
+- Assets/Sprites/Effects/Fragile.psd
+- Assets/Sprites/Effects/FragileS.png
+- Assets/Sprites/Effects/Reflect.psd
+- Assets/Sprites/Effects/WarningSera.psd
+- Assets/Sprites/Effects/hitFX-PoisonPop.psd
+- Assets/Sprites/Effects/WarningDanger3S.png
+- Assets/Sprites/Effects/ShieldLargeS.png
+- Assets/Sprites/Effects/hitFX-downS.png
+- Assets/Sprites/Effects/ResurrectS.png
+- Assets/Sprites/Effects/ShieldPopS.png
+- Assets/Sprites/Effects/hitFX-HealS.png
+- Assets/Sprites/Effects/WarningSeraS.png
+- Assets/Sprites/Effects/Resurrect.psd
+- Assets/Sprites/Effects/TrinityP.psd
+- Assets/Sprites/Effects/WarningHeal.asset
+- Assets/Sprites/Effects/Root.psd
+- Assets/Sprites/Effects/hitFX-03.psd
+- Assets/Sprites/Effects/hitFX-big.psd
+- Assets/Sprites/Effects/ShieldS.png
+- Assets/Sprites/Effects/RootS.png
+- Assets/Sprites/Effects/ShieldLarge.psd
+- Assets/Sprites/Effects/hitFX-01.psd
+- Assets/Sprites/Effects/hitFX-PoisonS.png
+- Assets/Sprites/Effects/Shield.psd
+- Assets/Sprites/Effects/hitFX-01S.png
+- Assets/Sprites/Effects/spawnGenericS.png
+- Assets/Sprites/Effects/FrostS.png
+- Assets/Sprites/Effects/spawnGeneric.psd
+- Assets/Sprites/Effects/Link.psd
+- Assets/Sprites/Effects/ReflectKnockback.psd
+- Assets/Sprites/Effects/WarningBreak.psd
+- Assets/Sprites/Effects/WarningTimer.psd
+- Assets/Sprites/Effects/WarningMana.psd
+- Assets/Sprites/Effects/Chrono.psd
+- Assets/Sprites/Effects/hitFX-Poison.psd
+- Assets/Sprites/Effects/WarningDangerS.png
+- Assets/Sprites/Effects/WarningNoteS.png
+- Assets/Sprites/Effects/WarningAttack3.psd
+- Assets/Sprites/Effects/hitFX-down.psd
+- Assets/Sprites/Effects/ShieldKnockback.psd
+- Assets/Sprites/Effects/WarningManaS.png
+- Assets/Sprites/Effects/ShieldKnockbackS.png
+- Assets/Sprites/Effects/hitFX-Frost.psd
+- Assets/Sprites/Effects/ShieldAdd.psd
+- Assets/Sprites/Effects/hitFX-heal.psd
+- Assets/Sprites/Effects/Frost.psd
+- Assets/Sprites/Effects/FrostPop.psd
+- Assets/Sprites/Effects/hitFX-02S.png
+- Assets/Sprites/Effects/hitFX-03S.png
+- Assets/Sprites/Effects/hitFX-04S.png
+- Assets/Sprites/Effects/LinkS.png
+- Assets/Sprites/Effects/WarningShield.psd
+- Assets/Sprites/Effects/ReflectS.png
+- Assets/Sprites/Effects/hitFX-02.psd
+- Assets/Sprites/Effects/hitFX-04.psd
+- Assets/Sprites/Effects/ShieldPop.psd
+- Assets/Sprites/Effects/Halo.psd
+- Assets/Sprites/Effects/fxPlayerScopeMarkerS.psd
+- Assets/Sprites/Effects/HaloS.png
+- Assets/Sprites/Effects/WarningNote.psd
+- Assets/Sprites/Effects/RevaDeathShield_noLoop.anim
+- Assets/Sprites/Effects/RevaDeathShield.png
+Dependencies: []

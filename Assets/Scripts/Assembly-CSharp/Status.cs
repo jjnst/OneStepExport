@@ -1,0 +1,26 @@
+public enum Status
+{
+	Normal = 0,
+	AtkDmg = 1,
+	Defense = 2,
+	Flow = 3,
+	Fragile = 4,
+	Frost = 5,
+	Haste = 6,
+	Link = 7,
+	ManaRegen = 8,
+	MaxMana = 9,
+	Poison = 10,
+	Regen = 11,
+	Reflect = 12,
+	Root = 13,
+	Shield = 14,
+	ShieldExte = 15,
+	Slow = 16,
+	SpellPower = 17,
+	Stun = 18,
+	Trinity = 19,
+	Blessed = 20,
+	Resurrect = 21,
+	Chrono = 22
+}

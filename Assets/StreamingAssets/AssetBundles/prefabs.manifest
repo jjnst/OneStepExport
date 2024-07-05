@@ -1,0 +1,472 @@
+ManifestFileVersion: 0
+CRC: 3395395219
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d918ef310f24bfd978845163e97a2184
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b16974dc45f461603d1fe62eb973850e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 96
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a34ed405d8b40c40963ae0a93129de3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a1e5be50d47263c48b28a6e31822c7d2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cddfc660ad293eb4394ffa3a9a25dde3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 34a39570696296b4b835ac6301c1a9d7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 007b0e70e3f329f448eb6f1e962ce1b8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aadd2180915554c48a633e1aa09700a9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 63deb6b0d75abfb4b9788e24b3422f08, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 91a126c0e551ef44e847cae77c1083f0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e395cb41fe330584e83c94912bc70323, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe97375129a45b84e9d7f6caab9324b9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 17020a61e34389d4a9155b5ce0e9553f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 82f35491808a0494199c53ff20970674, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5200d5a1e10774d4cbc66b2c01e1d47d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 604496c1ae7107549b77029126bc4eaa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 13084de1c9d33a44c91eeb0ac383aed0, type: 3}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1741964061, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -405508275, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -146154839, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 2109663825, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1297475563, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1f0b580235216984dac382cb24923834, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 740f7522c3f764d4d8f722859e2ef43c, type: 3}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1741964061, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -1862395651, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -2095666955, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -405508275, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -1200242548, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -900027084, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -2061169968, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1367256648, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1297475563, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f41dd06291a99224b9663c8eeee1d79e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 074652624ceb4e34c9c57b8b6030a580, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e45d66280750da44acbb049ddc8c36b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e06d4482b766e39479505e366a83c8c4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4436d1a2a2f988f4fb44972a8171b402, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 72d9fef2f6a443e4fb83a89c130a8841, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3d599ff2c074ebc488868fc55c2b40f9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 37d4811362f9e004d8cf7ad46b2afb8e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d520ea2390d1943479be1fa20696b6ac, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bfc6ef332354d6145952d15f4cb77a7d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e21b0263602e0804a95adfd161970bb4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d51a82d301b41014e8d95f0378f46b05, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a18c3b0480a53ef4d93db9167e3b0b90, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c841a2147d5274445999f294bd6fd6a1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 254ecb3409d5e12419efd957dac4aa5b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 90ec224472ade0648be83473d5029595, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fd2d16640c76bab448d1623238f9dd76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 409de474d422fea47877ea9838d916b8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 261160846fd4bb74a880c9e6905d5bed, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a7fc0a84448671d499ca8609114da0fa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3de834a4844097f4c974cc086750ed9d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 595793c45c727e041bd54fd521cd6c64, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cec8fbe4137a1ce40903a11b79ebb5a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 270a66f5ddac91145aa70d65c3729a27, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 87dfda76f1a6b7f47a4fcdfdda66cd84, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 81a8a78786ce4eb4cb3aefbd58938d75, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbddde97c21be60469ff780bd647e259, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d33b9dd775051e64badec7fe740fc596, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e952cfe7ae360ba40b4833275ef972e9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2250d058d0f363e4d8a071a6cd25e38a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9dc62b8d8a1fe447ab9b1cce7e3d902, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a08fdfb8f78b5a048928021ad97bba6f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9be112d8a697a7f4ab8115b3a38abb68, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 928d5ae8b1a0f604e8ccc0f1edcedd07, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7c5906396dd79334ea8249e996c86873, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7ff58949eb2b1ef47ad2863481c28248, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0fc7b5986b3f5e4fb51f4d3ab184121, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c9d47a6993cfd4f41ba1d04a692ec83d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d3c6f479a1c63ad4688fef716dc41f0b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b711ec8981b9bed4082a35d312a7d4b0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 22f0de89cf0566940a765a8e08d2ffe6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f5e6aac9ccee2264cb5a5c2c2fc889bd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1eae570ae1746624d8c2ee6d8ee20c54, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d4b5980aaf5931047946408b1806a44f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4270a53af0b410b468652891d3b86b6e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d9d17e3a776bcd44c9b5b487e3a02f9c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2933315ae64870c4b9511edb22606dc2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2c6d116a6cbd6d049bf8a49a54b5a6e9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 35331f8a2a19346448be4597fb4e1490, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 43284b9af805db149bb951aaef4dc7be, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9a3db6aa9c344c341bc52c6a00e09eb4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9e4a79aac589acf4785e1c533506238e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ab3c33daac3d09446938d88a66b34713, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 12cb69ea2ba6ae240887420a6da874fd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3fce240b599fed34ab7dea1d53034fba, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e500531bde837da42a445be6c12c7c98, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e369868b51cecd14c8dcf30ba7909bcd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2eda5dcb88978a24a87b75cea6433ef6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 626fea1c875494d4ca785f3e37eaf66b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b94d6b5cef4eed64b80bec26a473dfce, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2b67357cec4a38645bc6554cd758607b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2bac3eacaaf9f994fb17d52065241d6c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dbe876bc1c2141e45865edfc0b78110d, type: 3}
+- Class: 114
+  Script: {fileID: -2076007791, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+- Class: 114
+  Script: {fileID: -1223223985, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 44379cfc42616a2488d80591f9137efa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2bfc362d83a9e854683d86119159226b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9d33282db0ad42444b5cdef5760734eb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9c263f6d47cb88f46909eb679cd745c1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 90b3487d484b13f418835296041b31f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 172595ad3dd47e143a862a7502c1e808, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a7c52fdde0089964e8c9e771859e592a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 24fceeed508517940ab88cced600a337, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e55cfd0e977bd984f86052dec327fee4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 37787c1e6de5b334db628b2ff0223141, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bfe7e62ea933ec048bd9241fd374a503, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 69dea57e0d646964a876a3540e512ed0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 789be3de9a5e2c449b32bfd83790012d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a9d09cee4a1fe034e8f1784b55f22db5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a3dceb0f561cc2f40bbcaf1167b6878a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e5f159dfc64e64444b0adc840d33cdbf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 41a7b2cfc97a059478f4505ce42115c1, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 221
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Beings/Enemies/BossViolette/ViolettePath.prefab
+- Assets/Prefabs/UI/Cards/DisplayCard.prefab
+- Assets/Prefabs/RewardDrop.prefab
+- Assets/Prefabs/ShuffleTrail.prefab
+- Assets/Prefabs/UI/Cards/LibraryCard.prefab
+- Assets/Prefabs/Beings/Enemies/BossReva/Sword.prefab
+- Assets/Prefabs/UI/Cards/ChoiceCard.prefab
+- Assets/Prefabs/UI/TestIconDisplay.prefab
+- Assets/Prefabs/Beings/Enemies/BossTerra/TerraOrbital.prefab
+- Assets/Prefabs/UI/Menu/BrandDisplayButton.prefab
+- Assets/Prefabs/UI/KillRep.prefab
+- Assets/Prefabs/UI/TextChunk.prefab
+- Assets/Prefabs/UI/DarknessOverlay.prefab
+- Assets/Prefabs/Beings/Enemies/BossSaffron/CardRef.prefab
+- Assets/Prefabs/UI/HoldCircle.prefab
+- Assets/Prefabs/UI/DuelDisk.prefab
+- Assets/Prefabs/Beings/Enemies/BossViolette/ViEvent.asset
+- Assets/Prefabs/Beings/Enemies/BossSelicy/SwordPoint.prefab
+- Assets/Prefabs/UI/ModTagButton.prefab
+- Assets/Prefabs/UI/ParticleBox.prefab
+- Assets/Prefabs/Beings/Enemies/BossSaffron/BossSaffron.prefab
+- Assets/Prefabs/WinParticle.prefab
+- Assets/Prefabs/UI/Menu/ProfileCard.prefab
+- Assets/Prefabs/UI/Menu/ModUpdateDropdown.prefab
+- Assets/Prefabs/Beings/Enemies/BossSelicy/IreliaTeleSlash.prefab
+- Assets/Prefabs/UI/ZoneDot.prefab
+- Assets/Prefabs/UI/Cards/HeroItemListCard.prefab
+- Assets/Prefabs/Beings/Enemies/BossGate/Tracker/Tracker.prefab
+- Assets/Prefabs/Beings/Enemies/BossSelicy/Sword.prefab
+- Assets/Prefabs/AimMarker.prefab
+- Assets/Prefabs/UI/FloatingText/FloatingSpell.prefab
+- Assets/Prefabs/Beings/Enemies/BossTerra/BossTerra.prefab
+- Assets/Prefabs/UI/ArtSlotBG.prefab
+- Assets/Prefabs/Beings/Enemies/BossGunner/GunnerExecute.prefab
+- Assets/Prefabs/Beings/Player.prefab
+- Assets/Prefabs/UI/DiskReference.prefab
+- Assets/Prefabs/ExpParticle.prefab
+- Assets/Prefabs/HitFX.prefab
+- Assets/Prefabs/UI/Menu/GameOverStatText.prefab
+- Assets/Prefabs/Beings/Enemies/BossViolette/VioletteSequence.prefab
+- Assets/Prefabs/Beings/Enemies/BossSelicy/IreliaExecute.prefab
+- Assets/Prefabs/Beings/Enemies/BossSelicy/IreliaQuadSlash.prefab
+- Assets/Prefabs/UI/CreditBeingText.prefab
+- Assets/Prefabs/UI/LocationMarker.prefab
+- Assets/Prefabs/UI/HellPassListCard.prefab
+- Assets/Prefabs/ExplosionGenerator.prefab
+- Assets/Prefabs/Beings/Enemies/BossViolette/ViTheme01.asset
+- Assets/Prefabs/UI/PvPHeroButton.prefab
+- Assets/Prefabs/Beings/Enemies/BossShiso/BossShiso.prefab
+- Assets/Prefabs/Beings/Enemies/BossSelicy/IreliaTrackerSwords.prefab
+- Assets/Prefabs/Beings/Enemies/BossSerif/BossSerif.prefab
+- Assets/Prefabs/UI/BtnImage.prefab
+- Assets/Prefabs/UI/HeroAltButton.prefab
+- Assets/Prefabs/UI/BindButton.prefab
+- Assets/Prefabs/UI/CheatButton.prefab
+- Assets/Prefabs/Beings/Enemies/BossGunner/BossGunner.prefab
+- Assets/Prefabs/WarningTimer.prefab
+- Assets/Prefabs/UI/ManaLine.prefab
+- Assets/Prefabs/UI/EnemyName.prefab
+- Assets/Prefabs/Beings/Enemies/BossTerraDark/BossTerraDarkBeta.prefab
+- Assets/Prefabs/UI/FloatingText/FloatingTextContainer.prefab
+- Assets/Prefabs/UI/Cards/CardInnerSpell.prefab
+- Assets/Prefabs/UI/Checkbox.prefab
+- Assets/Prefabs/UI/LineRe.prefab
+- Assets/Prefabs/Beings/Enemies/BossTerraDark/BossTerraDark.prefab
+- Assets/Prefabs/TimerBar.prefab
+- Assets/Prefabs/UI/Cards/CharacterCard.prefab
+- Assets/Prefabs/UI/StatusFlash.prefab
+- Assets/Prefabs/UI/HelpResources.prefab
+- Assets/Prefabs/UI/Menu/BrandListCard.prefab
+- Assets/Prefabs/UI/Menu/ModInputBox.prefab
+- Assets/Prefabs/UI/TileRef.prefab
+- Assets/Prefabs/SpawnEffect.prefab
+- Assets/Prefabs/Beings/Enemies/BossHazel/BossHazel.prefab
+- Assets/Prefabs/Beings/Enemies/BossReva/BossReva.prefab
+- Assets/Prefabs/Beings/Enemies/BossGate/Tracker/TrackerShot.prefab
+- Assets/Prefabs/UI/Cards/CardInnerArt.prefab
+- Assets/Prefabs/UI/Menu/LeaveButton.prefab
+- Assets/Prefabs/SpellTrail.prefab
+- Assets/Prefabs/UI/Menu/SortButton.prefab
+- Assets/Prefabs/UI/SocialButtons.prefab
+- Assets/Prefabs/UI/VictoryTriangle.prefab
+- Assets/Prefabs/Beings/Fairy.prefab
+- Assets/Prefabs/UI/AchievementPopup.prefab
+- Assets/Prefabs/UI/Cards/SpellListCardPlaceholder.prefab
+- Assets/Prefabs/UI/Cards/SpellListCard.prefab
+- Assets/Prefabs/Tile Point Light.prefab
+- Assets/Prefabs/UI/WinIcon.prefab
+- Assets/Prefabs/BetaEndScreen.prefab
+- Assets/Prefabs/UI/VoteDisplay.prefab
+- Assets/Prefabs/UI/DeckMarker.prefab
+- Assets/Prefabs/UI/CreditsTextSection.prefab
+- Assets/Prefabs/Beings/Enemies/BossSelicy/IreliaSwordRows.prefab
+- Assets/Prefabs/UI/WinBackgroundIcon.prefab
+- Assets/Prefabs/LineTracer.prefab
+- Assets/Prefabs/Beings/Enemies/BossSelicy/BossSelicy.prefab
+- Assets/Prefabs/UI/Menu/MainMenuButton.prefab
+- Assets/Prefabs/UI/HellPassButton.prefab
+- Assets/Prefabs/UI/FloatingText/FloatingDmgText.prefab
+- Assets/Prefabs/UI/ZoneStep.prefab
+- Assets/Prefabs/Tile.prefab
+- Assets/Prefabs/UI/HeroDisplay.prefab
+- Assets/Prefabs/UI/StatusEffect.prefab
+- Assets/Prefabs/Beings/Enemies/BossSelicy/IreliaRainSlash.prefab
+- Assets/Prefabs/UI/ManaRegenDeckMarker.prefab
+- Assets/Prefabs/Beings/Enemies/BossShopkeeper/BossShopkeeperDemo.prefab
+- Assets/Prefabs/UI/Cards/SquareListCard.prefab
+- Assets/Prefabs/UI/CastSlot.prefab
+- Assets/Prefabs/UI/TalkBubble.prefab
+- Assets/Prefabs/UI/HeroButton.prefab
+- Assets/Prefabs/UI/BeingStatsPanel.prefab
+- Assets/Prefabs/UI/FloatingText/FloatingStatusText.prefab
+- Assets/Prefabs/UI/WorldDot.prefab
+- Assets/Prefabs/Beings/Enemies/BossViolette/BossViolette.prefab
+- Assets/Prefabs/UI/Cards/CardInnerPact.prefab
+- Assets/Prefabs/Shadow.prefab
+- Assets/Prefabs/UI/Cards/MechTooltip.prefab
+- Assets/Prefabs/Beings/Enemies/BossGate/Tracker/TrackerTrailer.prefab
+- Assets/Prefabs/UI/DeviceDisplay.prefab
+- Assets/Prefabs/UI/StatusDisplay.prefab
+- Assets/Prefabs/UI/Stats/Health.prefab
+- Assets/Prefabs/UI/Cards/CardInnerBrand.prefab
+- Assets/Prefabs/Projectile.prefab
+- Assets/Prefabs/UI/AchievementButton.prefab
+- Assets/Prefabs/UI/CreditsDoubleTextSection.prefab
+- Assets/Prefabs/UI/PriceText.prefab
+- Assets/Prefabs/Beings/Enemies/BossGate/BossGate.prefab
+- Assets/Prefabs/Beings/Enemies/BossShopkeeper/BossShopkeeper.prefab
+- Assets/Prefabs/UI/Menu/OptionsButton.prefab
+- Assets/Prefabs/UI/CreditsImageSection.prefab
+- Assets/Prefabs/UI/InputDisplay.prefab
+- Assets/Prefabs/UI/Cardtridge.prefab
+Dependencies:
+- materials
+- fonts
+- music
+- sprites_effects
+- sprites_drops
+- animations
+- animations_ui
+- sprites_tiles
+- sounds
+- sprites_ui
+- sounds_ui
+- sprites
+- common

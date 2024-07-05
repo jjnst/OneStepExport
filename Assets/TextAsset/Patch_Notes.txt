@@ -1,0 +1,431 @@
+Patch Notes 1.6 | 3-26-2021 - Co-op Improvements & Run History
+
+Co-Op Changes:
+Players now have separate health pools
+Healing is still shared between players
+Dead players will now respawn with 100 HP at the end of each battle
+
+Quality of Life:
+Runs will now be kept if the game crashes/quits unexpectedly!
+Maximum Artifacts increased from 48->56. A lot of people have mentioned this and things can get pretty messy and boring with too many artifacts, but here's a small increase, for fun.
+
+Run History:
+The last 10 runs will now be tracked and stored in the Statistics Page.
+This includes your seed, character and zone reached.
+
+Modding:
+Added mod load order/priority, set it in the mod's WorkShopItemInfo.xml under <Priority>
+
+Reva Alt kit:
+Soul Link -> Zenith
+
+Other:
+Turret Laser spell no longer consumes, mana increased 3->4
+Transmission artifact now updates attack damage on weapon cast
+
+I did want to make more changes to co-op but prioritized it being fun to play with a weaker/newer partner. Now they won't be dragging you down, and they can jump back in to help even when they die!
+
+
+This will be one of the final updates to One Step From Eden... for now. I've learned so much from creating the game, in coding, business, marketing, and more. Thank you for all the support you've shown me throughout the years. Making One Step From Eden was one of the best decisions of my life because of it.
+
+I hope to make more amazing games for you soon.
+-Thomas
+
+
+Patch Notes 1.5 | 12-4-2020
+
+This is probably the biggest content patch since release! 
+Though it's still centered more on the health of the game than new mechanics. 
+
+Featuring:
++29 New Spells (Calamity for all Brands!)
++32 New Artifacts
+Mod sandbox
+Lots of Accessibility settings ("easy" mode, hold movement, readability)
+Profiles/Save slots
+Pick and Choose Hell Passes
+New Saffron Bossfight
+
+It'll most likely be hitting consoles sometime next year.
+
+
+--NEW Spells--
+Absorb
+Ambush
+Barrier
+Cataclysm
+Chrono Sphere
+Deck Shield
+Downfall
+Haven
+Holy Ground
+Inverter
+Jackhammer
+Jam Shield
+Meltdown
+Overload
+Paragon
+Ramjet
+River
+Salvo
+Sawstorm
+Shadow Shift
+Silo
+Sleight
+Slice
+Spike Strip
+Stinger
+Sunbeamer
+Sunder
+Weed Wacker
+Wonder
+
+
+--NEW Artifacts--
+Anvil
+Bolt Action
+Censor Bar
+Cobra Care
+Cryophage
+Curacao
+Delta
+Golden Cat
+Ice Sculpture
+Kabob
+Life Jacket
+Monocle
+Multitool
+Muzzle Brake
+Nerve Gas
+Pendulum
+Piggy Bank
+Replicant
+Second Breakfast
+Sinkhole
+Spike Protein
+Survival Kit
+Symbiosis
+Thermophage
+Transmission
+Trap Card
+Trident
+Tutu
+Umbrella
+Viral Transmitter
+Water Wheel
+XD-40
+Z-Cell
+
+
+--Spells--
+
+Beacon
+Shots: 1->2
+
+Blizzard
+Rarity: 2->3
+Damage: 10->20
+
+Booster Shot
+Poison: 80->120
+
+Bow Snipe
+Rarity: 1->2
+
+Carpet Bomb
+Damage: 40->120
+
+Counter Strike
+Gain 50 Shield and fire a shot -> Gain 50 Shield and fire 2 Kunais
+
+Flurry
+Rarity: 2->1
+
+Fracture
+Mana Cost: 1->2
+Damage: 70->120
+Wanted the Flow trigger to be more rewarding
+
+Glitterstorm
+Rarity: 3->4
+
+Hailstorm
+Damage: 10->20
+
+Hyper Beam
+Rarity: 2->3
+
+Jam
+Anchor duration: 0.1->0.2
+
+Northwind
+Rarity: 1->2
+
+Power Saws
+Base damage: 40->100
+Spell Power damage multiplier: 20->10
+Rarity: 3->4
+Mana: 2->3
+
+Prophecy
+Now only hits enemy field
+Damage: 200->240
+
+Resonate
+No longer hits structures
+Brand: Convergence->Hexawan
+
+Ring Spells
+Mana Cost: 2->1
+
+Shattersaw
+Rarity: 1->0
+
+Switchbait
+Shots: 2->1
+
+Time Slow
+Rarity: 1->2
+
+Twinferno
+Damage: 50->60
+
+Waterfall
+Fire rate: 0.05->0.15
+
+
+--Artifacts--
+
+Beret
+Health drop: 80%->60%
+
+Candy Wrapper
+Rarity: 2->1
+
+Choco Mint Chip
+Slow duration on Frost: 4->2.5 seconds
+
+Duel Disk
+Jams on Shuffle: 1->3
+Rarity 2
+
+Ghost Costume
+Invince duration: 7->4 seconds
+
+Ice Floe
+Flow Gain: 1->2
+
+Immune System
+Shield: 10->20
+
+Meat Shield
+Shield on Consume: 20 -> 10
+
+Merit Badge
+Rarity: 1->2
+
+Mining Rig
+Money: 5->3
+
+Ninjutsu
+Chance to add Kunai on hit: 100%->50%
+
+Pet Kitty
+Now fires in a cone from current tile instead of front tile making it harder to land all 3 hits on the same target
+
+Phase Plates
+Invince duration: 1->0.75 seconds
+
+Resistant Strain
+Minimum poison: 10->20
+
+Spellthief License
+Heal on Remove: 50->100 HP
+
+Step Drone
+Now pierces defense
+
+Soul Food
+Max HP: 50->20
+
+Thorn
+Spell Power: 5->4
+
+Transcendence
+Now reduces Shield Shuffle Decay from 40%->25%
+
+Unicorn Bomb
+Damage: 20->40
+
+Uranium
+Spell Power 8->5
+
+
+--Bosses--
+Saffron
+Boss fight completely reworked
+Now attacks with ~40 different pre-programmed spell "combo chains" at 4 different tiers
+She also throws her Plushie behind her instead of in front!
+And is overall much smarter and scarier!~
+
+Selicy
+Special Holiday stuff
+
+
+--Balance--
+Weapons now pierce Defense, this includes Gunner's weapons
+Flames no longer pierce Defense
+Hell Pass 11 - Evil Hostages have a chance to spawn with normal Hostages instead of replacing them (except for Distress zones where they can replace them)
+Storm spells can no longer get the Frost upgrade
+Luck for each "None" Focus: 1->2
+Improved Kunai range consistency
+Spintail enemies now fire less shots so you're not stuck waiting as long
+Flower artifact HP Losses rebalanced
+Shuffle staleness cap 2->3s
+Shuffle staleness amount 0.1->0.15s (increases shuffle time after every shuffle)
+
+--Characters--
+Terra: Starting Kit
+Mine -> Poison Tails
+
+
+--Quality of Life--
+Added a luck symbol flash on Bunny death
+Weapon info can now be viewed on the Deck Screen
+Fixed previews for many spells
+Assists no longer block movement
+Certain dark icons brightened (Monsoon and world icons)
+Updated Removal tooltip to reflect that it can remove artifacts and pacts too
+Made Serif's dialogue hint more towards not being a true ending after the Gate
+Worlds where bosses have been killed will now show up as red in the map and have a skull
+Viewable map during the rewards screen
+
+
+--Settings--
+Hold to Skip option
+Hold to Move option
+Stop Music on Pause Menu
+Readability Mode - increases size of card descriptions and hides flavor text
+
+Angel Mode ("easy" mode) - reduces damage taken and enemy/boss speed by a %, increasing by 2% every time you die (max 50%). All achievements can still be obtained this way. Character has a halo while this is on. (Removed the halo you get from saving hostages). It's separated into two sliders and can be toggled on and off at any time.
+
+Hopefully this optional accessibility mode allows more people to enjoy the game without removing all the challenge for it. I liked the idea of making the game slightly easier, the more the player dies, so that they are always making progress!
+
+
+--Systems--
+Profile/Save slots system, Brand and Icon are based on last chosen
+Hell Passes are now individually selectable! (The hell pass 14 achievement can be completed with only hell pass 14 active)
+
+
+--Bug Fixes--
+Shield will properly search in the Library
+Hell passes can no longer be removed after continuing a run lol
+
+
+--Modding--
+Mod installation speed increased 700% yay!
+Extra taunt animation slots for taunt2 - taunt5 (for your custom animations)
+Extra triggers, effects, checks, etc.
+Auto load mods on startup Checkbox
+Min and Max appended to amount values i.e. "10+CurrentCardtridges*10|20/200"
+
+
+--Sandbox--
+Added an xml file "TestZone.xml" for choosing how you want to set up your test environment.
+It boots directly into the scene you choose, along with the console and cheat menu being enabled! You can change the enemies and other world variables in Zones.xml. There is also a "developer" sandbox (with the game in debug mode) on the Steam beta branch!
+Example path for XML files: "C:\Program Files (x86)\Steam\steamapps\common\One Step From Eden\OSFE_Data\StreamingAssets\Data"
+
+There's more info at the bottom of TestZone.xml
+Join discord.gg/OSFE #modding for more info!
+
+
+--Hotfix 1.5.1 12-4-2020
+Fixed issues with hell pass selection and unlocking
+Weapon can no longer be "removed"
+Fixed an issue with having the map and accept button assigned to the same button
+Reduced pendulum tick reduction from -2->-1.9 so that having two won't cause the tick duration to be 0
+Added placeholders in English for some missing translations (these will be updated later)
+Added 144hz fps option
+
+--Hotfix 1.5.2 12-5-2020
+Fixed missing localization characters
+Fixed a bug that would not unlock Hell Mode 1 after beating a normal run
+Click Hold to Skip in settings now work properly
+Loading flash on startup removed
+Fixed tracker laser line dissappearing in consecutive gate fights
+Hell passes that were accidentally set when not eligible are now turned off automatically
+Fixed map unable to open in rewards screen
+Fixed JamShield localization
+Removed description requirement for mod update
+Fixed silo preview
+Changed extra taunt animations for modding to trigger using "taunt2", "taunt3", etc.
+Readability mode no longer shows descriptions for locked cards
+
+--Hotfix 1.5.3 12-6-2020
+Pull no longer hits pets
+OnManaBelow trigger now works with weapons
+Artifact hovering is no longer blocked on shop and deck screen
+Inelligible hell passes will be properly disabled
+Snow boots will no longer trigger on player
+Censor bar will no longer trigger on player
+Character select screen previews moved to the right
+Mod sprites import format set to RGBA32 to preserve quality
+Censor Bar now only triggers on Channel Spells, not weapons
+
+Water Wheel
+Flow Stacks 2->1
+
+Barrier
+Shield 20+10*Flow -> 30+5*Flow
+
+--Hotfix 1.5.4 12-8-2020
+Overload no longer roots
+
+--Hotfix 1.5.5 12-9-2020
+Fixed music randomly unpausing in menu
+Anvil description fixed from 10->13 shield
+Water wheel flow amount fixed to give 1 flow after removing 1 from spell cast
+Barrier now glows green if you have flow
+Added some delays to end of Boss Saffron combos, she now calculates movement right before moving allowing you to outmaneuver her a bit more consistently. Also increased her delay before moving slightly.
+Pendulum now decreases poison duration by a percentage so it can be infinitely stacked
+Prophecy now hits 6 tiles instead of 4 (2 on player side)
+Fixed a bug where the next hell pass would not unlock if the hell pass button was not clicked before the run.
+Fixed a bug where a missing translation would cause the game to get stuck (i.e. on pet artifact rewards)
+Skulls from world icons will be removed properly on new runs
+Gave Boss Saffron pauses between her combos at high tiers
+Fix mods not install on profile 2 and 3
+Fix a crash when removing a spell and closing menu
+Overload can no longer get on hit upgrades since it doesn't "hit"
+
+--Hotfix 1.5.6 12-16-2020
+Updated Korean localization missing characters
+Attempted to fix a bug where opening the map during reward selection would remove focus from the rewards
+Bolt Action no longer triggers on minion kills
+Removing Pendulum now works properly
+Run in background now attached to Menu Music setting. If you don't want the game to run in background, you can turn off Menu Music.
+
+Menu music will now be muted instead of paused hopefully preventing duplicate playback.
+Fixed a bug where hell pass icons would be invisible
+
+
+--Hotfix 1.5.7 3-4-2020
+Minor bug fixes including shopkeeper restock cost not saving properly
+Clear votes on sub display cards
+Fix continue button hover issue in rewards screen
+
+
+--Skin Update 1.5.8 3-15-2020
+Added Quantum Protocol Hazel Skin, unlocks at level 15
+
+
+--Ending--
+Most of these features came directly from you, the community and I'm happy to finally add them to the game! Thank you for sticking around and coming up with these great ideas!
+
+After the last patch in April, I realized I was pretty burnt out and needed a break from OSFE. I know the extra settings took a while to come out, so I'm sorry for the wait. I still love the game and really enjoy working on it.
+
+What's next?
+I've attempted adding online multiplayer but I've decided it will require making a whole other standalone game. I may experiment with that in the future. In the meantime I'm always working on something!
+
+Happy Holidays~
+-Thomas
+

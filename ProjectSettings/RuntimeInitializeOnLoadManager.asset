@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!300 &1
+RuntimeInitializeOnLoadManager:
+  m_ObjectHideFlags: 0
+  m_AssemblyNames:
+  - TwitchLib.Unity
+  - Assembly-CSharp-firstpass
+  - UnityEditor.Advertisements
+  - Sirenix.Serialization
+  - Sirenix.Utilities
+  - UnityEngine.CoreModule
+  m_NamespaceNames:
+  - TwitchLib.Unity
+  - I2.Loc
+  - UnityEditor.Advertisements
+  - Sirenix.Serialization.Utilities
+  - Sirenix.Utilities
+  - Sirenix.Serialization
+  - UnityEngine.Experimental.Rendering
+  m_ClassInfos:
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 0
+    m_ClassName: UnityThread
+    m_NumOfMethods: 1
+    m_MethodIndex: 0
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 0
+    m_ClassName: CertificateValidationFix
+    m_NumOfMethods: 1
+    m_MethodIndex: 1
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 1
+    m_NamespaceIndex: 1
+    m_ClassName: LocalizeTarget_UnityUI_Image
+    m_NumOfMethods: 1
+    m_MethodIndex: 2
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 2
+    m_NamespaceIndex: 2
+    m_ClassName: UnityAdsEditor
+    m_NumOfMethods: 1
+    m_MethodIndex: 3
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 1
+    m_NamespaceIndex: 1
+    m_ClassName: LocalizeTarget_TextMeshPro_UGUI
+    m_NumOfMethods: 1
+    m_MethodIndex: 4
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 1
+    m_NamespaceIndex: 1
+    m_ClassName: LocalizeTarget_UnityStandard_SpriteRenderer
+    m_NumOfMethods: 1
+    m_MethodIndex: 5
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 1
+    m_NamespaceIndex: 1
+    m_ClassName: LocalizeTarget_UnityStandard_AudioSource
+    m_NumOfMethods: 1
+    m_MethodIndex: 6
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 1
+    m_NamespaceIndex: 1
+    m_ClassName: LocalizeTarget_TextMeshPro_Label
+    m_NumOfMethods: 1
+    m_MethodIndex: 7
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 1
+    m_NamespaceIndex: 1
+    m_ClassName: LocalizeTarget_UnityStandard_MeshRenderer
+    m_NumOfMethods: 1
+    m_MethodIndex: 8
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 1
+    m_NamespaceIndex: 1
+    m_ClassName: LocalizeTarget_UnityStandard_TextMesh
+    m_NumOfMethods: 1
+    m_MethodIndex: 9
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 1
+    m_NamespaceIndex: 1
+    m_ClassName: LocalizeTarget_UnityStandard_Prefab
+    m_NumOfMethods: 1
+    m_MethodIndex: 10
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 3
+    m_NamespaceIndex: 3
+    m_ClassName: UnityVersion
+    m_NumOfMethods: 1
+    m_MethodIndex: 11
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 4
+    m_NamespaceIndex: 4
+    m_ClassName: AssemblyUtilities
+    m_NumOfMethods: 1
+    m_MethodIndex: 12
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 4
+    m_NamespaceIndex: 4
+    m_ClassName: UnityVersion
+    m_NumOfMethods: 1
+    m_MethodIndex: 13
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 1
+    m_NamespaceIndex: 1
+    m_ClassName: LocalizeTarget_UnityUI_RawImage
+    m_NumOfMethods: 1
+    m_MethodIndex: 14
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 1
+    m_NamespaceIndex: 1
+    m_ClassName: LocalizeTarget_UnityStandard_GUITexture
+    m_NumOfMethods: 1
+    m_MethodIndex: 15
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 3
+    m_NamespaceIndex: 5
+    m_ClassName: UnitySerializationInitializer
+    m_NumOfMethods: 1
+    m_MethodIndex: 16
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 1
+    m_NamespaceIndex: 1
+    m_ClassName: LocalizeTarget_UnityStandard_GUIText
+    m_NumOfMethods: 1
+    m_MethodIndex: 17
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 1
+    m_NamespaceIndex: 1
+    m_ClassName: LocalizeTarget_UnityStandard_Child
+    m_NumOfMethods: 1
+    m_MethodIndex: 18
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 5
+    m_NamespaceIndex: 6
+    m_ClassName: ScriptableRuntimeReflectionSystemSettings
+    m_NumOfMethods: 1
+    m_MethodIndex: 19
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 1
+    m_NamespaceIndex: 1
+    m_ClassName: LocalizeTarget_UnityUI_Text
+    m_NumOfMethods: 1
+    m_MethodIndex: 20
+    m_IsUnityClass: 0
+  m_ClassMethodInfos:
+  - m_ClassIndex: 0
+    m_MethodName: SetMainUnityThread
+    m_OrderNumber: 0
+  - m_ClassIndex: 1
+    m_MethodName: FixCertificateValidation
+    m_OrderNumber: 0
+  - m_ClassIndex: 2
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 3
+    m_MethodName: EditorOnLoad
+    m_OrderNumber: 0
+  - m_ClassIndex: 4
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 5
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 6
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 7
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 8
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 9
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 10
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 11
+    m_MethodName: EnsureLoaded
+    m_OrderNumber: 0
+  - m_ClassIndex: 12
+    m_MethodName: DoNothing
+    m_OrderNumber: 0
+  - m_ClassIndex: 13
+    m_MethodName: EnsureLoaded
+    m_OrderNumber: 0
+  - m_ClassIndex: 14
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 15
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 16
+    m_MethodName: InitializeRuntime
+    m_OrderNumber: 0
+  - m_ClassIndex: 17
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 18
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 19
+    m_MethodName: ScriptingDirtyReflectionSystemInstance
+    m_OrderNumber: 0
+  - m_ClassIndex: 20
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  m_BeforeUnityMethodExecutionOrders:
+  - 3
+  m_AfterUnityMethodExecutionOrders:
+  - 19
+  m_BeforeMethodExecutionOrders:
+  - 0
+  - 1
+  - 2
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 16
+  - 17
+  - 18
+  - 20
+  m_AfterMethodExecutionOrders:
+  - 15
+  m_FullClassNames: []

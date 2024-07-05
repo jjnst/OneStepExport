@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1462746165, guid: d475063df6f76640a057743d39c7d5b7, type: 3}
+  m_Name: CardtridgeOverback
+  m_EditorClassIdentifier:
+  nodes:
+  - {fileID: 11400000, guid: 18b600a3a30336342bbb6f4d10d2dc16, type: 2}
+  - {fileID: 11400000, guid: ff99207af9dd89e4d996398d1572cce5, type: 2}
+  - {fileID: 11400000, guid: 2f4dc937f086a364d94583515f4a0b2e, type: 2}
+  - {fileID: 11400000, guid: d207a776f83719c4cb19e989f3923bd2, type: 2}
+  - {fileID: 11400000, guid: 3e9c2fb1fb4587047a73b40b69fb3a45, type: 2}
+  - {fileID: 11400000, guid: cbd6967955fad284eaa0323e9e25c2fe, type: 2}
+  editorStates:
+  - {fileID: 11400000, guid: 83319f92f8d19c24997010dd13a151d1, type: 2}
+  livesInScene: 0

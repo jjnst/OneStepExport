@@ -1,0 +1,1567 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Help
+Enemy and Boss ID's in Enemies.xml
+Example enemies: Artillery, Artillery2, Artillery3
+Example bosses: BossSelicy, BossShopkeeper
+
+Look at any of the worlds below for examples.
+"Defaultia" stage 0 is the one you'll want to change for TestScene.
+
+Check bottom of TestScene.xml for more info.
+-->
+
+<document>
+  <world num="-1" name="Defaultia" background="Ruins" icon="WorldRuins" transition="Meteor"><!--DEFAULT test-->
+
+    <stage num="0">
+      <set>
+        <enemy name="Weakbot"></enemy>
+        <enemy name="Weakbot"></enemy>
+      </set>
+    </stage>
+    <stage num="1">
+      <set>
+        <enemy name="Weakbot"></enemy>
+      </set>
+    </stage>
+
+    <stage description="Miniboss">
+      <set>
+        <enemy name="Monolithice"></enemy>
+      </set>
+    </stage>
+
+    <stage description="Boss">
+      <set>
+        <enemy name="BossTerra"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  <world num="1" name="Selicy" tags="Selicy, Ice, Pool" background="Ice" icon="WorldIce" transition="FlowerThree"><!--CAMPAIGN WORLD 1 Selicy - Ice-->
+    <stage num="0">
+      <set>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker"></enemy>
+      </set>
+      <set>
+        <enemy name="Sniper"></enemy>
+      </set>
+      <set>
+        <enemy name="Shardshooter"></enemy>
+      </set>
+      <set>
+        <enemy name="Minfrost"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper"></enemy>
+      </set>
+    </stage>
+
+    <stage num="1">
+      <set>
+        <enemy name="Icefactory"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Hailcaster"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Minfrost"></enemy>
+        <enemy name="Minfrost"></enemy>
+      </set>
+      <set>
+        <enemy name="Shardshooter"></enemy>
+        <enemy name="Sniper"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Sniper"></enemy>
+      </set>
+      <set>
+        <enemy name="Hailcaster"></enemy>
+        <enemy name="Sniper"></enemy>
+      </set>
+    </stage>
+
+    <stage num="2">
+      <set>
+        <enemy name="Icefactory"></enemy>
+        <enemy name="Reaper"></enemy>
+      </set>
+      <set>
+        <enemy name="Hailcaster"></enemy>
+        <enemy name="Lurker"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Minfrost"></enemy>
+      </set>
+      <set>
+        <enemy name="Hailcaster"></enemy>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Minfrost"></enemy>
+      </set>
+      <set>
+        <enemy name="Hailcaster"></enemy>
+        <enemy name="Sniper"></enemy>
+        <enemy name="Minfrost"></enemy>
+      </set>
+      <set>
+        <enemy name="Sniper"></enemy>
+        <enemy name="Lurker"></enemy>
+      </set>
+      <set>
+        <enemy name="Sniper"></enemy>
+        <enemy name="Minfrost"></enemy>
+        <enemy name="Lurker"></enemy>
+      </set>
+      <set>
+        <enemy name="Icefactory"></enemy>
+        <enemy name="Sniper"></enemy>
+      </set>
+    </stage>
+
+    <stage num="3">
+      <set>
+        <enemy name="Icefactory"></enemy>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Lurker2"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Lurker"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Reaper"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Lurker"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Hailcaster"></enemy>
+        <enemy name="Lurker"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Hailcaster"></enemy>
+        <enemy name="ShardShooter"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Hailcaster"></enemy>
+        <enemy name="ShardShooter"></enemy>
+      </set>
+      <set>
+        <enemy name="Reaper"></enemy>
+        <enemy name="Minfrost"></enemy>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Minfrost"></enemy>
+      </set>
+      <set>
+        <enemy name="Sniper"></enemy>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Reaper2"></enemy>
+      </set>
+    </stage>
+    
+    <stage description="Miniboss">
+      <set>
+        <enemy name="Reaper2"></enemy>
+        <enemy name="Minfrost2"></enemy>
+        <enemy name="Monolithice"></enemy>
+      </set>
+      <set>
+        <enemy name="Icefactory2"></enemy>
+        <enemy name="Hailcaster2"></enemy>
+        <enemy name="Monolithice"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Monolithice"></enemy>
+      </set>
+      <set>
+        <enemy name="Icefactory2"></enemy>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Monolithice"></enemy>
+      </set>
+      <set>
+        <enemy name="Hailcaster2"></enemy>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Monolithice"></enemy>
+      </set>
+    </stage>
+
+    <stage description="Boss">
+      <set>
+        <enemy name="BossSelicy"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  <world num="2" name="Violette" tags="Violette, Ice, Pool" background="Ice" icon="WorldIce" transition="FlowerThree"><!--CAMPAIGN WORLD 2 Violette - Ice-->
+    
+    <stage num="0">
+      <set>
+        <enemy name="Manticore"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker"></enemy>
+      </set>
+      <set>
+        <enemy name="Sniper"></enemy>
+      </set>
+      <set>
+        <enemy name="Hailcaster"></enemy>
+      </set>
+      <set>
+        <enemy name="Icefactory"></enemy>
+      </set>
+      <set>
+        <enemy name="Shardshooter"></enemy>
+      </set>
+    </stage>
+
+    <stage num="1">
+      <set>
+        <enemy name="Hailcaster"></enemy>
+        <enemy name="Icefactory"></enemy>
+      </set>
+      <set>
+        <enemy name="Sniper"></enemy>
+        <enemy name="Icefactory"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Icelauncher"></enemy>
+      </set>
+      <set>
+        <enemy name="Shardshooter"></enemy>
+        <enemy name="Sniper"></enemy>
+      </set>
+      <set>
+        <enemy name="Sniper"></enemy>
+        <enemy name="Icelauncher"></enemy>
+      </set>
+      <set>
+        <enemy name="Hailcaster"></enemy>
+        <enemy name="Icelauncher"></enemy>
+      </set>
+      <set>
+        <enemy name="Sniper"></enemy>
+        <enemy name="Sniper"></enemy>
+      </set>
+      <set>
+        <enemy name="Shardshooter"></enemy>
+        <enemy name="Hailcaster"></enemy>
+      </set>
+      <set>
+        <enemy name="Minfrost"></enemy>
+        <enemy name="Sniper"></enemy>
+      </set>
+      <set>
+        <enemy name="Minfrost"></enemy>
+        <enemy name="Icefactory"></enemy>
+      </set>
+    </stage>
+
+    <stage num="2">
+      <set>
+        <enemy name="Icefactory"></enemy>
+        <enemy name="Shardshooter"></enemy>
+        <enemy name="Hailcaster"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Hailcaster"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Icelauncher"></enemy>
+        <enemy name="Hailcaster"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Icelauncher"></enemy>
+        <enemy name="Hailcaster"></enemy>
+      </set>
+      <set>
+        <enemy name="Shardshooter"></enemy>
+        <enemy name="Hailcaster"></enemy>
+        <enemy name="Sniper"></enemy>
+      </set>
+      <set>
+        <enemy name="Shardshooter"></enemy>
+        <enemy name="Minfrost"></enemy>
+        <enemy name="Sniper"></enemy>
+      </set>
+      <set>
+        <enemy name="Icelauncher"></enemy>
+        <enemy name="Icefactory"></enemy>
+        <enemy name="Sniper"></enemy>
+      </set>
+    </stage>
+
+    <stage num="3">
+      <set>
+        <enemy name="Icefactory"></enemy>
+        <enemy name="Shardshooter"></enemy>
+        <enemy name="Hailcaster"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Hailcaster"></enemy>
+      </set>
+      <set>
+        <enemy name="Icelauncher"></enemy>
+        <enemy name="Icefactory"></enemy>
+        <enemy name="Icefactory"></enemy>
+      </set>
+      <set>
+        <enemy name="Sniper"></enemy>
+        <enemy name="Icefactory"></enemy>
+        <enemy name="Icelauncher"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Sniper"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Sniper"></enemy>
+        <enemy name="Sniper"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Hailcaster"></enemy>
+        <enemy name="Sniper"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore"></enemy>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Sniper"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Hailcaster"></enemy>
+        <enemy name="Sniper"></enemy>
+      </set>
+      <set>
+        <enemy name="Lurker"></enemy>
+        <enemy name="Shardshooter"></enemy>
+        <enemy name="Sniper"></enemy>
+      </set>
+    </stage>
+    
+    <stage description="Miniboss">
+      <set>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Icefactory2"></enemy>
+        <enemy name="Monolithice"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore2"></enemy>
+        <enemy name="Icelauncher2"></enemy>
+        <enemy name="Monolithice"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore2"></enemy>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Monolithice"></enemy>
+      </set>
+      <set>
+        <enemy name="Manticore2"></enemy>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Monolithice"></enemy>
+      </set>
+      <set>
+        <enemy name="Sniper2"></enemy>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Monolithice"></enemy>
+      </set>
+      <set>
+        <enemy name="Minfrost2"></enemy>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Monolithice"></enemy>
+      </set>
+      <set>
+        <enemy name="Sniper2"></enemy>
+        <enemy name="Sniper2"></enemy>
+        <enemy name="Monolithice"></enemy>
+      </set>
+      <set>
+        <enemy name="Shardshooter2"></enemy>
+        <enemy name="Sniper2"></enemy>
+        <enemy name="Monolithice"></enemy>
+      </set>
+      <set>
+        <enemy name="Shardshooter2"></enemy>
+        <enemy name="Lurker2"></enemy>
+        <enemy name="Monolithice"></enemy>
+      </set>
+    </stage>
+
+    <stage description="Boss">
+      <set>
+        <enemy name="BossViolette"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  <world num="3" name="Saffron" tags="Saffron, Fire, Pool" background="Fire" icon="WorldFire" transition="Meteor"><!--CAMPAIGN WORLD 3 Saffron - Fire-->
+    <stage num="0">
+      <set>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Firechild"></enemy>
+      </set>
+      <set>
+        <enemy name="Reacter"></enemy>
+      </set>
+      <set>
+        <enemy name="Luxcannon"></enemy>
+      </set>
+      <set>
+        <enemy name="Obeamer"></enemy>
+      </set>
+      <set>
+        <enemy name="Bomberboi"></enemy>
+      </set>
+    </stage>
+
+    <stage num="1">
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Luxcannon"></enemy>
+      </set>
+      <set>
+        <enemy name="Firechild"></enemy>
+        <enemy name="Obeamer"></enemy>
+      </set>
+      <set>
+        <enemy name="Reacter"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Firechild"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Luxcannon"></enemy>
+        <enemy name="Reacter"></enemy>
+      </set>
+      <set>
+        <enemy name="Bomberboi"></enemy>
+        <enemy name="Obeamer"></enemy>
+      </set>
+      <set>
+        <enemy name="Machgunner"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+    </stage>
+
+    <stage num="2">
+      <set>
+        <enemy name="Luxcannon"></enemy>
+        <enemy name="Machgunner"></enemy>
+      </set>
+      <set>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Luxcannon"></enemy>
+        <enemy name="Obeamer"></enemy>
+      </set>
+      <set>
+        <enemy name="Firechild"></enemy>
+        <enemy name="Obeamer"></enemy>
+        <enemy name="Machgunner"></enemy>
+      </set>
+      <set>
+        <enemy name="Firechild"></enemy>
+        <enemy name="Luxcannon"></enemy>
+      </set>
+      <set>
+        <enemy name="Machgunner"></enemy>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Luxcannon"></enemy>
+      </set>
+      <set>
+        <enemy name="Obeamer"></enemy>
+        <enemy name="Reacter"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+    </stage>
+
+    <stage num="3">
+      <set>
+        <enemy name="Luxcannon"></enemy>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Firechild"></enemy>
+      </set>
+      <set>
+        <enemy name="Obeamer"></enemy>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Luxcannon"></enemy>
+      </set>
+      <set>
+        <enemy name="Reacter"></enemy>
+        <enemy name="Obeamer"></enemy>
+        <enemy name="Machgunner"></enemy>
+      </set>
+      <set>
+        <enemy name="Machgunner"></enemy>
+        <enemy name="Obeamer"></enemy>
+        <enemy name="Machgunner"></enemy>
+      </set>
+      <set>
+        <enemy name="Luxcannon"></enemy>
+        <enemy name="Obeamer"></enemy>
+        <enemy name="Machgunner"></enemy>
+      </set>
+      <set>
+        <enemy name="Machgunner"></enemy>
+        <enemy name="Obeamer"></enemy>
+        <enemy name="Obeamer"></enemy>
+      </set>
+    </stage>
+    
+    <stage description="Miniboss">
+      <set>
+        <enemy name="Machgunner2"></enemy>
+        <enemy name="Luxcannon2"></enemy>
+        <enemy name="Monolithfire"></enemy>
+      </set>
+      <set>
+        <enemy name="Luxcannon2"></enemy>
+        <enemy name="Bomberboi2"></enemy>
+        <enemy name="Monolithfire"></enemy>
+      </set>
+    </stage>
+
+    <stage description="Boss">
+      <set>
+        <enemy name="BossSaffron"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  <world num="4" name="Gunner" tags="Gunner, Fire, Pool" background="Fire" icon="WorldFire" transition="Meteor"><!--CAMPAIGN WORLD 4 Gunner - Fire-->
+    <stage num="0">
+      <set>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Firechild"></enemy>
+      </set>
+      <set>
+        <enemy name="Reacter"></enemy>
+      </set>
+      <set>
+        <enemy name="Minelayer"></enemy>
+      </set>
+      <set>
+        <enemy name="Obeamer"></enemy>
+      </set>
+      <set>
+        <enemy name="Bomberboi"></enemy>
+      </set>
+    </stage>
+
+    <stage num="1">
+      <set>
+        <enemy name="Firechild"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Minelayer"></enemy>
+        <enemy name="Machgunner"></enemy>
+      </set>
+      <set>
+        <enemy name="Reacter"></enemy>
+        <enemy name="Obeamer"></enemy>
+      </set>
+      <set>
+        <enemy name="Obeamer"></enemy>
+        <enemy name="Bomberboi"></enemy>
+      </set>
+      <set>
+        <enemy name="Machgunner"></enemy>
+        <enemy name="Bomberboi"></enemy>
+      </set>
+      <set>
+        <enemy name="Obeamer"></enemy>
+        <enemy name="Machgunner"></enemy>
+      </set>
+      <set>
+        <enemy name="Obeamer"></enemy>
+        <enemy name="Minelayer"></enemy>
+      </set>
+      <set>
+        <enemy name="Obeamer"></enemy>
+        <enemy name="Firechild"></enemy>
+      </set>
+      <set>
+        <enemy name="Reacter"></enemy>
+        <enemy name="Firechild"></enemy>
+      </set>
+      <set>
+        <enemy name="Bomberboi"></enemy>
+        <enemy name="Firechild"></enemy>
+      </set>
+    </stage>
+
+    <stage num="2">
+      <set>
+        <enemy name="Minelayer"></enemy>
+        <enemy name="Bomberboi"></enemy>
+        <enemy name="Obeamer"></enemy>
+      </set>
+      <set>
+        <enemy name="Bomberboi"></enemy>
+        <enemy name="Reacter"></enemy>
+      </set>
+      <set>
+        <enemy name="Bomberboi"></enemy>
+        <enemy name="Reacter"></enemy>
+        <enemy name="Bomberboi"></enemy>
+      </set>
+      <set>
+        <enemy name="Machgunner"></enemy>
+        <enemy name="Reacter"></enemy>
+        <enemy name="Bomberboi"></enemy>
+      </set>
+      <set>
+        <enemy name="Machgunner"></enemy>
+        <enemy name="Reacter"></enemy>
+        <enemy name="Bomberboi"></enemy>
+      </set>
+      <set>
+        <enemy name="Minelayer"></enemy>
+        <enemy name="Firechild"></enemy>
+        <enemy name="Obeamer"></enemy>
+      </set>
+      <set>
+        <enemy name="Machgunner"></enemy>
+        <enemy name="Firechild"></enemy>
+        <enemy name="Obeamer"></enemy>
+      </set>
+    </stage>
+
+    <stage num="3">
+      <set>
+        <enemy name="Minelayer"></enemy>
+        <enemy name="Bomberboi"></enemy>
+        <enemy name="Reacter"></enemy>
+      </set>
+      <set>
+        <enemy name="Bomberboi"></enemy>
+        <enemy name="Minelayer"></enemy>
+        <enemy name="Machgunner"></enemy>
+      </set>
+      <set>
+        <enemy name="Bomberboi"></enemy>
+        <enemy name="Obeamer"></enemy>
+        <enemy name="Machgunner"></enemy>
+      </set>
+      <set>
+        <enemy name="Firechild"></enemy>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Machgunner"></enemy>
+      </set>
+      <set>
+        <enemy name="Firechild"></enemy>
+        <enemy name="Artillery"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Obeamer"></enemy>
+        <enemy name="Machgunner"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+    </stage>
+    
+    <stage description="Miniboss">
+      <set>
+        <enemy name="Machgunner2"></enemy>
+        <enemy name="Reacter2"></enemy>
+        <enemy name="Monolithfire"></enemy>
+      </set>
+      <set>
+        <enemy name="Minelayer2"></enemy>
+        <enemy name="Bomberboi2"></enemy>
+        <enemy name="Monolithfire"></enemy>
+      </set>
+      <set>
+        <enemy name="Machgunner2"></enemy>
+        <enemy name="Machgunner"></enemy>
+        <enemy name="Monolithfire"></enemy>
+      </set>
+      <set>
+        <enemy name="Bomberboi2"></enemy>
+        <enemy name="Bomberboi"></enemy>
+        <enemy name="Monolithfire"></enemy>
+      </set>
+      <set>
+        <enemy name="Machgunner2"></enemy>
+        <enemy name="Machgunner"></enemy>
+        <enemy name="Monolithfire"></enemy>
+      </set>
+      <set>
+        <enemy name="Obeamer2"></enemy>
+        <enemy name="Minelayer"></enemy>
+        <enemy name="Monolithfire"></enemy>
+      </set>
+    </stage>
+
+    <stage description="Boss">
+      <set>
+        <enemy name="BossGunner"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  <world num="5" name="Hazel" tags="Hazel, Forest, Pool" background="Forest" icon="WorldForest" transition="Trees"><!--CAMPAIGN WORLD 5 Hazel - Forest-->
+    <stage num="0">
+      <set>
+        <enemy name="Liger"></enemy>
+      </set>
+      <set>
+        <enemy name="Jellygen"></enemy>
+      </set>
+      <set>
+        <enemy name="Sprouter"></enemy>
+      </set>
+      <set>
+        <enemy name="Decayer"></enemy>
+      </set>
+      <set>
+        <enemy name="Spitter"></enemy>
+      </set>
+    </stage>
+    <stage num="1">
+      <set>
+        <enemy name="Decayer"></enemy>
+        <enemy name="Jellygen"></enemy>
+      </set>
+      <set>
+        <enemy name="Decayer"></enemy>
+        <enemy name="Sprouter"></enemy>
+      </set>
+      <set>
+        <enemy name="Liger"></enemy>
+        <enemy name="Decayer"></enemy>
+      </set>
+      <set>
+        <enemy name="Sprouter"></enemy>
+        <enemy name="Spitter"></enemy>
+      </set>
+      <set>
+        <enemy name="Sprouter"></enemy>
+        <enemy name="Jellygen"></enemy>
+      </set>
+      <set>
+        <enemy name="Spitter"></enemy>
+        <enemy name="Jellygen"></enemy>
+      </set>
+    </stage>
+
+    <stage num="2">
+      <set>
+        <enemy name="Spitter"></enemy>
+        <enemy name="Healdon"></enemy>
+        <enemy name="Sprouter"></enemy>
+      </set>
+      <set>
+        <enemy name="Spitter"></enemy>
+        <enemy name="Liger"></enemy>
+        <enemy name="Sprouter"></enemy>
+      </set>
+      <set>
+        <enemy name="Decayer"></enemy>
+        <enemy name="Liger"></enemy>
+        <enemy name="Liger"></enemy>
+      </set>
+      <set>
+        <enemy name="Jellygen"></enemy>
+        <enemy name="Liger"></enemy>
+        <enemy name="Spitter"></enemy>
+      </set>
+      <set>
+        <enemy name="Jellygen"></enemy>
+        <enemy name="Spitter"></enemy>
+        <enemy name="Spitter"></enemy>
+      </set>
+    </stage>
+
+    <stage num="3">
+      <set>
+        <enemy name="Jellygen2"></enemy>
+        <enemy name="Healdon"></enemy>
+        <enemy name="Sprouter"></enemy>
+      </set>
+      <set>
+        <enemy name="Spitter"></enemy>
+        <enemy name="Liger"></enemy>
+        <enemy name="Sprouter"></enemy>
+      </set>
+      <set>
+        <enemy name="Spitter"></enemy>
+        <enemy name="Liger"></enemy>
+        <enemy name="Liger"></enemy>
+      </set>
+      <set>
+        <enemy name="Spitter"></enemy>
+        <enemy name="Decayer"></enemy>
+        <enemy name="Liger"></enemy>
+      </set>
+      <set>
+        <enemy name="Sprouter"></enemy>
+        <enemy name="Sprouter"></enemy>
+        <enemy name="Healdon"></enemy>
+      </set>
+      <set>
+        <enemy name="Jellygen2"></enemy>
+        <enemy name="Spitter"></enemy>
+        <enemy name="Healdon"></enemy>
+      </set>
+    </stage>
+    
+    <stage description="Miniboss">
+      <set>
+        <enemy name="Spitter2"></enemy>
+        <enemy name="Liger2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Decayer2"></enemy>
+        <enemy name="Sprouter2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Liger2"></enemy>
+        <enemy name="Healdon2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Liger2"></enemy>
+        <enemy name="Liger2"></enemy>
+        <enemy name="Liger"></enemy>
+      </set>
+      <set>
+        <enemy name="Sprouter2"></enemy>
+        <enemy name="Sprouter2"></enemy>
+        <enemy name="Sprouter"></enemy>
+      </set>
+      <set>
+        <enemy name="Sprouter2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+        <enemy name="Sprouter2"></enemy>
+      </set>
+      <set>
+        <enemy name="Spitter2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+        <enemy name="Jellygen"></enemy>
+        <enemy name="Liger"></enemy>
+      </set>
+      <set>
+        <enemy name="Spitter2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+        <enemy name="Jellygen"></enemy>
+        <enemy name="Sprouter"></enemy>
+      </set>
+    </stage>
+
+    <stage description="Boss">
+      <set>
+        <enemy name="BossHazel"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  <world num="6" name="Shiso" tags="Shiso, Forest, Pool" background="Forest" icon="WorldForest" transition="Trees"><!--CAMPAIGN WORLD 6 Shiso - Forest-->
+    <stage num="0">
+      <set>
+        <enemy name="Liger"></enemy>
+      </set>
+      <set>
+        <enemy name="Jellygen"></enemy>
+      </set>
+      <set>
+        <enemy name="Avenger"></enemy>
+      </set>
+      <set>
+        <enemy name="Decayer"></enemy>
+      </set>
+      <set>
+        <enemy name="Spitter"></enemy>
+      </set>
+    </stage>
+    <stage num="1">
+      <set>
+        <enemy name="Avenger"></enemy>
+        <enemy name="Jellygen"></enemy>
+      </set>
+      <set>
+        <enemy name="Avenger"></enemy>
+        <enemy name="Liger"></enemy>
+      </set>
+      <set>
+        <enemy name="Avenger"></enemy>
+        <enemy name="Dancer"></enemy>
+      </set>
+      <set>
+        <enemy name="Jellygen"></enemy>
+        <enemy name="Dancer"></enemy>
+      </set>
+      <set>
+        <enemy name="Decayer"></enemy>
+        <enemy name="Dancer"></enemy>
+      </set>
+      <set>
+        <enemy name="Spitter"></enemy>
+        <enemy name="Liger"></enemy>
+      </set>
+      <set>
+        <enemy name="Liger"></enemy>
+        <enemy name="Liger"></enemy>
+      </set>
+    </stage>
+
+    <stage num="2">
+      <set>
+        <enemy name="Dancer"></enemy>
+        <enemy name="Jellygen"></enemy>
+        <enemy name="Healdon"></enemy>
+      </set>
+      <set>
+        <enemy name="Spitter"></enemy>
+        <enemy name="Spitter"></enemy>
+        <enemy name="Liger"></enemy>
+      </set>
+      <set>
+        <enemy name="Avenger"></enemy>
+        <enemy name="Liger"></enemy>
+        <enemy name="Healdon"></enemy>
+      </set>
+      <set>
+        <enemy name="Decayer"></enemy>
+        <enemy name="Liger"></enemy>
+        <enemy name="Avenger"></enemy>
+      </set>
+      <set>
+        <enemy name="Liger"></enemy>
+        <enemy name="Liger"></enemy>
+        <enemy name="Avenger"></enemy>
+      </set>
+    </stage>
+
+    <stage num="3">
+      <set>
+        <enemy name="Dancer"></enemy>
+        <enemy name="Jellygen2"></enemy>
+        <enemy name="Liger"></enemy>
+      </set>
+      <set>
+        <enemy name="Spitter2"></enemy>
+        <enemy name="Liger"></enemy>
+        <enemy name="Liger"></enemy>
+      </set>
+      <set>
+        <enemy name="Avenger"></enemy>
+        <enemy name="Liger"></enemy>
+        <enemy name="Decayer2"></enemy>
+      </set>
+      <set>
+        <enemy name="Jellygen2"></enemy>
+        <enemy name="Jellygen"></enemy>
+        <enemy name="Jellygen2"></enemy>
+      </set>
+      <set>
+        <enemy name="Jellygen2"></enemy>
+        <enemy name="Jellygen2"></enemy>
+        <enemy name="Avenger"></enemy>
+      </set>
+    </stage>
+    
+    <stage description="Miniboss">
+      <set>
+        <enemy name="Spitter2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+        <enemy name="Jellygen2"></enemy>
+      </set>
+      <set>
+        <enemy name="Decayer2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+        <enemy name="Liger2"></enemy>
+      </set>
+      <set>
+        <enemy name="Liger2"></enemy>
+        <enemy name="Liger2"></enemy>
+        <enemy name="Liger"></enemy>
+      </set>
+      <set>
+        <enemy name="Dancer"></enemy>
+        <enemy name="Monolithgun"></enemy>
+        <enemy name="Dancer"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Monolithgun"></enemy>
+        <enemy name="Spitter2"></enemy>
+        <enemy name="Avenger2"></enemy>
+      </set>
+      <set>
+        <enemy name="Monolithgun"></enemy>
+        <enemy name="Decayer2"></enemy>
+        <enemy name="Avenger2"></enemy>
+      </set>
+      <set>
+        <enemy name="Monolithgun"></enemy>
+        <enemy name="Dancer"></enemy>
+        <enemy name="Avenger2"></enemy>
+      </set>
+    </stage>
+
+    <stage description="Boss">
+      <set>
+        <enemy name="BossShiso"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  <world num="7" name="Reva" tags="Reva, Ruins, Pool" background="Ruins" icon="WorldRuins" transition="FlowerThree"><!--CAMPAIGN WORLD 7 Reva - Ruins-->
+    <stage num="0">
+      <set>
+        <enemy name="Diagon"></enemy>
+      </set>
+      <set>
+        <enemy name="Ghost"></enemy>
+      </set>
+      <set>
+        <enemy name="Revolver"></enemy>
+      </set>
+      <set>
+        <enemy name="Zombee"></enemy>
+      </set>
+      <set>
+        <enemy name="Slasher"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper"></enemy>
+      </set>
+    </stage>
+
+    <stage num="1">
+      <set>
+        <enemy name="Zombee"></enemy>
+        <enemy name="Shieldon"></enemy>
+      </set>
+      <set>
+        <enemy name="Zombee"></enemy>
+        <enemy name="Elecbug"></enemy>
+      </set>
+      <set>
+        <enemy name="Slasher"></enemy>
+        <enemy name="Diagon"></enemy>
+      </set>
+      <set>
+        <enemy name="Slasher"></enemy>
+        <enemy name="Zombee"></enemy>
+      </set>
+      <set>
+        <enemy name="Elecbug"></enemy>
+        <enemy name="Slasher"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Ghost"></enemy>
+      </set>
+      <set>
+        <enemy name="Diagon"></enemy>
+        <enemy name="Revolver"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Spearper"></enemy>
+      </set>
+    </stage>
+
+    <stage num="2">
+      <set>
+        <enemy name="Slasher"></enemy>
+        <enemy name="Revolver"></enemy>
+        <enemy name="Shieldon"></enemy>
+      </set>
+      <set>
+        <enemy name="Zombee"></enemy>
+        <enemy name="Shieldon"></enemy>
+        <enemy name="Slasher"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Shieldon"></enemy>
+        <enemy name="Ghost"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Shieldon"></enemy>
+        <enemy name="Elecbug"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Slasher"></enemy>
+        <enemy name="Diagon"></enemy>
+      </set>
+      <set>
+        <enemy name="Zombee"></enemy>
+        <enemy name="Slasher"></enemy>
+        <enemy name="Diagon"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Diagon"></enemy>
+      </set>
+    </stage>
+
+    <stage num="3">
+      <set>
+        <enemy name="Slasher"></enemy>
+        <enemy name="Revolver"></enemy>
+        <enemy name="Shieldon"></enemy>
+      </set>
+      <set>
+        <enemy name="Zombee"></enemy>
+        <enemy name="Zombee2"></enemy>
+        <enemy name="Slasher"></enemy>
+      </set>
+      <set>
+        <enemy name="Zombee2"></enemy>
+        <enemy name="Shieldon"></enemy>
+        <enemy name="Slasher"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Shieldon2"></enemy>
+        <enemy name="Elecbug"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Slasher"></enemy>
+        <enemy name="Diagon"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Slasher"></enemy>
+        <enemy name="Shieldon2"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Elecbug2"></enemy>
+      </set>
+      <set>
+        <enemy name="Slasher2"></enemy>
+        <enemy name="Revolver"></enemy>
+        <enemy name="Elecbug"></enemy>
+      </set>
+    </stage>
+    
+    <stage description="Miniboss">
+      <set>
+        <enemy name="Spearper2"></enemy>
+        <enemy name="Diagon2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Zombee2"></enemy>
+        <enemy name="Shieldon2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Slasher2"></enemy>
+        <enemy name="Spearper2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Revolver2"></enemy>
+        <enemy name="Spearper2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Diagon2"></enemy>
+        <enemy name="Slasher2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+    </stage>
+
+    <stage description="Boss">
+      <set>
+        <enemy name="BossReva"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  <world num="8" name="Terra" tags="Terra, Ruins, Pool" background="Ruins" icon="WorldRuins" transition="FlowerThree"><!--CAMPAIGN WORLD 8 Terra - Ruins-->
+    <stage num="0">
+      <set>
+        <enemy name="Diagon"></enemy>
+      </set>
+      <set>
+        <enemy name="Ghost"></enemy>
+      </set>
+      <set>
+        <enemy name="Revolver"></enemy>
+      </set>
+      <set>
+        <enemy name="Breakbeamer"></enemy>
+      </set>
+    </stage>
+    <stage num="1">
+      <set>
+        <enemy name="Zombee"></enemy>
+        <enemy name="Diagon"></enemy>
+      </set>
+      <set>
+        <enemy name="Slasher"></enemy>
+        <enemy name="Diagon"></enemy>
+      </set>
+      <set>
+        <enemy name="Ghost"></enemy>
+        <enemy name="Diagon"></enemy>
+      </set>
+      <set>
+        <enemy name="Ghost"></enemy>
+        <enemy name="Revolver"></enemy>
+      </set>
+      <set>
+        <enemy name="Breakbeamer"></enemy>
+        <enemy name="Revolver"></enemy>
+      </set>
+      <set>
+        <enemy name="Zombee"></enemy>
+        <enemy name="Revolver"></enemy>
+      </set>
+      <set>
+        <enemy name="Diagon"></enemy>
+        <enemy name="Diagon"></enemy>
+      </set>
+    </stage>
+
+    <stage num="2">
+      <set>
+        <enemy name="Ghost"></enemy>
+        <enemy name="Diagon"></enemy>
+        <enemy name="Breakbeamer"></enemy>
+      </set>
+      <set>
+        <enemy name="Ghost"></enemy>
+        <enemy name="Diagon"></enemy>
+        <enemy name="Elecbug"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Breakbeamer"></enemy>
+        <enemy name="Spearper"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Breakbeamer"></enemy>
+        <enemy name="Ghost"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Breakbeamer"></enemy>
+        <enemy name="Revolver"></enemy>
+      </set>
+      <set>
+        <enemy name="Breakbeamer"></enemy>
+        <enemy name="Ghost"></enemy>
+        <enemy name="Revolver"></enemy>
+      </set>
+      <set>
+        <enemy name="Diagon2"></enemy>
+        <enemy name="Revolver"></enemy>
+      </set>
+    </stage>
+
+    <stage num="3">
+      <set>
+        <enemy name="Ghost"></enemy>
+        <enemy name="Diagon"></enemy>
+        <enemy name="Breakbeamer2"></enemy>
+      </set>
+      <set>
+        <enemy name="Elecbug"></enemy>
+        <enemy name="Diagon"></enemy>
+        <enemy name="Elecbug"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper2"></enemy>
+        <enemy name="Ghost"></enemy>
+        <enemy name="Spearper"></enemy>
+      </set>
+      <set>
+        <enemy name="Revolver"></enemy>
+        <enemy name="Diagon"></enemy>
+        <enemy name="Ghost"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Revolver"></enemy>
+        <enemy name="Revolver"></enemy>
+      </set>
+      <set>
+        <enemy name="Breakbeamer"></enemy>
+        <enemy name="Diagon"></enemy>
+        <enemy name="Diagon"></enemy>
+      </set>
+      <set>
+        <enemy name="Diagon2"></enemy>
+        <enemy name="Revolver"></enemy>
+      </set>
+    </stage>
+    
+    <stage description="Miniboss">
+      <set>
+        <enemy name="Spearper2"></enemy>
+        <enemy name="Breakbeamer2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Breakbeamer2"></enemy>
+        <enemy name="Revolver2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Zombee2"></enemy>
+        <enemy name="Diagon2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Revolver2"></enemy>
+        <enemy name="Diagon2"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Spearper2"></enemy>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Breakbeamer"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Revolver2"></enemy>
+        <enemy name="Zombee"></enemy>
+        <enemy name="Breakbeamer"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+      <set>
+        <enemy name="Revolver2"></enemy>
+        <enemy name="Zombee"></enemy>
+        <enemy name="Spearper"></enemy>
+        <enemy name="Monolithgun"></enemy>
+      </set>
+    </stage>
+
+    <stage description="Boss">
+      <set>
+        <enemy name="BossTerra"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  <world num="100" name="Pacifist" tags="Ending" background="Wasteland" icon="WorldWasteland" transition="FlowerThree"><!--Pacifist-->
+    <stage num="0">
+      <set>
+        <enemy name="BossTerraDark"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  <world num="101" name="Normal" tags="Ending" background="Wasteland" icon="WorldWasteland" transition="FlowerThree"><!--Normal-->
+    <stage num="0">
+      <set>
+        <enemy name="BossGate"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  <world num="102" name="Genocide" tags="Ending" background="Eden" icon="WorldEden" transition="FlowerThree"><!--Genocide-->
+    <stage num="0">
+      <set>
+        <enemy name="Colossus"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Carpenter"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Cornet"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Crosser"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+      <set>
+        <enemy name="Crusher"></enemy>
+        <enemy name="Artillery"></enemy>
+      </set>
+    </stage>
+
+    <stage num="1">
+      <set>
+        <enemy name="Colossus"></enemy>
+        <enemy name="Carpenter"></enemy>
+      </set>
+      <set>
+        <enemy name="Colossus"></enemy>
+        <enemy name="Cornet"></enemy>
+      </set>
+      <set>
+        <enemy name="Cornet"></enemy>
+        <enemy name="Crosser"></enemy>
+      </set>
+      <set>
+        <enemy name="Carpenter"></enemy>
+        <enemy name="Crosser"></enemy>
+      </set>
+      <set>
+        <enemy name="Carpenter"></enemy>
+        <enemy name="Cornet"></enemy>
+      </set>
+      <set>
+        <enemy name="Carpenter"></enemy>
+        <enemy name="Crusher"></enemy>
+      </set>
+      <set>
+        <enemy name="Crusher"></enemy>
+        <enemy name="Cornet"></enemy>
+      </set>
+      <set>
+        <enemy name="Crusher"></enemy>
+        <enemy name="Crosser"></enemy>
+      </set>
+      <set>
+        <enemy name="Colossus"></enemy>
+        <enemy name="Crosser"></enemy>
+      </set>
+    </stage>
+
+    <stage num="2">
+      <set>
+        <enemy name="Monolithgun"></enemy>
+        <enemy name="Monolithice"></enemy>
+        <enemy name="Monolithfire"></enemy>
+      </set>
+      <set>
+        <enemy name="Colossus"></enemy>
+        <enemy name="Carpenter"></enemy>
+      </set>
+      <set>
+        <enemy name="Colossus"></enemy>
+        <enemy name="Cornet"></enemy>
+      </set>
+      <set>
+        <enemy name="Cornet"></enemy>
+        <enemy name="Crosser"></enemy>
+      </set>
+      <set>
+        <enemy name="Carpenter"></enemy>
+        <enemy name="Crosser"></enemy>
+      </set>
+      <set>
+        <enemy name="Carpenter"></enemy>
+        <enemy name="Cornet"></enemy>
+      </set>
+      <set>
+        <enemy name="Colossus"></enemy>
+        <enemy name="Crosser"></enemy>
+      </set>
+    </stage>
+    
+    <stage description="Miniboss">
+      <set>
+        <enemy name="Colossus"></enemy>
+        <enemy name="Carpenter"></enemy>
+        <enemy name="Cornet"></enemy>
+      </set>
+      <set>
+        <enemy name="Colossus"></enemy>
+        <enemy name="Carpenter"></enemy>
+        <enemy name="Crosser"></enemy>
+      </set>
+      <set>
+        <enemy name="Colossus"></enemy>
+        <enemy name="Crosser"></enemy>
+        <enemy name="Cornet"></enemy>
+      </set>
+      <set>
+        <enemy name="Carpenter"></enemy>
+        <enemy name="Crosser"></enemy>
+        <enemy name="Cornet"></enemy>
+      </set>
+      <set>
+        <enemy name="Crusher"></enemy>
+        <enemy name="Crosser"></enemy>
+        <enemy name="Cornet"></enemy>
+      </set>
+      <set>
+        <enemy name="Crusher"></enemy>
+        <enemy name="Carpenter"></enemy>
+        <enemy name="Cornet"></enemy>
+      </set>
+      <set>
+        <enemy name="Crusher"></enemy>
+        <enemy name="Carpenter"></enemy>
+        <enemy name="Crosser"></enemy>
+      </set>
+    </stage>
+
+    <stage description="Boss" background="Throne-corridor">
+      <set>
+        <enemy name="BossSerif"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  <world num="-99" name="Tutorial" background="Ice" transition="FlowerThree">
+    <stage num="0">
+      <set>
+        <enemy name="Artillery"></enemy>
+      </set>
+    </stage>
+  </world>
+
+  <world num="-2" name="Automatia" background="Ice" transition="FlowerThree"><!--DEFAULT test-->
+    <stage num="0">
+      <set>
+        <enemy name="Testbot"></enemy>
+      </set>
+    </stage>
+  </world>
+
+</document>

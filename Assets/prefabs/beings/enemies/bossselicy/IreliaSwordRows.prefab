@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1919727359795293
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4984360015175877}
+  - component: {fileID: 114371970707267940}
+  m_Layer: 0
+  m_Name: IreliaSwordRows
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4984360015175877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919727359795293}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.9422226, y: -6.6121664, z: 10.778481}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114371970707267940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919727359795293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e60d5ff92a0411d8d22a0a45f67c71e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 2d00070000006974656d4f626a2d00080000007370656c6c4f626a
+    ReferencedUnityObjects: []
+    SerializedBytesString:
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  rarity: 0
+  itemType: 0
+  brand: 0
+  ctrl: {fileID: 0}
+  sp: {fileID: 0}
+  being: {fileID: 0}
+  animMark: {fileID: 0}
+  animMarkS:
+  animShot: {fileID: 0}
+  castSound: {fileID: 8300000, guid: bc51c980949e7e54ebe426899a2748dd, type: 3}
+  shotSound: {fileID: 8300000, guid: 97b49b453074f624990b96ac01506dd3, type: 3}
+  numTiles: 1
+  bulletSpeed: 1200
+  damage: 60
+  numOfShots: 1
+  duration: 4
+  warningLength: 0.6
+  timeMirror: 0
+  deltaTimeMirror: 0
+  castTime: 0
+  timeBetweenSwords: 0
+  fireDelay: 0.4
+  lastDelay: 0.4

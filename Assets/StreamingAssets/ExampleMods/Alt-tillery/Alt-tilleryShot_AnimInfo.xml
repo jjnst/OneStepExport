@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Animation loop="true" name="Alt-tilleryShot" frameDuration="70">
+  <Frame image="attacks/Alt-tilleryShot1.png"></Frame>
+  <Frame image="attacks/Alt-tilleryShot2.png"></Frame>
+  <Frame image="attacks/Alt-tilleryShot3.png"></Frame>
+</Animation>

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cornet
+  m_Controller: {fileID: 9100000, guid: 594a7516cb3b32044938b17809767e3c, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 6cf0e7d41a4622249b33140ad3808b1f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1662a4766dacb3d4cb3c121c244d344e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9aad2e50b1a1c0349927347b9852c776, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0c4e288980c10a54b942e6dd21f303fa, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b054b9d2919650f418641518670d63bc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d9cc6c0e6ea2dec4c8f76968a9f82365, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 445d150fe4628614db93c02974568c40, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9e5a200abf82c654eb267e26c6b4a6c6, type: 2}

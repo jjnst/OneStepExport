@@ -1,0 +1,8 @@
+breaker_idle.png,120,120,12
+irelia_idle.png,120,120,9
+irelia_atk.png,120,120,24
+irelia_throwS.png,120,120,6
+selicy_atkS.png,120,120,24
+selicy_idleS.png,120,120,9
+selicy_backS.png,120,120,2
+selicy_atkPlainS.png,120,120,24

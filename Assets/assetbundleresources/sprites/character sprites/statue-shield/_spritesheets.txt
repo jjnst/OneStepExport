@@ -1,0 +1,3 @@
+statueShield_idle.png,120,120,3
+statueShield_idleS.png,120,120,3
+statueShield_unlockS.png,120,120,8

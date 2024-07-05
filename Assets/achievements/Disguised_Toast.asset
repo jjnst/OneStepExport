@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0eef81c3cfddd6692439cd66ba14e60, type: 3}
+  m_Name: Disguised_Toast
+  m_EditorClassIdentifier:
+  achievementName: Disguised_Toast
+  hidden: 0
+  localizationNameKey: Disguised_Toast
+  localizationDescriptionKey: Disguised_Toast
+  localizationAchievedDescriptionKey: Disguised_Toast
+  achievementImage: {fileID: 2800000, guid: 987f66e07db488f40b8531fbae56a696, type: 3}
+  steamID: Disguised_Toast
+  xboxOneID:
+  ps4ID: 20
+  uwpID:
+  gameCenterID:
+  androidID:
+  gogID: Disguised_Toast

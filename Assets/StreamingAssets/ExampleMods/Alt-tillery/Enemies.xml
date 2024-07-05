@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Beings>
+  <Being beingID="Alt-tillery">
+    <Name>Alter</Name>
+    <Health>260</Health>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.16</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Alt-tillery" animBase="Monster" dieSound="beep_whine"
+    ></Stats>
+  </Being>
+</Beings>

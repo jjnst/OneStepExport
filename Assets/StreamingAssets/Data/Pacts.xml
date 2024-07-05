@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Pacts>
+  <Pact itemID="ChalDamage">
+    <Name>Sell health</Name>
+    <Tags>Challenge</Tags>
+    <Duration>0</Duration>
+    <App trigger="OnEquip" effect="Damage" amount="140"></App>
+    <Description>Take 140 damage</Description>
+    <Meta>Take damage</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="ChalLocation">
+    <Name>Sell location</Name>
+    <Tags>Challenge</Tags>
+    <Duration>2</Duration>
+    <App trigger="OnSpellCast" effect="CastSpell" value="ChalLocationX"></App>
+    <Description>Teleport to a random tile when you cast a Spell</Description>
+    <Meta>Teleport to a random tile when you cast a Spell for 3 battles</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="ChalHeat">
+    <Name>Sell heat</Name>
+    <Tags>Challenge</Tags>
+    <Duration>3</Duration>
+    <App trigger="OnEnemyHit" effect="CastSpell" chance="0.5" value="ChalHeatX"></App>
+    <Description>Enemies have a chance to fire a missile on hit</Description>
+    <Meta>Enemies have a chance to fire a missile on hit for 6 battles</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="ChalFire">
+    <Name>Sell fire</Name>
+    <Tags>Challenge</Tags>
+    <Duration>3</Duration>
+    <App trigger="WhileBattle" effect="CastSpell" value="ChalFireX" triggerCooldown="2"></App>
+    <Description>Create flames on random tiles during battle</Description>
+    <Meta>Teleport to a random tile when you cast a Spell for 3 battles</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="ChalInsurance">
+    <Name>Sell insurance</Name>
+    <Tags>Challenge</Tags>
+    <Duration>3</Duration>
+    <App trigger="OnTakeHit" effect="Money" amount="-2"></App>
+    <Description>Lose 2 money when you take a hit</Description>
+    <Meta>Lose 2 money when you take a hit for 3 battles</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="ChalWallet">
+    <Name>Sell wallet</Name>
+    <Tags>Challenge</Tags>
+    <Duration>2</Duration>
+    <App trigger="OnReshuffle" effect="Money" amount="-5"></App>
+    <Description>Lose 5 money when you shuffle</Description>
+    <Meta>Lose 5 money when you shuffle</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="ChalMagic">
+    <Name>Sell magic</Name>
+    <Tags>Challenge</Tags>
+    <Duration>1</Duration>
+    <App trigger="OnSpellCast" effect="Damage" amount="5" value="PierceDefense"></App>
+    <Description>Take 5 dmg hit when you cast a spell</Description>
+    <Meta>Take 5 dmg hit when you cast a spell</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="ChalShield">
+    <Name>Sell shield</Name>
+    <Tags>Challenge</Tags>
+    <Duration>2</Duration>
+    <App trigger="WhileBattle" effect="Shield" triggerCooldown="0.5" amount="-10"></App>
+    <Description>Shield decays</Description>
+    <Meta>Shield decays for battles</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="ChalSword">
+    <Name>Sell sword</Name>
+    <Tags>Challenge</Tags>
+    <Duration>3</Duration>
+    <App trigger="WhileBattle" effect="CastSpell" triggerCooldown="4" value="ChalSwordX"></App>
+    <Description>A sword drops on your tile during battle every 3 seconds</Description>
+    <Meta>A sword drops on your tile during battle every 3 seconds for 2 battles</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="ChalManaRegen">
+    <Name>Sell spirit</Name>
+    <Tags>Challenge</Tags>
+    <Duration>2</Duration>
+    <App trigger="OnEquip" effect="ManaRegen" amount="ManaRegen*-0.5"></App>
+    <Description>Halved mana regen</Description>
+    <Meta>Halved mana regen for 2 battles</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="ChalDefense">
+    <Name>Sell skin</Name>
+    <Tags>Challenge</Tags>
+    <Duration>1</Duration>
+    <App trigger="OnEquip" effect="Defense" amount="-100"></App>
+    <Description>Lose 100 Defense</Description>
+    <Meta>Lose 100 defense for 1 battle</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="ChalSpellPower">
+    <Name>Sell power</Name>
+    <Tags>Challenge</Tags>
+    <Duration>1</Duration>
+    <App trigger="OnEquip" effect="SpellPower" amount="-30"></App>
+    <Description>Lose 30 SpellPower</Description>
+    <Meta>Lose 30 SpellPower for 1 battle</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="ChalMaxMana">
+    <Name>Sell limit</Name>
+    <Tags>Challenge</Tags>
+    <Duration>1</Duration>
+    <App trigger="OnEquip" effect="MaxMana" amount="-2"></App>
+    <Description>Lose 2 Max Mana</Description>
+    <Meta>Lose 2 Max Mana</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="ChalShuffleTime">
+    <Name>Sell time</Name>
+    <Tags>Challenge</Tags>
+    <Duration>2</Duration>
+    <App trigger="OnEquip" effect="ShuffleTime" amount="4"></App>
+    <Description>Increase ShuffleTime by 4 seconds</Description>
+    <Meta>Increase ShuffleTime for 2 battle</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="ChalFragile">
+    <Name>Sell soul</Name>
+    <Tags>Challenge</Tags>
+    <Duration>3</Duration>
+    <App trigger="OnBattleStart" effect="Fragile" amount="9"></App>
+    <Description>Start battles with 9 Fragile </Description>
+    <Meta>Start battles with Fragile for 3 battles</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="ChalMove">
+    <Name>Sell heels</Name>
+    <Tags>Challenge</Tags>
+    <Duration>2</Duration>
+    <App trigger="OnMove" effect="Damage" target="Self" amount="1"></App>
+    <Description>Take 1 dmg every time you move</Description>
+    <Meta>Take 1 dmg every time you move for 2 battle</Meta>
+    <Flavor>Don't move.</Flavor>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="RichesGain">
+    <Name>Money</Name>
+    <Tags>Reward</Tags>
+    <Duration></Duration>
+    <App trigger="OnEquip" effect="Money" amount="25"></App>
+    <Description>gain 25 Money</Description>
+    <Meta>Gain 25 moiney</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="MaxHPGain">
+    <Name>Max HP</Name>
+    <Tags>Reward</Tags>
+    <Duration></Duration>
+    <App trigger="OnEquip" effect="MaxHPChange" amount="150"></App>
+    <Description>Gain 150 Max HP</Description>
+    <Meta>Gain 150 Max HP</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="LuckGain">
+    <Name>Luck</Name>
+    <Tags>Reward</Tags>
+    <Duration></Duration>
+    <App trigger="OnEquip" effect="Luck" amount="5"></App>
+    <Description>gain 5 Luck</Description>
+    <Meta>gain 5 Luck</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="UpgradeGain">
+    <Name>Upgraders</Name>
+    <Tags>Reward</Tags>
+    <Duration></Duration>
+    <App trigger="OnEquip" effect="Upgrader" amount="1"></App>
+    <Description>gain 1 Upgraders</Description>
+    <Meta>gain 1 Upgraders</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="RemovalGain">
+    <Name>Removals</Name>
+    <Tags>Reward</Tags>
+    <Duration></Duration>
+    <App trigger="OnEquip" effect="Removal" amount="1"></App>
+    <Description>gain 1 Removal</Description>
+    <Meta>gain 1 Removal</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="HealGain">
+    <Name>Heal</Name>
+    <Tags>Reward</Tags>
+    <Duration></Duration>
+    <App trigger="OnEquip" effect="Heal" amount="150"></App>
+    <Description>Heal 150</Description>
+    <Meta>Heal 150 hp</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="HellPass00">
+    <Name>Hell Pass 00</Name>
+    <Tags>Hell</Tags>
+    <Duration>9999</Duration>
+    <Description>Normal game mode</Description>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="HellPass01">
+    <Name>Hell Pass 01</Name>
+    <Tags>Hell</Tags>
+    <Duration>9999</Duration>
+    <Description>Enemies start with random artifacts</Description>
+    <Meta>Automatic</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="HellPass02">
+    <Name>Hell Pass 02</Name>
+    <Tags>Hell</Tags>
+    <Duration>9999</Duration>
+    <Description>More obstacles and hazards</Description>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="HellPass03">
+    <Name>Hell Pass 03</Name>
+    <Tags>Hell</Tags>
+    <Duration>9999</Duration>
+    <App trigger="OnEquip" effect="Defense" amount="-5"></App>
+    <Description>Lower defense, no aim marker</Description>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="HellPass04">
+    <Name>Hell Pass 04</Name>
+    <Tags>Hell</Tags>
+    <Duration>9999</Duration>
+    <Description>Spared bosses no longer heal</Description>
+    <Meta>Automatic</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="HellPass05">
+    <Name>Hell Pass 05</Name>
+    <Tags>Hell</Tags>
+    <Duration>9999</Duration>
+    <App trigger="OnEquip" effect="MaxHPSet" amount="MaxHP*0.75"></App>
+    <App trigger="OnEquip" effect="Deplete"></App>
+    <Description>Max HP is reduced</Description>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="HellPass06">
+    <Name>Hell Pass 06</Name>
+    <Tags>Hell</Tags>
+    <Duration>9999</Duration>
+    <Description>Enemies start with 2 random artifacts</Description>
+    <Meta>Automatic</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="HellPass07">
+    <Name>Hell Pass 07</Name>
+    <Tags>Hell</Tags>
+    <Duration>9999</Duration>
+    <App trigger="OnEquip" effect="Luck" amount="20"></App>
+    <Description>Luck starts at 20</Description>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="HellPass08">
+    <Name>Hell Pass 08</Name>
+    <Tags>Hell</Tags>
+    <Duration>9999</Duration>
+    <App trigger="OnEquip" effect="AddDefaultEnemyArt" value="HellRegen"></App>
+    <Description>Enemies regenerate health</Description>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="HellPass09">
+    <Name>Hell Pass 09</Name>
+    <Tags>Hell</Tags>
+    <Duration>9999</Duration>
+    <App trigger="OnEquip" effect="BaseBossTier" amount="1"></App>
+    <Description>Bosses start at a higher level</Description>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="HellPass10">
+    <Name>Hell Pass 10</Name>
+    <Tags>Hell</Tags>
+    <Duration>9999</Duration>
+    <App trigger="OnEquip" effect="ShieldDecayChange" amount="+0.2"></App>
+    <Description>Shield decay + 20%</Description>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="HellPass11">
+    <Name>Hell Pass 11</Name>
+    <Tags>Hell</Tags>
+    <Duration>9999</Duration>
+    <App trigger="OnEquip" effect="EvilHostages"></App>
+    <Description>Hostages are evil</Description>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="HellPass12">
+    <Name>Hell Pass 12</Name>
+    <Tags>Hell</Tags>
+    <Duration>9999</Duration>
+    <Description>Shops cost more</Description>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="HellPass13">
+    <Name>Hell Pass 13</Name>
+    <Tags>Hell</Tags>
+    <Duration>9999</Duration>
+    <App trigger="OnEquip" effect="BaseBossTier" amount="3"></App>
+    <Description>All bosses start at max level</Description>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="HellPass14">
+    <Name>Hell Pass 14</Name>
+    <Tags>Hell</Tags>
+    <Duration>9999</Duration>
+    <App trigger="OnEquip" effect="MaxHPSet" amount="1"></App>
+    <Description>Start with 1 max hp</Description>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+</Pacts>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Animations>
+	<Animation loop="true" name="Lea_idle" frameDuration="140">
+	  <Frame image="char/Lea_Idle1.png"></Frame>
+	  <Frame image="char/Lea_Idle2.png"></Frame>
+	  <Frame image="char/Lea_Idle3.png"></Frame>
+	  <Frame image="char/Lea_Idle4.png"></Frame>
+	  <Frame image="char/Lea_Idle5.png"></Frame>
+	  <Frame image="char/Lea_Idle6.png"></Frame>
+	  <Frame image="char/Lea_Idle7.png"></Frame>
+	  <Frame image="char/Lea_Idle8.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Lea_spawn" frameDuration="100">
+	  <Frame image="char/Lea_spawn1.png"></Frame>
+	  <Frame image="char/Lea_spawn2.png"></Frame>
+	  <Frame image="char/Lea_spawn3.png"></Frame>
+	  <Frame image="char/Lea_spawn4.png"></Frame>
+	</Animation>
+
+	<Animation loop="true" name="Lea_dashing" frameDuration="100">
+	  <Frame image="char/Lea_dashing1.png"></Frame>
+	  <Frame image="char/Lea_dashing2.png"></Frame>
+	  <Frame image="char/Lea_dashing3.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Lea_front" frameDuration="70">
+	  <Frame image="char/Lea_front.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Lea_back" frameDuration="70">
+	  <Frame image="char/Lea_back.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Lea_hop" frameDuration="70">
+	  <Frame image="char/Lea_hop.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Lea_drop" frameDuration="70">
+	  <Frame image="char/Lea_drop.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Lea_cast01Start" frameDuration="70">
+	  <Frame image="char/Lea_cast01Start1.png"></Frame>
+	  <Frame image="char/Lea_cast01Start2.png"></Frame>
+	  <Frame image="char/Lea_cast01Start3.png"></Frame>
+	  <Frame image="char/Lea_cast01Start4.png"></Frame>
+	  <Frame image="char/Lea_cast01Start5.png"></Frame>
+	  <Frame image="char/Lea_cast01Start6.png"></Frame>
+	  <Frame image="char/Lea_cast01Start7.png"></Frame>
+	  <Frame image="char/Lea_cast01Start8.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Lea_cast01Mid" frameDuration="70">
+	  <Frame image="char/Lea_cast01Mid1.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Lea_cast01End" frameDuration="70">
+	  <Frame image="char/Lea_cast01End1.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Lea_cast02Start" frameDuration="70">
+	  <Frame image="char/Lea_cast01Start1.png"></Frame>
+	  <Frame image="char/Lea_cast01Start2.png"></Frame>
+	  <Frame image="char/Lea_cast01Start3.png"></Frame>
+	  <Frame image="char/Lea_cast01Start4.png"></Frame>
+	  <Frame image="char/Lea_cast01Start5.png"></Frame>
+	  <Frame image="char/Lea_cast01Start6.png"></Frame>
+	  <Frame image="char/Lea_cast01Start7.png"></Frame>
+	  <Frame image="char/Lea_cast01Start8.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Lea_cast02Mid" frameDuration="70">
+	  <Frame image="char/Lea_cast01Mid1.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Lea_cast02End" frameDuration="70">
+	  <Frame image="char/Lea_cast01End1.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Lea_cast03Start" frameDuration="70">
+	  <Frame image="char/Lea_cast01Start1.png"></Frame>
+	  <Frame image="char/Lea_cast01Start2.png"></Frame>
+	  <Frame image="char/Lea_cast01Start3.png"></Frame>
+	  <Frame image="char/Lea_cast01Start4.png"></Frame>
+	  <Frame image="char/Lea_cast01Start5.png"></Frame>
+	  <Frame image="char/Lea_cast01Start6.png"></Frame>
+	  <Frame image="char/Lea_cast01Start7.png"></Frame>
+	  <Frame image="char/Lea_cast01Start8.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Lea_cast03Mid" frameDuration="70">
+	  <Frame image="char/Lea_cast01Mid1.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Lea_cast03End" frameDuration="70">
+	  <Frame image="char/Lea_cast01End1.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Lea_taunt2" frameDuration="70">
+	  <Frame image="char/Lea_spawn1.png"></Frame>
+	  <Frame image="char/Lea_spawn2.png"></Frame>
+	  <Frame image="char/Lea_spawn3.png"></Frame>
+	  <Frame image="char/Lea_spawn4.png"></Frame>
+	</Animation>
+</Animations>

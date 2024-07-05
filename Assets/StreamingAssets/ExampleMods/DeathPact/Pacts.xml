@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Pacts>
+  <Pact itemID="ChalDeath">
+    <Name>Sell life</Name>
+    <Tags>Challenge</Tags>
+    <Duration>1</Duration>
+    <App trigger="OnEquip" effect="Damage" amount="40"></App>
+    <Description>DIEE</Description>
+    <Meta>Lose 200 defense for 1 battle</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+  <Pact itemID="ChalChrono">
+    <Name>Sell time</Name>
+    <Tags>Challenge</Tags>
+    <Duration>2</Duration>
+    <App trigger="OnEquip" effect="ManaRegen" amount="-1"></App>
+    <Description>Something timey</Description>
+    <Meta>Lose 1 Mana Regen for 1 Battle</Meta>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+  </Pact>
+</Pacts>

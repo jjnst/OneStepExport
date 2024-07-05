@@ -1,0 +1,97 @@
+ManifestFileVersion: 0
+CRC: 2588175911
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: abcfe043de684abf07626780141f27fd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d51cbfc5a5462c65a2a3e802ead079ea
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: b2cd7c3672a89964589361a843fb5884, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Music/Boss/jayman - Pound for Pound.mp3
+- Assets/Music/Boss/Gunner.wav
+- Assets/Music/shmup.asset
+- Assets/Music/Boss/Terra.wav
+- Assets/Music/Boss/Violette.asset
+- Assets/Music/Boss/Saffron.asset
+- Assets/Music/Defeat.wav
+- Assets/Music/Flawless.wav
+- Assets/Music/Idle/Innocence_Lost.wav
+- Assets/Music/Battle/Battle_of_Fire_II.asset
+- Assets/Music/Battle/Battle_of_Nature_II.asset
+- Assets/Music/Flawless.asset
+- Assets/Music/Battle/Battle_of_Nature_II.wav
+- Assets/Music/Battle/Battle_of_Ice_I.wav
+- Assets/Music/Battle/Battle_of_Fire_I.asset
+- Assets/Music/Battle/Battle_of_Ruins_II.wav
+- Assets/Music/Boss/Eden's_Door.asset
+- Assets/Music/Battle/Battle_of_Eden.asset
+- Assets/Music/Idle/Innocence_Lost.asset
+- Assets/Music/Merciless.asset
+- Assets/Music/Boss/Violette.wav
+- Assets/Music/Victory.asset
+- Assets/Music/Boss/Hazel.asset
+- Assets/Music/Idle/The_Forest.asset
+- Assets/Music/shmup.wav
+- Assets/Music/Boss/One_Step_From_Eden.wav
+- Assets/Music/Boss/Shiso.asset
+- Assets/Music/Idle/The_Flames.asset
+- Assets/Music/Boss/Selicy.wav
+- Assets/Music/Prelude.wav
+- Assets/Music/Idle/Chaos_in_Paradise.asset
+- Assets/Music/Boss/Daydream Anatomy - Daydream Anatomy - 03 Chaotic Inferno.mp3
+- Assets/Music/Victory.wav
+- Assets/Music/Idle/The_Ruins.asset
+- Assets/Music/Boss/Selicy.asset
+- Assets/Music/Idle/The_Flames.wav
+- Assets/Music/Battle/Battle_of_Eden.wav
+- Assets/Music/Battle/Battle_of_Fire_II.wav
+- Assets/Music/Boss/Shopkeeper.wav
+- Assets/Music/Main_Theme(extended).asset
+- Assets/Music/Battle/Battle_of_Fire_I.wav
+- Assets/Music/Boss/Reva.wav
+- Assets/Music/Boss/Shopkeeper.asset
+- Assets/Music/Boss/Reva.asset
+- Assets/Music/Aftermath.wav
+- Assets/Music/Boss/Daydream Anatomy - 01 Magic.mp3
+- Assets/Music/Idle/The_Forest.wav
+- Assets/Music/Battle/Battle_of_Nature_I.wav
+- Assets/Music/Battle/Battle_of_Ruins_I.asset
+- Assets/Music/Boss/One_Step_From_Eden.asset
+- Assets/Music/Boss/Serif.wav
+- Assets/Music/Boss/Eden's_Door.wav
+- Assets/Music/Boss/Serif.asset
+- Assets/Music/Idle/The_Ruins.wav
+- Assets/Music/Merciless.wav
+- Assets/Music/Battle/Battle_of_Ice_II.asset
+- Assets/Music/Boss/Saffron.wav
+- Assets/Music/Defeat.asset
+- Assets/Music/Boss/Terra.asset
+- Assets/Music/Aftermath.asset
+- Assets/Music/Battle/Battle_of_Ruins_II.asset
+- Assets/Music/Idle/Mystery.asset
+- Assets/Music/Idle/Chaos_in_Paradise.wav
+- Assets/Music/Battle/Battle_of_Ice_II.wav
+- Assets/Music/Main_Theme(extended).wav
+- Assets/Music/Battle/Battle_of_Ruins_I.wav
+- Assets/Music/Idle/Mystery.wav
+- Assets/Music/Advent.asset
+- Assets/Music/Idle/The_Arctic.wav
+- Assets/Music/Prelude.asset
+- Assets/Music/Boss/Shiso.wav
+- Assets/Music/Advent.wav
+- Assets/Music/Battle/Battle_of_Ice_I.asset
+- Assets/Music/Battle/Battle_of_Nature_I.asset
+- Assets/Music/Idle/The_Arctic.asset
+- Assets/Music/Boss/Hazel.wav
+- Assets/Music/Boss/boss_Kick S. Beats.mp3
+- Assets/Music/Boss/Gunner.asset
+Dependencies: []

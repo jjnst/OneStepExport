@@ -1,0 +1,107 @@
+ManifestFileVersion: 0
+CRC: 4005151753
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: achievements
+      Dependencies:
+        Dependency_0: prefabs
+        Dependency_1: sprites
+    Info_1:
+      Name: materials
+      Dependencies:
+        Dependency_0: fonts
+        Dependency_1: sprites_ui
+        Dependency_2: common
+    Info_2:
+      Name: video
+      Dependencies: {}
+    Info_3:
+      Name: prefabs
+      Dependencies:
+        Dependency_0: materials
+        Dependency_1: fonts
+        Dependency_2: music
+        Dependency_3: sprites_effects
+        Dependency_4: sprites_drops
+        Dependency_5: animations
+        Dependency_6: animations_ui
+        Dependency_7: sprites_tiles
+        Dependency_8: sounds
+        Dependency_9: sprites_ui
+        Dependency_10: sounds_ui
+        Dependency_11: sprites
+        Dependency_12: common
+    Info_4:
+      Name: fonts
+      Dependencies: {}
+    Info_5:
+      Name: music
+      Dependencies: {}
+    Info_6:
+      Name: main
+      Dependencies:
+        Dependency_0: materials
+        Dependency_1: video
+        Dependency_2: prefabs
+        Dependency_3: fonts
+        Dependency_4: music
+        Dependency_5: sprites_effects
+        Dependency_6: sprites_drops
+        Dependency_7: animations
+        Dependency_8: animations_ui
+        Dependency_9: sprites_tiles
+        Dependency_10: sounds
+        Dependency_11: sprites_ui
+        Dependency_12: sounds_ui
+        Dependency_13: sprites_cg
+        Dependency_14: sprites
+        Dependency_15: common
+    Info_7:
+      Name: sprites_effects
+      Dependencies: {}
+    Info_8:
+      Name: sprites_drops
+      Dependencies: {}
+    Info_9:
+      Name: animations
+      Dependencies:
+        Dependency_0: sprites_effects
+        Dependency_1: sprites_drops
+        Dependency_2: sprites_tiles
+        Dependency_3: sprites_ui
+        Dependency_4: sprites
+    Info_10:
+      Name: animations_ui
+      Dependencies:
+        Dependency_0: animations
+        Dependency_1: sprites_ui
+    Info_11:
+      Name: sprites_tiles
+      Dependencies: {}
+    Info_12:
+      Name: localization
+      Dependencies:
+        Dependency_0: fonts
+    Info_13:
+      Name: sounds
+      Dependencies: {}
+    Info_14:
+      Name: sprites_ui
+      Dependencies: {}
+    Info_15:
+      Name: sounds_ui
+      Dependencies: {}
+    Info_16:
+      Name: sprites_cg
+      Dependencies: {}
+    Info_17:
+      Name: sprites
+      Dependencies:
+        Dependency_0: animations
+    Info_18:
+      Name: common
+      Dependencies: {}
+    Info_19:
+      Name: rewired
+      Dependencies: {}

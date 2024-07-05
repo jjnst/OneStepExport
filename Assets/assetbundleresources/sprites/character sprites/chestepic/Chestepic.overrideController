@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Chestepic
+  m_Controller: {fileID: 9100000, guid: f824863d795cd264492d6f3f336407ed, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: bdccb0251dc036944a2ef3763bfe0714, type: 2}
+    m_OverrideClip: {fileID: 0}
+  - m_OriginalClip: {fileID: 7400000, guid: 48306c1321e7a6644aa55cd6260e3d73, type: 2}
+    m_OverrideClip: {fileID: 0}
+  - m_OriginalClip: {fileID: 7400000, guid: d737c4942d6f3914db393b057bb2dcd5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6a9e1d9080205754f9e9eb3ae489465c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d54de9fda3f481b4b9d3261ad4dfadf7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a5516e8577eb1f743a1d12d7b6580ce4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e7c6f074c1b246643af01c3ef962fd20, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bc762c4e37c45b7419186e4098788ebf, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fff0562eedbbd6549a216b2f3b89ce82, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 985f5de374f32534dbffcfdb9c0a990e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 71e8f0027d1665743a8677c293cfad12, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ccb862c53cc01524e9398287a2137955, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3846e68ae3b5a814c9594789bf35411e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4da9a5c96dbdeec4bb3c075012e0496a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5e137de8aa3fa9e468135bcc540dfd4a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 24f5680bdff356940af49f700578d02f, type: 2}

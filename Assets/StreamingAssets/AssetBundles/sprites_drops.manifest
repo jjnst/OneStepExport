@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1843279438
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 94fc53478d54e87c81e356280ba34898
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sprites/Drops/SeraDropLarge.psd
+- Assets/Sprites/Drops/ItemDropWep.psd
+- Assets/Sprites/Drops/Coin.psd
+- Assets/Sprites/Drops/ExpDropMed.psd
+- Assets/Sprites/Drops/SeraDropSmall.psd
+- Assets/Sprites/Drops/HealthDrop.psd
+- Assets/Sprites/Drops/OrbDrop.png
+- Assets/Sprites/Drops/SeraDropMed.psd
+- Assets/Sprites/Drops/ExpDropSmall.psd
+- Assets/Sprites/Drops/ItemDropArt.psd
+- Assets/Sprites/Drops/ItemDropSpell.psd
+- Assets/Sprites/Drops/ExpDropLarge.psd
+Dependencies: []

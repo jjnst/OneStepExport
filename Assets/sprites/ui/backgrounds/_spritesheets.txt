@@ -1,0 +1,13 @@
+Forest-bg.png,428,240,4
+Throne-corridor-bg.png,428,240,4
+Eden-bg.png,428,240,4
+Eden_dark-bg.png,428,240,4
+Fire-bg.png,428,240,4
+Fire_dark-bg.png,428,240,4
+Forest_dark-bg.png,428,240,4
+Ice-bg.png,428,240,4
+Ice_dark-bg.png,428,240,4
+Ruins-bg.png,428,240,4
+Ruins_dark-bg.png,428,240,4
+Wasteland-bg.png,428,240,4
+black-bg.png,428,240,4

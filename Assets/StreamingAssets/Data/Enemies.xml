@@ -1,0 +1,3196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Beings>
+  <Being beingID="Testbot">
+    <Name>Testbot</Name>
+    <Health>99999</Health>
+    <Experience>10</Experience>
+    <Money>17</Money>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>0</Movements>
+    <MovementDelay>0.1</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>2</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Icerunt"></Stats>
+  </Being>
+  <Being beingID="Weakbot">
+    <Name>Weakbot</Name>
+    <Health>300</Health>
+    <Experience>10</Experience>
+    <Money>0</Money>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>0</Movements>
+    <MovementDelay>0.1</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>2</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Reaper"></Stats>
+  </Being>
+  <Being beingID="Trailerbot">
+    <Name>Reaper</Name>
+    <Health>900</Health>
+    <Experience>30</Experience>
+    <Money>15</Money>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>0</Movements>
+    <MovementDelay>0.1</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Reaper"></Stats>
+  </Being>
+  <Being beingID="Serapile">
+    <Name>Serapile</Name>
+    <Tags>Structure</Tags>
+    <Health>40</Health>
+    <Experience>0</Experience>
+    <Money>0</Money>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense>0</Defense>
+    <Stagger>false</Stagger>
+    <Deathrattle>SerapileDeath</Deathrattle>
+    <DeathDelay>0.4</DeathDelay>
+    <ClearDelay>0</ClearDelay>
+    <Stats localGunPointPos="0,10" dieSound="glass_shatter_echo" animName="Serapile" scaleHP="false"
+    ></Stats>
+  </Being>
+  <Being beingID="SerapileTimed">
+    <Name>Serapile</Name>
+    <Tags>Structure</Tags>
+    <Health>40</Health>
+    <Experience>0</Experience>
+    <Money>0</Money>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense>0</Defense>
+    <Stagger>false</Stagger>
+    <Deathrattle>SerapileDeath</Deathrattle>
+    <DeathDelay>0.4</DeathDelay>
+    <Startup>SerapileTimer</Startup>
+    <Timeout>ClearSelfDelayed</Timeout>
+    <ClearDelay>0</ClearDelay>
+    <Stats localGunPointPos="0,10" dieSound="glass_shatter_echo" animName="Serapile" scaleHP="false"
+      timeoutAnim="true"></Stats>
+  </Being>
+  <Being beingID="Chestcommon">
+    <Name>Chest</Name>
+    <Tags>Structure</Tags>
+    <Health>120</Health>
+    <Experience>10</Experience>
+    <Money>4</Money>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense>0</Defense>
+    <Stagger>false</Stagger>
+    <DeathDelay>0.2</DeathDelay>
+    <Startup>ChestTimed</Startup>
+    <Timeout>ClearSelfDelayed</Timeout>
+    <ClearDelay>0.2</ClearDelay>
+    <Stats localGunPointPos="0,-4" localTimerPos="0,-4" dieSound="explode_fire" timeoutAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Chestrare">
+    <Name>Chest</Name>
+    <Tags>Structure</Tags>
+    <Health>160</Health>
+    <Experience>10</Experience>
+    <Money>8</Money>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense>0</Defense>
+    <Stagger>false</Stagger>
+    <DeathDelay>0.2</DeathDelay>
+    <Startup>ChestTimed1</Startup>
+    <Timeout>ClearSelfDelayed</Timeout>
+    <ClearDelay>0.2</ClearDelay>
+    <Stats localGunPointPos="0,-4" localTimerPos="0,-4" dieSound="explode_fire" timeoutAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Chestepic">
+    <Name>Chest</Name>
+    <Tags>Structure</Tags>
+    <Health>200</Health>
+    <Experience>10</Experience>
+    <Money>15</Money>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense>0</Defense>
+    <Stagger>false</Stagger>
+    <DeathDelay>0.2</DeathDelay>
+    <Startup>ChestTimed2</Startup>
+    <Timeout>ClearSelfDelayed</Timeout>
+    <ClearDelay>0.2</ClearDelay>
+    <Stats localGunPointPos="0,-4" localTimerPos="0,-4" dieSound="explode_fire" timeoutAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Chestlegendary">
+    <Name>Chest</Name>
+    <Tags>Structure</Tags>
+    <Health>240</Health>
+    <Experience>10</Experience>
+    <Money>25</Money>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense>0</Defense>
+    <Stagger>false</Stagger>
+    <DeathDelay>0.2</DeathDelay>
+    <Startup>ChestTimed3</Startup>
+    <Timeout>ClearSelfDelayed</Timeout>
+    <ClearDelay>0.2</ClearDelay>
+    <Stats localGunPointPos="0,-4" localTimerPos="0,-4" dieSound="explode_fire" timeoutAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Chestheal">
+    <Name>Chest Heal</Name>
+    <Tags>Structure</Tags>
+    <Health>120</Health>
+    <Experience>0</Experience>
+    <Money>0</Money>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense>0</Defense>
+    <Stagger>false</Stagger>
+    <Deathrattle>ChesthealShot</Deathrattle>
+    <DeathDelay>0.2</DeathDelay>
+    <Startup>ChesthealTimer</Startup>
+    <Timeout>ClearSelfBeingDelayed</Timeout>
+    <ClearDelay>0.6</ClearDelay>
+    <Stats localGunPointPos="0,-7" localTimerPos="0,-7" animName="Chestheal" timeoutAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Chestarmored">
+    <Name>Armored Chest</Name>
+    <Tags>Treasure, Structure</Tags>
+    <Health>30</Health>
+    <Experience>5</Experience>
+    <Money>4</Money>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense>95</Defense>
+    <Stagger>false</Stagger>
+    <DeathDelay>0.4</DeathDelay>
+    <Startup>ChestTreasureTimed</Startup>
+    <Timeout>ClearSelfDelayed</Timeout>
+    <ClearDelay>0.2</ClearDelay>
+    <Stats localGunPointPos="0,-4" localTimerPos="0,-4" animName="Chestarmored"
+      dieSound="explode_fire" timeoutAnim="true"></Stats>
+  </Being>
+  <Being beingID="Chestmobile">
+    <Name>Mobile Chest</Name>
+    <Tags>Treasure, Structure</Tags>
+    <Health>100</Health>
+    <Experience>5</Experience>
+    <Money>4</Money>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>99</Movements>
+    <MovementDelay>0.1</MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>false</Stagger>
+    <DeathDelay>0.4</DeathDelay>
+    <Startup>ChestTreasureTimed</Startup>
+    <Timeout>ClearSelfDelayed</Timeout>
+    <ClearDelay>0.2</ClearDelay>
+    <Stats localGunPointPos="0,-4" localTimerPos="0,-4" animName="Chestmobile"
+      dieSound="explode_fire" timeoutAnim="true"></Stats>
+  </Being>
+  <Being beingID="Chestdps">
+    <Name>Heavy Chest</Name>
+    <Tags>Treasure, Structure</Tags>
+    <Health>350</Health>
+    <Experience>5</Experience>
+    <Money>4</Money>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense>0</Defense>
+    <Stagger>false</Stagger>
+    <DeathDelay>0.4</DeathDelay>
+    <Startup>ChestTreasureTimed</Startup>
+    <Timeout>ClearSelfDelayed</Timeout>
+    <ClearDelay>0.2</ClearDelay>
+    <Stats localGunPointPos="0,-4" localTimerPos="0,-4" animName="Chestdps" dieSound="explode_fire"
+      timeoutAnim="true"></Stats>
+  </Being>
+  <Being beingID="Chestslime">
+    <Name>Jelly Chest</Name>
+    <Tags>Treasure, Structure</Tags>
+    <Health>200</Health>
+    <Experience>5</Experience>
+    <Money>10</Money>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense>0</Defense>
+    <Stagger>false</Stagger>
+    <DeathDelay>0.4</DeathDelay>
+    <Startup>ChestTreasureTimed</Startup>
+    <Artifacts>JellyGenerator</Artifacts>
+    <Timeout>ClearSelfDelayed</Timeout>
+    <Stats localGunPointPos="0,-4" dieSound="explode_fire" timeoutAnim="true"></Stats>
+  </Being>
+  <Being beingID="Chestcursed">
+    <Name>Cursed Chest</Name>
+    <Tags>DarkTreasure, Structure</Tags>
+    <Health>666</Health>
+    <Experience>10</Experience>
+    <Money>10</Money>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense>0</Defense>
+    <Stagger>false</Stagger>
+    <Deathrattle>ChestcursedShot</Deathrattle>
+    <DeathDelay>6</DeathDelay>
+    <Startup>ChestcursedLoot</Startup>
+    <Startup>ChestcursedTimer</Startup>
+    <Timeout>ChestcursedDeath</Timeout>
+    <Stats localGunPointPos="0,-4" animName="Chestcursed" scaleHP="false"></Stats>
+  </Being>
+  <Being beingID="Chestcursed2">
+    <Name>Cursed Chest</Name>
+    <Tags>DarkTreasure, Structure</Tags>
+    <Health>666</Health>
+    <Experience>10</Experience>
+    <Money>10</Money>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense>0</Defense>
+    <Stagger>false</Stagger>
+    <Deathrattle>ChestcursedShot2</Deathrattle>
+    <DeathDelay>4.5</DeathDelay>
+    <Startup>ChestcursedLoot</Startup>
+    <Startup>ChestcursedTimer</Startup>
+    <Timeout>ChestcursedDeath</Timeout>
+    <Stats localGunPointPos="0,-4" animName="Chestcursed" scaleHP="false"></Stats>
+  </Being>
+  <Being beingID="Chestcursed3">
+    <Name>Cursed Chest</Name>
+    <Tags>DarkTreasure, Structure</Tags>
+    <Health>666</Health>
+    <Experience>10</Experience>
+    <Money>10</Money>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense>0</Defense>
+    <Stagger>false</Stagger>
+    <Deathrattle>ChestcursedShot3</Deathrattle>
+    <DeathDelay>3.5</DeathDelay>
+    <Startup>ChestcursedLoot</Startup>
+    <Startup>ChestcursedTimer</Startup>
+    <Timeout>ChestcursedDeath</Timeout>
+    <Stats localGunPointPos="0,-4" animName="Chestcursed" scaleHP="false"></Stats>
+  </Being>
+  <Being beingID="ChestcursedHell">
+    <Name>Cursed Chest</Name>
+    <Tags>Structure</Tags>
+    <Health>666</Health>
+    <Experience>10</Experience>
+    <Money>10</Money>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense>0</Defense>
+    <Stagger>false</Stagger>
+    <Deathrattle>ChestcursedShot2</Deathrattle>
+    <Deathrattle>ChestcursedShot3</Deathrattle>
+    <DeathDelay>4.5</DeathDelay>
+    <Startup>ChestcursedLoot</Startup>
+    <Startup>ChestcursedTimer</Startup>
+    <Timeout>ChestcursedDeath</Timeout>
+    <Stats localGunPointPos="0,-4" animName="Chestcursed" scaleHP="false"></Stats>
+  </Being>
+  <Being beingID="Egg">
+    <Name>Egg</Name>
+    <Tags>Forest</Tags>
+    <Health>60</Health>
+    <Experience>0</Experience>
+    <Money>0</Money>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Deathrattle>ZombeggClear</Deathrattle>
+    <DeathDelay>0.1</DeathDelay>
+    <Startup>EggTimer</Startup>
+    <Timeout>ZombeggDeath</Timeout>
+    <Timeout>ZombeggRes</Timeout>
+    <Stats localGunPointPos="24,20" dieSound="glass_shatter_echo" animName="Zombegg"></Stats>
+  </Being>
+  <Being beingID="Zombegg">
+    <Name>Zombee</Name>
+    <Tags>Structure</Tags>
+    <Health>40</Health>
+    <Experience>0</Experience>
+    <Money>0</Money>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Deathrattle>ZombeggClear</Deathrattle>
+    <DeathDelay>0.1</DeathDelay>
+    <Startup>ZombeggTimer</Startup>
+    <Timeout>ZombeggDeath</Timeout>
+    <Timeout>ZombeggRes</Timeout>
+    <Stats localGunPointPos="24,20" dieSound="glass_shatter_echo" animName="Zombegg"></Stats>
+  </Being>
+  <Being beingID="Artillery">
+    <Name>ArtileREEE</Name>
+    <Health>200</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Artillery" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Artillery2">
+    <Name>ArtileREEE-2</Name>
+    <Health>230</Health>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.18</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Artillery" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Artillery3">
+    <Name>ArtileTHREEE</Name>
+    <Health>260</Health>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.1</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.16</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Artillery" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Artillery4">
+    <Name>ArtileFour.</Name>
+    <Health>300</Health>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.2</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.16</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Artillery" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Avenger">
+    <Name>Avenger</Name>
+    <Health>200</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <Movements>3</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>AvengerDrive</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Avenger" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Avenger2">
+    <Name>Avenger</Name>
+    <Health>230</Health>
+    <Movements>3</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>AvengerDrive2</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Avenger" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Avenger3">
+    <Name>Avenger</Name>
+    <Health>260</Health>
+    <Movements>3</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>AvengerDrive3</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Avenger" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Avenger4">
+    <Name>Avenger</Name>
+    <Health>300</Health>
+    <Movements>3</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>AvengerDrive3</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Avenger" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Bomberboi">
+    <Name>Bomberboi</Name>
+    <Health>200</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>2</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>BomberboiPush</Deck>
+    <Stats localGunPointPos="8,23" animName="Bomberboi" chargeAnim="true" dieSound="beep_whine"
+    ></Stats>
+  </Being>
+  <Being beingID="Bomberboi2">
+    <Name>Bomberdude</Name>
+    <Health>230</Health>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3.8</LoopDelay>
+    <Defense>3</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>BomberboiPush</Deck>
+    <Stats localGunPointPos="8,23" animName="Bomberboi" chargeAnim="true" dieSound="beep_whine"
+    ></Stats>
+  </Being>
+  <Being beingID="Bomberboi3">
+    <Name>Bomberguy</Name>
+    <Health>260</Health>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3.6</LoopDelay>
+    <Defense>4</Defense>
+    <LerpTime>0.15</LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>BomberboiPushX</Deck>
+    <Stats localGunPointPos="8,23" animName="Bomberboi" chargeAnim="true" dieSound="beep_whine"
+    ></Stats>
+  </Being>
+  <Being beingID="Bomberboi4">
+    <Name>Bomberzan</Name>
+    <Health>300</Health>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.25</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3.5</LoopDelay>
+    <Defense>5</Defense>
+    <LerpTime>0.15</LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>BomberboiPushX</Deck>
+    <Stats localGunPointPos="8,23" animName="Bomberboi" chargeAnim="true" dieSound="beep_whine"
+    ></Stats>
+  </Being>
+  <Being beingID="Breakbeamer">
+    <Name>BreakBeamer</Name>
+    <Health>200</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <Movements>1</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>Bulwark</Artifacts>
+    <Artifacts>Bismuth</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Obeamer" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Breakbeamer2">
+    <Name>BreakBeamer</Name>
+    <Health>220</Health>
+    <Movements>1</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>Bulwark</Artifacts>
+    <Artifacts>Bismuth</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Obeamer" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Breakbeamer3">
+    <Name>BreakBeamer</Name>
+    <Health>240</Health>
+    <Movements>1</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>Bulwark</Artifacts>
+    <Artifacts>Bismuth</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Obeamer" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Breakbeamer4">
+    <Name>BreakBeamer</Name>
+    <Health>260</Health>
+    <Movements>1</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>Bulwark</Artifacts>
+    <Artifacts>Bismuth</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Obeamer" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Cannon">
+    <Name>Cannon</Name>
+    <Health>200</Health>
+    <Experience>10</Experience>
+    <Money>4</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos=""></Stats>
+  </Being>
+  <Being beingID="Carpenter">
+    <Name>Carpenter</Name>
+    <Health>400</Health>
+    <Experience>40</Experience>
+    <Money>10</Money>
+    <MovPattern>PatrolRandomEmptyVerticalToPlayer</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>CarpenterX</Deck>
+    <Artifacts>ShieldDecayer</Artifacts>
+    <Stats localGunPointPos="0,20" animName="Carpenter" dieSound="glass_shatter_echo"
+      chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Chargecannon">
+    <Name>ChargeCannon</Name>
+    <Health>300</Health>
+    <Experience>10</Experience>
+    <Money>10</Money>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>12</LoopDelay>
+    <Defense>0</Defense>
+    <Startup>ChargecannonTimer</Startup>
+    <Timeout>ChargecannonShot</Timeout>
+    <Stats localGunPointPos="26,23" animName="Turretlaser" timeoutAnim="true"></Stats>
+  </Being>
+  <Being beingID="Colossus">
+    <Name>Colossus</Name>
+    <Health>450</Health>
+    <Experience>40</Experience>
+    <Money>10</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>ColossusUp</Deck>
+    <Deck>ColossusDown</Deck>
+    <Artifacts>ColossusDrive</Artifacts>
+    <Stats localGunPointPos="8,56" animName="Colossus" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Cornet">
+    <Name>Cornet</Name>
+    <Health>450</Health>
+    <Experience>40</Experience>
+    <Money>10</Money>
+    <MovPattern>MoveToRandom</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3.6</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Cornet" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Crosser">
+    <Name>Crosser</Name>
+    <Health>450</Health>
+    <Experience>40</Experience>
+    <Money>10</Money>
+    <MovPattern>PlayerHalfField</MovPattern>
+    <Movements>0</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>6</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="0,0" animName="Crosser"></Stats>
+  </Being>
+  <Being beingID="Crusher">
+    <Name>Crusher</Name>
+    <Health>450</Health>
+    <Experience>40</Experience>
+    <Money>10</Money>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>CrusherShockwave</Deck>
+    <Stats localGunPointPos="8,23" animName="Crusher" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Dancer">
+    <Name>TrinityCannon</Name>
+    <Health>200</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <Movements>0</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.1</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>DancerTrinityCheck</Deck>
+    <Artifacts>Trinergy</Artifacts>
+    <Stats localGunPointPos="8,16" animName="Turrettrinity" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Dancer2">
+    <Name>TrinityCannon</Name>
+    <Health>230</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <Movements>0</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.1</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>DancerTrinityCheck</Deck>
+    <Artifacts>Trinergy</Artifacts>
+    <Stats localGunPointPos="8,16" animName="Turrettrinity" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Dancer3">
+    <Name>TrinityCannon</Name>
+    <Health>260</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <Movements>0</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.1</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>DancerTrinityCheck2</Deck>
+    <Artifacts>Trinergy</Artifacts>
+    <Stats localGunPointPos="8,16" animName="Turrettrinity" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Dancer4">
+    <Name>TrinityCannon</Name>
+    <Health>300</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <Movements>0</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.1</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>DancerTrinityCheck2</Deck>
+    <Artifacts>Trinergy</Artifacts>
+    <Stats localGunPointPos="8,16" animName="Turrettrinity" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Decayer">
+    <Name>Decayer</Name>
+    <Health>220</Health>
+    <Experience>15</Experience>
+    <Money>3</Money>
+    <MovPattern>PatrolRandomEmptyVerticalToPlayer</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.4</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>DecayerDrive</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Decayer" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Decayer2">
+    <Name>Decayer</Name>
+    <Health>250</Health>
+    <MovPattern>PatrolRandomEmptyVerticalToPlayer</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.3</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>DecayerDrive</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Decayer" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Decayer3">
+    <Name>Decayer</Name>
+    <Health>350</Health>
+    <MovPattern>PatrolRandomEmptyVerticalToPlayer</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.25</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>DecayerDrive</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Decayer" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Decayer4">
+    <Name>Decayer</Name>
+    <Health>400</Health>
+    <MovPattern>PatrolRandomEmptyVerticalToPlayer</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>DecayerDrive</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Decayer" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Diagon">
+    <Name>Diagon</Name>
+    <Health>250</Health>
+    <Experience>15</Experience>
+    <Money>3</Money>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Diagon"></Stats>
+  </Being>
+  <Being beingID="Diagon2">
+    <Name>Diagon</Name>
+    <Health>260</Health>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>Diagon</Deck>
+    <Deck>DiagonDownLeft</Deck>
+    <Stats localGunPointPos="" animName="Diagon"></Stats>
+  </Being>
+  <Being beingID="Diagon3">
+    <Name>Diagon</Name>
+    <Health>270</Health>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>DiagonUpRight</Deck>
+    <Deck>DiagonDownRight</Deck>
+    <Stats localGunPointPos="" animName="Diagon"></Stats>
+  </Being>
+  <Being beingID="Diagon4">
+    <Name>Diagon</Name>
+    <Health>300</Health>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>Diagon</Deck>
+    <Deck>DiagonDownLeft</Deck>
+    <Deck>DiagonDownRight</Deck>
+    <Deck>DiagonUpRight</Deck>
+    <Stats localGunPointPos="" animName="Diagon"></Stats>
+  </Being>
+  <Being beingID="Dummy">
+    <Name>Dummy</Name>
+    <Health>150</Health>
+    <Experience>0</Experience>
+    <Money>0</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense></Defense>
+    <Stagger>false</Stagger>
+    <Stats dieSound="small_blast" animName="Debris"></Stats>
+  </Being>
+  <Being beingID="DummyTurret">
+    <Name>DummyTurret</Name>
+    <Health>150</Health>
+    <Experience>0</Experience>
+    <Money>0</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>1</LoopDelay>
+    <Defense></Defense>
+    <Stagger>false</Stagger>
+    <Deck>Turretgun</Deck>
+    <Stats dieSound="small_blast" animName="Turretgun" localGunPointPos="30,21"></Stats>
+  </Being>
+  <Being beingID="Elecbug">
+    <Name>Elecbug</Name>
+    <Health>140</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern>JumpToPlayerEndField</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0.5</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>2</LerpTime>
+    <Stagger>true</Stagger>
+    <Startup>Elecbug</Startup>
+    <Stats localGunPointPos="0,23" animName="Elecbug" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Elecbug2">
+    <Name>ElecError</Name>
+    <Health>170</Health>
+    <MovPattern>JumpToPlayerEndField</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0.5</StartDelay>
+    <LoopDelay>5</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>1.6</LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>Elecbug</Deck>
+    <Startup>Elecbug</Startup>
+    <Stats localGunPointPos="0,23" animName="Elecbug" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Elecbug3">
+    <Name>ElecCrash</Name>
+    <Health>200</Health>
+    <MovPattern>JumpToPlayerEndField</MovPattern>
+    <Movements>4</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0.5</StartDelay>
+    <LoopDelay>6</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>1.4</LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>Elecbug</Deck>
+    <Startup>Elecbug</Startup>
+    <Stats localGunPointPos="0,23" animName="Elecbug" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Elecbug4">
+    <Name>ElecBuz</Name>
+    <Health>250</Health>
+    <MovPattern>JumpToPlayerEndField</MovPattern>
+    <Movements>4</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0.5</StartDelay>
+    <LoopDelay>5</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>1.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>Elecbug</Deck>
+    <Startup>Elecbug</Startup>
+    <Stats localGunPointPos="0,23" animName="Elecbug" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Entangler">
+    <Name>Entangler</Name>
+    <Health>350</Health>
+    <Experience>15</Experience>
+    <Money>3</Money>
+    <Movements>3</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Entangler" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Entangler2">
+    <Name>Entangler2</Name>
+    <Health>300</Health>
+    <Movements>3</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Entangler" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Entangler3">
+    <Name>Entangler3</Name>
+    <Health>350</Health>
+    <Movements>3</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Entangler" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Entangler4">
+    <Name>Entangler4</Name>
+    <Health>400</Health>
+    <Movements>3</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Entangler" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Exploder">
+    <Name>Exploder</Name>
+    <Health>100</Health>
+    <Experience>15</Experience>
+    <Money>3</Money>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>20</LoopDelay>
+    <Defense>0</Defense>
+    <Stagger>true</Stagger>
+    <OnDeath></OnDeath>
+    <Startup>ExploderTimer</Startup>
+    <Timeout>ExploderX</Timeout>
+    <Stats localGunPointPos="17,23" animName="Shard"></Stats>
+  </Being>
+  <Being beingID="Firechild">
+    <Name>Firechild</Name>
+    <Health>200</Health>
+    <Experience>15</Experience>
+    <Money>3</Money>
+    <MovPattern>JumpRandomEndFront</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Firechild" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Firechild2">
+    <Name>Firekid</Name>
+    <Health>240</Health>
+    <MovPattern>JumpRandomEndFront</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.18</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Firechild" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Firechild3">
+    <Name>Fireminor</Name>
+    <Health>280</Health>
+    <MovPattern>JumpRandomEndFront</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.16</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Firechild" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Firechild4">
+    <Name>Firezild</Name>
+    <Health>320</Health>
+    <MovPattern>JumpRandomEndFront</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.15</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Firechild" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Firepather">
+    <Name>Firepather</Name>
+    <Health>200</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <Movements>0</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>5</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Firechild" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Gatesweeper">
+    <Name>GateSweeper</Name>
+    <Health>100</Health>
+    <Money>0</Money>
+    <Movements>0</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0.4</StartDelay>
+    <LoopDelay>3.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-3,82" animName="Gatesweeper" chargeAnim="true" shadow="false"
+      unmoveable="true"></Stats>
+  </Being>
+  <Being beingID="Gatecrosser">
+    <Name>GateCrosser</Name>
+    <Health>100</Health>
+    <Money>0</Money>
+    <Movements>0</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0.4</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-6,90" animName="Gatemissiler" chargeAnim="true" shadow="false"
+      unmoveable="true"></Stats>
+  </Being>
+  <Being beingID="Gatexer">
+    <Name>GateXer</Name>
+    <Health>100</Health>
+    <Money>0</Money>
+    <Movements>0</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0.4</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="0,89" animName="Gatelobber" chargeAnim="true" shadow="false"
+      unmoveable="true"></Stats>
+  </Being>
+  <Being beingID="Gatebeamer">
+    <Name>Gatebeamer</Name>
+    <Health>100</Health>
+    <Money>0</Money>
+    <Movements>0</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0.4</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-19,88" animName="Gatebeamer" chargeAnim="true" shadow="false"
+      unmoveable="true"></Stats>
+  </Being>
+  <Being beingID="Gatecannon">
+    <Name>Gatecannon</Name>
+    <Health>100</Health>
+    <Money>0</Money>
+    <Movements>0</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>7</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="45,8" animName="Gatecannon" chargeAnim="true" shadow="false"
+      unmoveable="true"></Stats>
+  </Being>
+  <Being beingID="Ghost">
+    <Name>Ghost</Name>
+    <Health>15</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>150</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Ghost" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Ghost2">
+    <Name>Ghast</Name>
+    <Health>17</Health>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3.6</LoopDelay>
+    <Defense>200</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Ghost" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Ghost3">
+    <Name>Gheist</Name>
+    <Health>19</Health>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.36</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3.2</LoopDelay>
+    <Defense>250</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Ghost" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Ghost4">
+    <Name>Zeitgeist</Name>
+    <Health>22</Health>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.33</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3</LoopDelay>
+    <Defense>300</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Ghost" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Hailcaster">
+    <Name>Hailcaster</Name>
+    <Health>220</Health>
+    <Experience>15</Experience>
+    <Money>3</Money>
+    <MovPattern>Back</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Hailcaster" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Hailcaster2">
+    <Name>Hailcaster2</Name>
+    <Health>250</Health>
+    <MovPattern>Back</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Hailcaster" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Hailcaster3">
+    <Name>Hailcaster3</Name>
+    <Health>280</Health>
+    <MovPattern>Back</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>6.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Hailcaster" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Hailcaster4">
+    <Name>Hailcaster4</Name>
+    <Health>310</Health>
+    <MovPattern>Back</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>6.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Hailcaster" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Hatchling">
+    <Name>Hatchling</Name>
+    <Health>200</Health>
+    <Experience></Experience>
+    <Money>0</Money>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>4</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0.2</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Stats localGunPointPos="" animName="Icerunt"></Stats>
+  </Being>
+  <Being beingID="Healdon">
+    <Name>Healdon</Name>
+    <Health>250</Health>
+    <Experience>15</Experience>
+    <Money>3</Money>
+    <Movements>0</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3.9</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="12,32" animName="Healdon" dieSound="wood_rip"></Stats>
+  </Being>
+  <Being beingID="Healdon2">
+    <Name>Healburi</Name>
+    <Health>300</Health>
+    <Movements>0</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.2</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="12,32" animName="Healdon" dieSound="wood_rip"></Stats>
+  </Being>
+  <Being beingID="Healdon3">
+    <Name>Healdonburi</Name>
+    <Health>350</Health>
+    <Movements>0</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.3</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="12,32" animName="Healdon" dieSound="wood_rip"></Stats>
+  </Being>
+  <Being beingID="Healdon4">
+    <Name>Healzon</Name>
+    <Health>400</Health>
+    <Movements>0</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="12,32" animName="Healdon" dieSound="wood_rip"></Stats>
+  </Being>
+  <Being beingID="HostageEvil">
+    <Name>Hostage</Name>
+    <Tags>Hostage</Tags>
+    <Health>250</Health>
+    <Experience>0</Experience>
+    <Money>0</Money>
+    <MovPattern>DashRandomEmptyToPlayerRow</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.1</MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Deathrattle>HostageKilled</Deathrattle>
+    <Startup>HostageEvilStartup</Startup>
+    <Stats localGunPointPos="20,28" animName="HostageEvil" clearAnim="true" chargeAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Icefactory">
+    <Name>Factory</Name>
+    <Health>220</Health>
+    <Experience>15</Experience>
+    <Money>3</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>1</Defense>
+    <LerpTime></LerpTime>
+    <Stagger>false</Stagger>
+    <Stats localGunPointPos="" animName="Icefactory" chargeAnim="true" dieSound="beep_whine"
+    ></Stats>
+  </Being>
+  <Being beingID="Icefactory2">
+    <Name>Factory</Name>
+    <Health>260</Health>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>2</Defense>
+    <LerpTime></LerpTime>
+    <Stagger>false</Stagger>
+    <Stats localGunPointPos="" animName="Icefactory" chargeAnim="true" dieSound="beep_whine"
+    ></Stats>
+  </Being>
+  <Being beingID="Icefactory3">
+    <Name>Factory</Name>
+    <Health>320</Health>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>7</LoopDelay>
+    <Defense>3</Defense>
+    <LerpTime></LerpTime>
+    <Stagger>false</Stagger>
+    <Stats localGunPointPos="" animName="Icefactory" chargeAnim="true" dieSound="beep_whine"
+    ></Stats>
+  </Being>
+  <Being beingID="Icefactory4">
+    <Name>Factory</Name>
+    <Health>450</Health>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>8</LoopDelay>
+    <Defense>4</Defense>
+    <LerpTime></LerpTime>
+    <Stagger>false</Stagger>
+    <Stats localGunPointPos="" animName="Icefactory" chargeAnim="true" dieSound="beep_whine"
+    ></Stats>
+  </Being>
+  <Being beingID="Icerunt">
+    <Name>F-Runt</Name>
+    <Health>200</Health>
+    <Experience></Experience>
+    <Money>0</Money>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>4</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Stats localGunPointPos="16,7" animName="Icerunt"></Stats>
+  </Being>
+  <Being beingID="Icelauncher">
+    <Name>Ice Launcher</Name>
+    <Health>300</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="12,15" animName="Icelauncher" chargeAnim="true" dieSound="beep_whine"
+    ></Stats>
+  </Being>
+  <Being beingID="Icelauncher2">
+    <Name>Ice Launcher</Name>
+    <Health>340</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="12,15" animName="Icelauncher" chargeAnim="true" dieSound="beep_whine"
+    ></Stats>
+  </Being>
+  <Being beingID="Icelauncher3">
+    <Name>Ice Launcher</Name>
+    <Health>380</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="12,15" animName="Icelauncher" chargeAnim="true" dieSound="beep_whine"
+    ></Stats>
+  </Being>
+  <Being beingID="Icelauncher4">
+    <Name>Ice Launcher</Name>
+    <Health>420</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>6</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="12,15" animName="Icelauncher" chargeAnim="true" dieSound="beep_whine"
+    ></Stats>
+  </Being>
+  <Being beingID="Jellygen">
+    <Name>Jellygen</Name>
+    <Health>150</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>JellyGenerator</Artifacts>
+    <Artifacts>PowerGenerator</Artifacts>
+    <Stats localGunPointPos="0,3" animName="Jellygen" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Jellygen2">
+    <Name>Jellybun</Name>
+    <Health>160</Health>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>JellyGenerator</Artifacts>
+    <Artifacts>PowerGenerator</Artifacts>
+    <Stats localGunPointPos="0,3" animName="Jellygen" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Jellygen3">
+    <Name>Jellybit</Name>
+    <Health>170</Health>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>JellyGenerator</Artifacts>
+    <Artifacts>PowerGenerator</Artifacts>
+    <Stats localGunPointPos="0,3" animName="Jellygen" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Jellygen4">
+    <Name>Jellyzen</Name>
+    <Health>180</Health>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>JellyGenerator</Artifacts>
+    <Artifacts>PowerGenerator</Artifacts>
+    <Stats localGunPointPos="0,3" animName="Jellygen" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Liger">
+    <Name>Liger</Name>
+    <Health>200</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>4</Movements>
+    <MovementDelay>0.24</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>2.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Liger" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Liger2">
+    <Name>Lyger</Name>
+    <Health>220</Health>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>4</Movements>
+    <MovementDelay>0.22</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>2.4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Liger" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Liger3">
+    <Name>Lieger</Name>
+    <Health>240</Health>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>4</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>2.2</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Liger" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Liger4">
+    <Name>Lizer</Name>
+    <Health>260</Health>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>4</Movements>
+    <MovementDelay>0.18</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>2.1</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Liger" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Lurker">
+    <Name>Lurkr</Name>
+    <Health>250</Health>
+    <Experience>15</Experience>
+    <Money>3</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>1.5</StartDelay>
+    <LoopDelay>5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="2,28" animName="Lurker" dieSound="glass_shatter_echo_short"
+      chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Lurker2">
+    <Name>Lurkrest</Name>
+    <Health>320</Health>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>1.5</StartDelay>
+    <LoopDelay>4.8</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="2,28" animName="Lurker" dieSound="glass_shatter_echo_short"
+      chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Lurker3">
+    <Name>Lurk3r</Name>
+    <Health>333</Health>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>1.5</StartDelay>
+    <LoopDelay>4.7</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="2,28" animName="Lurker" dieSound="glass_shatter_echo_short"
+      chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Lurker4">
+    <Name>Lurkz4r</Name>
+    <Health>333</Health>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>1.5</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="2,28" animName="Lurker" dieSound="glass_shatter_echo_short"
+      chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="LurkerOmega">
+    <Name>LurkerOmega</Name>
+    <Health>500</Health>
+    <Experience>15</Experience>
+    <Money>3</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>1.5</StartDelay>
+    <LoopDelay>1</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="2,28" animName="Lurker" dieSound="glass_shatter_echo_short"></Stats>
+  </Being>
+  <Being beingID="Luxcannon">
+    <Name>Luxcannon</Name>
+    <Health>300</Health>
+    <Experience>15</Experience>
+    <Money>3</Money>
+    <MovPattern>PatrolRandomEmptyVerticalToPlayer</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>0.6</MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>6</LoopDelay>
+    <Defense>0</Defense>
+    <Stats localGunPointPos="24,23" animName="Luxcannon" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Luxcannon2">
+    <Name>Luxcannon</Name>
+    <Health>350</Health>
+    <MovPattern>PatrolRandomEmptyVerticalToPlayer</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>5.8</LoopDelay>
+    <Defense>2</Defense>
+    <Stats localGunPointPos="24,23" animName="Luxcannon" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Luxcannon3">
+    <Name>Luxcannon</Name>
+    <Health>400</Health>
+    <MovPattern>PatrolRandomEmptyVerticalToPlayer</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>5.6</LoopDelay>
+    <Defense>4</Defense>
+    <Deck>Luxcannon3</Deck>
+    <Deck>LuxcannonX</Deck>
+    <Stats localGunPointPos="24,23" animName="Luxcannon" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Luxcannon4">
+    <Name>Luxcannon</Name>
+    <Health>450</Health>
+    <MovPattern>PatrolRandomEmptyVerticalToPlayer</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>5.5</LoopDelay>
+    <Defense>6</Defense>
+    <Deck>Luxcannon4</Deck>
+    <Deck>LuxcannonX</Deck>
+    <Stats localGunPointPos="24,23" animName="Luxcannon" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Machgunner">
+    <Name>Machgunner</Name>
+    <Health>250</Health>
+    <Experience>15</Experience>
+    <Money>4</Money>
+    <MovPattern>PatrolRandomEmptyHorizontal</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="15,18" animName="Machgunner"></Stats>
+  </Being>
+  <Being beingID="Machgunner2">
+    <Name>Mechgunner</Name>
+    <Health>300</Health>
+    <MovPattern>PatrolRandomEmptyHorizontal</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="15,18" animName="Machgunner"></Stats>
+  </Being>
+  <Being beingID="Machgunner3">
+    <Name>Mochgunner</Name>
+    <Health>250</Health>
+    <MovPattern>PatrolRandomEmptyHorizontal</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.6</LoopDelay>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="15,18" animName="Machgunner"></Stats>
+  </Being>
+  <Being beingID="Machgunner4">
+    <Name>Machzunner</Name>
+    <Health>400</Health>
+    <MovPattern>PatrolRandomEmptyHorizontal</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.7</LoopDelay>
+    <Stagger>true</Stagger>
+    <Deck>Machgunner3</Deck>
+    <Deck>Machgunner4</Deck>
+    <Stats localGunPointPos="15,18" animName="Machgunner"></Stats>
+  </Being>
+  <Being beingID="Manticore">
+    <Name>Manticore</Name>
+    <Health>250</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3</LoopDelay>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-7,30" animName="Manticore" chargeAnim="true"
+      dieSound="glass_shatter_echo"></Stats>
+  </Being>
+  <Being beingID="Manticore2">
+    <Name>Mantiroar</Name>
+    <Health>350</Health>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3.2</LoopDelay>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-7,30" animName="Manticore" chargeAnim="true"
+      dieSound="glass_shatter_echo"></Stats>
+  </Being>
+  <Being beingID="Manticore3">
+    <Name>Mantiscore!</Name>
+    <Health>400</Health>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3.5</LoopDelay>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-7,30" animName="Manticore" chargeAnim="true"
+      dieSound="glass_shatter_echo"></Stats>
+  </Being>
+  <Being beingID="Manticore4">
+    <Name>Manti4</Name>
+    <Health>400</Health>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3.5</LoopDelay>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-7,30" animName="Manticore" chargeAnim="true"
+      dieSound="glass_shatter_echo"></Stats>
+  </Being>
+  <Being beingID="Minelayer">
+    <Name>Minelayer</Name>
+    <Health>250</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-12,20" animName="Minelayer" dieSound="glass_shatter_echo"></Stats>
+  </Being>
+  <Being beingID="Minelayer2">
+    <Name>Minelayer</Name>
+    <Health>300</Health>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.1</LoopDelay>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-12,20" animName="Minelayer" dieSound="glass_shatter_echo"></Stats>
+  </Being>
+  <Being beingID="Minelayer3">
+    <Name>Minelayer</Name>
+    <Health>350</Health>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.2</LoopDelay>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-12,20" animName="Minelayer" dieSound="glass_shatter_echo"></Stats>
+  </Being>
+  <Being beingID="Minelayer4">
+    <Name>Minelayer</Name>
+    <Health>400</Health>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.3</LoopDelay>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-12,20" animName="Minelayer" dieSound="glass_shatter_echo"></Stats>
+  </Being>
+  <Being beingID="Minfrost">
+    <Name>MinFrost</Name>
+    <Health>150</Health>
+    <Experience>10</Experience>
+    <Money>2</Money>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>5</LoopDelay>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="0,16" animName="Minfrost" chargeAnim="true"
+      dieSound="glass_shatter_echo"></Stats>
+  </Being>
+  <Being beingID="Minfrost2">
+    <Name>MintFrost</Name>
+    <Health>180</Health>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>5</LoopDelay>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="0,16" animName="Minfrost" chargeAnim="true"
+      dieSound="glass_shatter_echo"></Stats>
+  </Being>
+  <Being beingID="Minfrost3">
+    <Name>MintyFrost</Name>
+    <Health>240</Health>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.6</LoopDelay>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="0,16" animName="Minfrost" chargeAnim="true"
+      dieSound="glass_shatter_echo"></Stats>
+  </Being>
+  <Being beingID="Minfrost4">
+    <Name>MinterFrost</Name>
+    <Health>300</Health>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.4</LoopDelay>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="0,16" animName="Minfrost" chargeAnim="true"
+      dieSound="glass_shatter_echo"></Stats>
+  </Being>
+  <Being beingID="Monolithfire">
+    <Name>MonolithFire</Name>
+    <Health>350</Health>
+    <Experience>15</Experience>
+    <Money>10</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>1</LoopDelay>
+    <Stagger>false</Stagger>
+    <Startup>MonolithTimer</Startup>
+    <Timeout>MonolithfireX</Timeout>
+    <Stats localGunPointPos="0,32" localTimerPos="0, -16" animName="Monolithfire"
+      dieSound="explode_fire" timeoutAnim="true"></Stats>
+  </Being>
+  <Being beingID="Monolithgun">
+    <Name>MonolithGun</Name>
+    <Health>350</Health>
+    <Experience>15</Experience>
+    <Money>10</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>1</LoopDelay>
+    <Stagger>false</Stagger>
+    <Startup>MonolithTimer</Startup>
+    <Timeout>MonolithgunX</Timeout>
+    <Stats localGunPointPos="13,40" localTimerPos="0, -16" animName="Monolithgun"
+      dieSound="explode_fire" timeoutAnim="true"></Stats>
+  </Being>
+  <Being beingID="Monolithgun2">
+    <Name>MonolithGun</Name>
+    <Health>350</Health>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>1</LoopDelay>
+    <Stagger>false</Stagger>
+    <Startup>MonolithTimer</Startup>
+    <Timeout>MonolithgunX2</Timeout>
+    <Stats localGunPointPos="13,40" localTimerPos="0, -16" animName="Monolithgun"
+      dieSound="explode_fire" timeoutAnim="true"></Stats>
+  </Being>
+  <Being beingID="Monolithgun3">
+    <Name>MonolithGun</Name>
+    <Health>350</Health>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>1</LoopDelay>
+    <Stagger>false</Stagger>
+    <Startup>MonolithTimer</Startup>
+    <Timeout>MonolithgunX3</Timeout>
+    <Stats localGunPointPos="13,40" localTimerPos="0, -16" animName="Monolithgun"
+      dieSound="explode_fire" timeoutAnim="true"></Stats>
+  </Being>
+  <Being beingID="Monolithgun4">
+    <Name>MonolithGun</Name>
+    <Health>350</Health>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>1</LoopDelay>
+    <Stagger>false</Stagger>
+    <Startup>MonolithTimer</Startup>
+    <Timeout>MonolithgunX4</Timeout>
+    <Stats localGunPointPos="13,40" localTimerPos="0, -16" animName="Monolithgun"
+      dieSound="explode_fire" timeoutAnim="true"></Stats>
+  </Being>
+  <Being beingID="Monolithice">
+    <Name>MonolithIce</Name>
+    <Health>350</Health>
+    <Experience>15</Experience>
+    <Money>10</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>1</LoopDelay>
+    <Stagger>true</Stagger>
+    <Startup>MonolithTimer</Startup>
+    <Timeout>MonolithiceX</Timeout>
+    <Stats localGunPointPos="0,32" animName="Monolithice" chargeAnim="true" localTimerPos="0, 3"
+      timeoutAnim="true"></Stats>
+  </Being>
+  <Being beingID="Monolithice2">
+    <Name>MonolithIce</Name>
+    <Health>400</Health>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>1</LoopDelay>
+    <Stagger>true</Stagger>
+    <Startup>MonolithTimer</Startup>
+    <Timeout>MonolithiceX2</Timeout>
+    <Stats localGunPointPos="0,24" animName="Monolithice" localTimerPos="0, 3" timeoutAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Monolithice3">
+    <Name>MonolithIce</Name>
+    <Health>450</Health>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>1</LoopDelay>
+    <Stagger>true</Stagger>
+    <Startup>MonolithTimer</Startup>
+    <Timeout>MonolithiceX3</Timeout>
+    <Stats localGunPointPos="0,24" animName="Monolithice" localTimerPos="0, 3" timeoutAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Monolithice4">
+    <Name>MonolithIce</Name>
+    <Health>500</Health>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>1</LoopDelay>
+    <Stagger>true</Stagger>
+    <Startup>MonolithTimer</Startup>
+    <Timeout>MonolithiceX4</Timeout>
+    <Stats localGunPointPos="0,24" animName="Monolithice" localTimerPos="0, 3" timeoutAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Obeamer">
+    <Name>Obeamer</Name>
+    <Health>200</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <Movements>1</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0.5</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>Bulwark</Artifacts>
+    <Artifacts>Bismuth</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Obeamer" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Obeamer2">
+    <Name>Obeamer</Name>
+    <Health>200</Health>
+    <Movements>1</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0.5</StartDelay>
+    <LoopDelay>4.8</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>Obeamer</Deck>
+    <Deck>Obeamer2</Deck>
+    <Artifacts>Bulwark</Artifacts>
+    <Artifacts>Bismuth</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Obeamer" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Obeamer3">
+    <Name>Obeamer</Name>
+    <Health>200</Health>
+    <Movements>1</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0.5</StartDelay>
+    <LoopDelay>4.9</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>Obeamer2</Deck>
+    <Deck>Obeamer3</Deck>
+    <Artifacts>Bulwark</Artifacts>
+    <Artifacts>Bismuth</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Obeamer" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Obeamer4">
+    <Name>Obeamer</Name>
+    <Health>200</Health>
+    <Movements>1</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0.5</StartDelay>
+    <LoopDelay>4.9</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>Obeamer3</Deck>
+    <Deck>Obeamer4</Deck>
+    <Deck>Obeamer2</Deck>
+    <Artifacts>Bulwark</Artifacts>
+    <Artifacts>Bismuth</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Obeamer" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Quarreling">
+    <Name>Quarreling</Name>
+    <Health>300</Health>
+    <Experience>5</Experience>
+    <Money>3</Money>
+    <MovPattern>MoveToRandom</MovPattern>
+    <Movements>4</Movements>
+    <MovementDelay>0.35</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>2.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Stats localGunPointPos="0,0" animName="Quarreling" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Rapidcannon">
+    <Name>RapidCannon</Name>
+    <Health>200</Health>
+    <Experience>10</Experience>
+    <Money>2</Money>
+    <Movements>0</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>0.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="30,21" animName="Turretgun"></Stats>
+  </Being>
+  <Being beingID="Reacter">
+    <Name>Reacter</Name>
+    <Health>100</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <Movements>3</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>9999</StartDelay>
+    <LoopDelay>9999</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>ReacterDrive</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Reacter" dieSound="beep_whine" chargeAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Reacter2">
+    <Name>Reactor</Name>
+    <Health>140</Health>
+    <Movements>3</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>9999</StartDelay>
+    <LoopDelay>9999</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>ReacterDrive</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Reacter" dieSound="beep_whine" chargeAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Reacter3">
+    <Name>Reactur</Name>
+    <Health>180</Health>
+    <Movements>3</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>9999</StartDelay>
+    <LoopDelay>9999</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>ReacterDrive</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Reacter" dieSound="beep_whine" chargeAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Reacter4">
+    <Name>Reaction</Name>
+    <Health>240</Health>
+    <Movements>3</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>9999</StartDelay>
+    <LoopDelay>9999</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Artifacts>ReacterDrive</Artifacts>
+    <Stats localGunPointPos="8,23" animName="Reacter" dieSound="beep_whine" chargeAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Reaper">
+    <Name>Reaper</Name>
+    <Health>250</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>1</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Reaper"></Stats>
+  </Being>
+  <Being beingID="Reaper2">
+    <Name>Creaper</Name>
+    <Health>300</Health>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>1</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.2</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Reaper"></Stats>
+  </Being>
+  <Being beingID="Reaper3">
+    <Name>Threaper</Name>
+    <Health>250</Health>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>1</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Reaper"></Stats>
+  </Being>
+  <Being beingID="Reaper4">
+    <Name>Sweaper</Name>
+    <Health>300</Health>
+    <MovPattern>PatrolRandomEmpty</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>1</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.7</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Reaper"></Stats>
+  </Being>
+  <Being beingID="Revolver">
+    <Name>Revolver</Name>
+    <Health>200</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>4</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Revolver" dieSound="beep_whine" chargeAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Revolver2">
+    <Name>Revolver2</Name>
+    <Health>280</Health>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>4</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3.5</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Revolver" dieSound="beep_whine" chargeAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Revolver3">
+    <Name>Revolver3</Name>
+    <Health>340</Health>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>4</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Revolver" dieSound="beep_whine" chargeAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Revolver4">
+    <Name>Revolver4</Name>
+    <Health>360</Health>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>4</Movements>
+    <MovementDelay>0.2</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.3</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="8,23" animName="Revolver" dieSound="beep_whine" chargeAnim="true"
+    ></Stats>
+  </Being>
+  <Being beingID="Shardshooter">
+    <Name>Shardshooter</Name>
+    <Health>200</Health>
+    <Experience>15</Experience>
+    <Money>3</Money>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-7,30" animName="Shardshooter" dieSound="glass_shatter_echo"></Stats>
+  </Being>
+  <Being beingID="Shardshooter2">
+    <Name>Sharpshooter</Name>
+    <Health>300</Health>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-7,30" animName="Shardshooter" dieSound="glass_shatter_echo"></Stats>
+  </Being>
+  <Being beingID="Shardshooter3">
+    <Name>Sharkshooter</Name>
+    <Health>350</Health>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>0.35</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-7,30" animName="Shardshooter" dieSound="glass_shatter_echo"></Stats>
+  </Being>
+  <Being beingID="Shardshooter4">
+    <Name>Zhardshooter</Name>
+    <Health>400</Health>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>6</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-7,30" animName="Shardshooter" dieSound="glass_shatter_echo"></Stats>
+  </Being>
+  <Being beingID="Shieldon">
+    <Name>Shieldon</Name>
+    <Health>200</Health>
+    <Experience>15</Experience>
+    <Money>3</Money>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>ShieldonX</Deck>
+    <Stats localGunPointPos="0,26" animName="Shieldon" dieSound="glass_shatter_echo"
+      chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Shieldon2">
+    <Name>Shielburi</Name>
+    <Health>200</Health>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>ShieldonX</Deck>
+    <Stats localGunPointPos="0,26" animName="Shieldon" dieSound="glass_shatter_echo"
+      chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Shieldon3">
+    <Name>Shieldonburi</Name>
+    <Health>200</Health>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>ShieldonX</Deck>
+    <Stats localGunPointPos="0,26" animName="Shieldon" dieSound="glass_shatter_echo"
+      chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Shieldon4">
+    <Name>Zhieldon</Name>
+    <Health>200</Health>
+    <MovPattern>PatrolRandomEmptyVertical</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.3</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>ShieldonX</Deck>
+    <Stats localGunPointPos="0,26" animName="Shieldon" dieSound="glass_shatter_echo"
+      chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Slasher">
+    <Name>Slasher</Name>
+    <Health>250</Health>
+    <Experience>15</Experience>
+    <Money>3</Money>
+    <MovPattern>PatrolRandomEmptyVerticalToPlayer</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0.7</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Slasher" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Slasher2">
+    <Name>5lasher</Name>
+    <Health>300</Health>
+    <MovPattern>PatrolRandomEmptyVerticalToPlayer</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0.7</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Slasher" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Slasher3">
+    <Name>6lasher</Name>
+    <Health>350</Health>
+    <MovPattern>PatrolRandomEmptyVerticalToPlayer</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0.7</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Slasher" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Slasher4">
+    <Name>7lasher</Name>
+    <Health>400</Health>
+    <MovPattern>PatrolRandomEmptyVerticalToPlayer</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0.7</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="" animName="Slasher" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Sniper">
+    <Name>Sniper</Name>
+    <Health>200</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern>PatrolRandomEmptyVerticalToPlayer</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0</MovementDelay>
+    <StartDelay>0.5</StartDelay>
+    <LoopDelay>1.9</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="24,21.5" animName="Sniper" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Sniper2">
+    <Name>Cliper</Name>
+    <Health>225</Health>
+    <MovPattern>PatrolRandomEmptyVerticalToPlayer</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0</MovementDelay>
+    <StartDelay>0.5</StartDelay>
+    <LoopDelay>1.8</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="24,21.5" animName="Sniper" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Sniper3">
+    <Name>Riper</Name>
+    <Health>250</Health>
+    <MovPattern>PatrolRandomEmptyVerticalToPlayer</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0</MovementDelay>
+    <StartDelay>0.5</StartDelay>
+    <LoopDelay>1.8</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="24,21.5" animName="Sniper" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Sniper4">
+    <Name>Ziper</Name>
+    <Health>275</Health>
+    <MovPattern>TeleportVerticalToPlayer</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0</MovementDelay>
+    <StartDelay>0.5</StartDelay>
+    <LoopDelay>1.7</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="24,21.5" animName="Sniper" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Spearper">
+    <Name>Spearper</Name>
+    <Health>200</Health>
+    <Experience>15</Experience>
+    <Money>3</Money>
+    <MovPattern>PatrolRandomEmptyHorizontal</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>1</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-100,20" animName="Spearper" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Spearper2">
+    <Name>5pearper</Name>
+    <Health>200</Health>
+    <MovPattern>PatrolRandomEmptyHorizontal</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>1</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-100,20" animName="Spearper" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Spearper3">
+    <Name>6pearper</Name>
+    <Health>200</Health>
+    <MovPattern>PatrolRandomEmptyHorizontal</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>1</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.6</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-100,20" animName="Spearper" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Spearper4">
+    <Name>7pearper</Name>
+    <Health>200</Health>
+    <MovPattern>PatrolRandomEmptyHorizontal</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>1</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="-100,20" animName="Spearper" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Sprouter">
+    <Name>Sprouter</Name>
+    <Health>250</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <Movements>0</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="0,21" animName="Sprouter" dieSound="glass_shatter_echo"
+      chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Sprouter2">
+    <Name>Spswitch</Name>
+    <Health>300</Health>
+    <Movements>0</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3.4</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="0,21" animName="Sprouter" dieSound="glass_shatter_echo"
+      chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Sprouter3">
+    <Name>Spmodem</Name>
+    <Health>325</Health>
+    <Movements>0</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="0,21" animName="Sprouter" dieSound="glass_shatter_echo"
+      chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Sprouter4">
+    <Name>Zprouter</Name>
+    <Health>350</Health>
+    <Movements>0</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4.5</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="0,21" animName="Sprouter" dieSound="glass_shatter_echo"
+      chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Sparrowhawk">
+    <Name>Sparrowhawk</Name>
+    <Health>200</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern>CClockwise</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>SparrowhawkRow</Deck>
+    <Stats localGunPointPos="8,23" animName="Artillery" dieSound="beep_whine"></Stats>
+  </Being>
+  <Being beingID="Spitter">
+    <Name>Spintail</Name>
+    <Health>200</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <Movements>0</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>9</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="5,14" animName="Spitter" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Spitter2">
+    <Name>Twintail</Name>
+    <Health>240</Health>
+    <Movements>0</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>10</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="5,14" animName="Spitter" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Spitter3">
+    <Name>Pigtail</Name>
+    <Health>280</Health>
+    <Movements>0</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>10</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>SpitterX</Deck>
+    <Stats localGunPointPos="5,14" animName="Spitter" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Spitter4">
+    <Name>Ponytail</Name>
+    <Health>320</Health>
+    <Movements>0</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>1</StartDelay>
+    <LoopDelay>10</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Deck>SpitterX</Deck>
+    <Stats localGunPointPos="5,14" animName="Spitter" chargeAnim="true"></Stats>
+  </Being>
+  <Being beingID="Tracker">
+    <Name>Tracker</Name>
+    <Health>350</Health>
+    <Experience>25</Experience>
+    <Money>6</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>10</LoopDelay>
+    <Defense></Defense>
+    <LerpTime></LerpTime>
+    <Stagger>true</Stagger>
+    <Stats localGunPointPos="35, 0"></Stats>
+  </Being>
+  <Being beingID="Zombee">
+    <Name>Zombee</Name>
+    <Health>200</Health>
+    <Experience>10</Experience>
+    <Money>3</Money>
+    <MovPattern>PlayerHalfField</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Deathrattle>ZombeeRes</Deathrattle>
+    <DeathDelay>0.1</DeathDelay>
+    <Stats localGunPointPos="8,23" animName="Zombee"></Stats>
+  </Being>
+  <Being beingID="Zombee2">
+    <Name>Zombee</Name>
+    <Health>220</Health>
+    <MovPattern>PlayerHalfField</MovPattern>
+    <Movements>2</Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3.5</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Deathrattle>ZombeeRes</Deathrattle>
+    <DeathDelay>0.1</DeathDelay>
+    <Stats localGunPointPos="8,23" animName="Zombee"></Stats>
+  </Being>
+  <Being beingID="Zombee3">
+    <Name>Zombee</Name>
+    <Health>260</Health>
+    <MovPattern>PlayerHalfField</MovPattern>
+    <Movements>3</Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3.3</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>true</Stagger>
+    <Deathrattle>ZombeeRes</Deathrattle>
+    <DeathDelay>0.1</DeathDelay>
+    <Stats localGunPointPos="8,23" animName="Zombee"></Stats>
+  </Being>
+  <Being beingID="Zombee4">
+    <Name>Zombee</Name>
+    <Health>280</Health>
+    <MovPattern>PlayerHalfField</MovPattern>
+    <Movements>4</Movements>
+    <MovementDelay>0.25</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>3.1</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>true</Stagger>
+    <Deathrattle>ZombeeRes</Deathrattle>
+    <DeathDelay>0.1</DeathDelay>
+    <Stats localGunPointPos="8,23" animName="Zombee"></Stats>
+  </Being>
+  <Being beingID="Zomcee">
+    <Name>Zomcee</Name>
+    <Health>200</Health>
+    <Experience></Experience>
+    <Money>0</Money>
+    <MovPattern>PlayerHalfField</MovPattern>
+    <Movements>1</Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>4</LoopDelay>
+    <Defense>0</Defense>
+    <LerpTime>0.2</LerpTime>
+    <Stagger>true</Stagger>
+    <Deathrattle>ZombeeRes</Deathrattle>
+    <DeathDelay>0.1</DeathDelay>
+    <Deck>Zombee</Deck>
+    <Stats localGunPointPos="8,23" animName="Zombee"></Stats>
+  </Being>
+  <Being beingID="BossShopkeeperDemo">
+    <Name>Shopkeeper</Name>
+    <Health>1500</Health>
+    <Experience>20</Experience>
+    <Money>0</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.25</LoopDelay>
+    <Defense>3</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <DeathDelay>0.1</DeathDelay>
+    <Deck>ShopkeeperFinalBeam</Deck>
+    <Deck>ShopkeeperFinalWarning</Deck>
+    <Deck>ShopkeeperThrow</Deck>
+    <Deck>ShopkeeperBoomerang</Deck>
+    <Deck>ShopkeeperBeamUp</Deck>
+    <Deck>ShopkeeperBeamDown</Deck>
+    <Deck>ShopkeeperPull</Deck>
+    <Deck>ShopkeeperSlam</Deck>
+    <Deck>ShopkeeperSummon</Deck>
+    <Deck>ShopkeeperFinale</Deck>
+    <Deck>ShopkeeperPattern</Deck>
+    <Deck>ShopkeeperBlaster</Deck>
+    <Deck>TerraBlaster</Deck>
+    <Deck>TerraPattern</Deck>
+    <Deck>ShopkeeperPatternShort</Deck>
+    <Deck>RevaBeamUp</Deck>
+    <Deck>RevaBeamDown</Deck>
+    <Deck>RevaBeamBot</Deck>
+    <Deck>RevaBeamTop</Deck>
+    <Deck>RevaBoomerang</Deck>
+    <Deck>TerraDiamond</Deck>
+    <Deck>ShopkeeperExecute</Deck>
+    <Stats localGunPointPos="14, 15" animName="Shopkeeper" lethality="96"></Stats>
+  </Being>
+  <Being beingID="BossSelicy">
+    <Name>Selicy</Name>
+    <Health>1400</Health>
+    <Experience>40</Experience>
+    <Money>20</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.65</LoopDelay>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Deck>SelicyBlizzard</Deck>
+    <Stats localGunPointPos="14, 15" animName="Selicy" lethality="93"></Stats>
+  </Being>
+  <Being beingID="BossGunner">
+    <Name>Gunner</Name>
+    <Health>1500</Health>
+    <Experience>40</Experience>
+    <Money>20</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.7</LoopDelay>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Deck>GunnerRush</Deck>
+    <Deck>GunnerExplosion</Deck>
+    <Deck>GunnerBeam</Deck>
+    <Deck>GunnerBombToss</Deck>
+    <Deck>GunnerMinefield</Deck>
+    <Deck>GunnerCircuit</Deck>
+    <Deck>GunnerSkyStrike</Deck>
+    <Deck>GunnerExecuteBomb</Deck>
+    <Deck>GunnerExecuteFlame</Deck>
+    <Deck>GunnerFlak</Deck>
+    <Deck>GunnerBulletTime</Deck>
+    <Deck>GunnerPush</Deck>
+    <Stats localGunPointPos="29, 25" animName="Gunner" lethality="93"></Stats>
+  </Being>
+  <Being beingID="BossHazel">
+    <Name>Hazel</Name>
+    <Health>1400</Health>
+    <Experience>40</Experience>
+    <Money>20</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay>0.45</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.75</LoopDelay>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Deck>HazelSummonTurrets</Deck>
+    <Deck>HazelSlowmissiles</Deck>
+    <Deck>HazelSlowmissiles</Deck>
+    <Deck>HazelBlockTrap</Deck>
+    <Deck>HazelTrapWave</Deck>
+    <Deck>HazelSummonSideburn</Deck>
+    <Deck>HazelSummonBlastShields</Deck>
+    <Deck>HazelTrapWaveBig</Deck>
+    <Deck>HazelShockwave</Deck>
+    <Deck>HazelSummonHex</Deck>
+    <Deck>HazelSummonBeamCrystals</Deck>
+    <Deck>HazelEmpower</Deck>
+    <Stats localGunPointPos="14, 15" animName="Hazel" lethality="90"></Stats>
+  </Being>
+  <Being beingID="BossReva">
+    <Name>Reva</Name>
+    <Health>1400</Health>
+    <Experience>40</Experience>
+    <Money>20</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay>0.5</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.8</LoopDelay>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Deck>RevaThrow</Deck>
+    <Deck>RevaBeamUp</Deck>
+    <Deck>RevaBeamDown</Deck>
+    <Deck>RevaReflect</Deck>
+    <Deck>RevaArtillery</Deck>
+    <Deck>RevaSlam</Deck>
+    <Deck>RevaSummon</Deck>
+    <Deck>RevaBigShield</Deck>
+    <Deck>RevaBeamBot</Deck>
+    <Deck>RevaBeamTop</Deck>
+    <Deck>RevaPull</Deck>
+    <Deck>RevaBoomerang</Deck>
+    <Deck>RevaReflectWarning</Deck>
+    <Stats localGunPointPos="14, 15" animName="Reva" lethality="79"></Stats>
+  </Being>
+  <Being beingID="BossShiso">
+    <Name>Shiso</Name>
+    <Health>1400</Health>
+    <Experience>40</Experience>
+    <Money>20</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay>0.55</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.7</LoopDelay>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Deck>ShisoSteal</Deck>
+    <Deck>ShisoLayTraps</Deck>
+    <Deck>ShisoShuffler</Deck>
+    <Deck>ShisoPushLeft</Deck>
+    <Deck>ShisoPushRight</Deck>
+    <Deck>ShisoPushUp</Deck>
+    <Deck>ShisoPushDown</Deck>
+    <Deck>ShisoTeleshot</Deck>
+    <Deck>ShisoCrossshot</Deck>
+    <Deck>ShisoStealWarning</Deck>
+    <Deck>ShisoShufflerWarning</Deck>
+    <Deck>ShisoCrossshotFull</Deck>
+    <Deck>ShisoFan</Deck>
+    <Stats localGunPointPos="27,30" animName="Shiso" lethality="95"></Stats>
+  </Being>
+  <Being beingID="BossShopkeeper">
+    <Name>Shopkeeper</Name>
+    <Health>3000</Health>
+    <Experience>40</Experience>
+    <Money>0</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay>0.3</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.4</LoopDelay>
+    <Defense>3</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Deathrattle>CloseShop</Deathrattle>
+    <Deathrattle>ShopkeeperGiveDark</Deathrattle>
+    <Deathrattle>ShopkeeperDarkFlow</Deathrattle>
+    <Deathrattle>ShopkeeperItemDrop</Deathrattle>
+    <DeathDelay>0.1</DeathDelay>
+    <Deck>DarkSweeper</Deck>
+    <Deck>ShopkeeperDropMoney</Deck>
+    <Deck>ShopkeeperDeadspot</Deck>
+    <Deck>ShopkeeperClockwiseBlast</Deck>
+    <Deck>ShopkeeperWalls</Deck>
+    <Deck>ShopkeeperMeteor</Deck>
+    <Deck>ShopkeeperShards</Deck>
+    <Deck>ShopkeeperExecute</Deck>
+    <Deck>ShopkeeperPush</Deck>
+    <Deck>ShopkeeperSmash</Deck>
+    <Stats localGunPointPos="14, 15" animName="Shopkeeper" lethality="93"></Stats>
+  </Being>
+  <Being beingID="BossTerra">
+    <Name>Terra</Name>
+    <Health>1600</Health>
+    <Experience>40</Experience>
+    <Money>20</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay>0.01</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.65</LoopDelay>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Deck>TerraFollow</Deck>
+    <Deck>TerraBlaster</Deck>
+    <Deck>TerraPattern</Deck>
+    <Deck>TerraRevolver</Deck>
+    <Deck>TerraDiamond</Deck>
+    <Deck>TerraExecute</Deck>
+    <Stats localGunPointPos="14, 30" animName="Terra" lethality="95"></Stats>
+  </Being>
+  <Being beingID="BossTerraDarkBeta">
+    <Name>Terrable</Name>
+    <Health>1500</Health>
+    <Experience>40</Experience>
+    <Money>20</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.5</LoopDelay>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Deck>DarkStorm</Deck>
+    <Deck>DarkDrain</Deck>
+    <Deck>DarkZigZag</Deck>
+    <Deck>DarkSweeper</Deck>
+    <Deck>DarkBreakerBall</Deck>
+    <Deck>DarkHeaven</Deck>
+    <Deck>DarkUltima</Deck>
+    <Deck>DarkRagnarok</Deck>
+    <Deck>DarkExecution</Deck>
+    <Deck>DarkMeteor</Deck>
+    <Deck>DarkWave</Deck>
+    <Stats localGunPointPos="-1,56" animName="TerraDark" lethality="100"></Stats>
+  </Being>
+  <Being beingID="BossSaffron">
+    <Name>Saffron</Name>
+    <Health>1200</Health>
+    <Experience>40</Experience>
+    <Money>20</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.6</LoopDelay>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Deck>KineticWave</Deck>
+    <Deck>Ragnarok</Deck>
+    <Deck>Thunder</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>FrostBarrage</Deck>
+    <Deck>SaffronSummonPlushie</Deck>
+    <Deck>SaffronTriStar</Deck>
+    <Deck>SaffronPull</Deck>
+    <Deck>SaffronShotgun</Deck>
+    <Deck>Thunder</Deck>
+    <Deck>SaffronAutoRag</Deck>
+    <Deck>Align</Deck>
+    <Deck>Focus</Deck>
+    <Stats localGunPointPos="14, 30" animName="Saffron" lethality="88"></Stats>
+  </Being>
+  <Being beingID="BossViolette">
+    <Name>Violette</Name>
+    <Health>1500</Health>
+    <Experience>40</Experience>
+    <Money>20</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay>0.35</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.55</LoopDelay>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Deck>ViNoteShot</Deck>
+    <Deck>ViNoteBeam</Deck>
+    <Deck>ViNoteHeavenWarning</Deck>
+    <Deck>ViNoteHeaven</Deck>
+    <Deck>ViSummonSpeakers</Deck>
+    <Deck>ViSheetShot</Deck>
+    <Deck>ViPathPunish</Deck>
+    <Deck>ViExecute</Deck>
+    <Deck>ViPathPunishCoOp</Deck>
+    <Deck>ViFollow</Deck>
+    <Deck>ViFollowHorizontal</Deck>
+    <Stats localGunPointPos="14, 15" animName="Violette" lethality="88"></Stats>
+  </Being>
+  <Being beingID="BossTerraDark">
+    <Name>Terrable</Name>
+    <Health>2000</Health>
+    <Experience>200</Experience>
+    <Money>20</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.5</LoopDelay>
+    <Defense>4</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Deck>DarkStorm</Deck>
+    <Deck>DarkDrain</Deck>
+    <Deck>DarkZigZag</Deck>
+    <Deck>DarkSweeper</Deck>
+    <Deck>DarkBreakerBall</Deck>
+    <Deck>DarkHeaven</Deck>
+    <Deck>DarkUltima</Deck>
+    <Deck>DarkRagnarok</Deck>
+    <Deck>DarkExecution</Deck>
+    <Deck>DarkMeteor</Deck>
+    <Deck>DarkWave</Deck>
+    <Deck>DarkMeteorFinal</Deck>
+    <Deck>DarkConverge</Deck>
+    <Deck>DarkConvergeCross</Deck>
+    <Deck>DarkConvergeX</Deck>
+    <Deck>DarkConvergeSwirl</Deck>
+    <Deck>DarkConvergeWarning</Deck>
+    <Deck>DarkUltimaWarning</Deck>
+    <Stats localGunPointPos="-1,56" animName="TerraDark" lethality="100"></Stats>
+  </Being>
+  <Being beingID="BossGate">
+    <Name>Gate</Name>
+    <Health>6200</Health>
+    <Experience>200</Experience>
+    <Money>30</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.6</LoopDelay>
+    <Defense>5</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Deck>GateSummonSweeper</Deck>
+    <Deck>GateSummonCrosser</Deck>
+    <Deck>GateSummonXer</Deck>
+    <Deck>GateSummonBeamer</Deck>
+    <Deck>GateSummonCannon</Deck>
+    <Stats localGunPointPos="-28,95" animName="Gate" lethality="100"></Stats>
+  </Being>
+  <Being beingID="BossSerif">
+    <Name>Serif</Name>
+    <Health>2900</Health>
+    <Experience>200</Experience>
+    <Money>30</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay>0.4</MovementDelay>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>0.45</LoopDelay>
+    <Defense>5</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Stagger>false</Stagger>
+    <Deck>SerifTileChange</Deck>
+    <Deck>SerifCircuit</Deck>
+    <Deck>SerifCircuitWarning</Deck>
+    <Deck>SerifLightbombToss</Deck>
+    <Deck>SerifLightbombPath</Deck>
+    <Deck>SerifWave</Deck>
+    <Deck>SerifSwordRows</Deck>
+    <Deck>SerifSwordFlurry</Deck>
+    <Deck>SerifGlitterStorm</Deck>
+    <Deck>SerifSpellEjector</Deck>
+    <Deck>SerifSweeper</Deck>
+    <Deck>SerifExcaliburSlash</Deck>
+    <Deck>SerifOffSwordsTop</Deck>
+    <Deck>SerifOffSwordsBot</Deck>
+    <Deck>SerifExecution</Deck>
+    <Deck>SerifDarkPierce</Deck>
+    <Deck>SerifBurn</Deck>
+    <Deck>SerifGateExecution</Deck>
+    <Deck>SerifDarkPierceEffect</Deck>
+    <Deck>SerifTimeReverse</Deck>
+    <Deck>SerifPush</Deck>
+    <Deck>SerifExcalibur</Deck>
+    <Stats localGunPointPos="18,22" animName="Serif" lethality="100" vocSynth="voc-synth-holy"
+    ></Stats>
+  </Being>
+</Beings>

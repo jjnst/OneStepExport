@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- . = basic tile, X = broken tile -->
+<document>
+  <field num="0" width="10" height="5"
+    > ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... </field>
+  <field num="1" width="10" height="5"
+    > X...X ..... ..... ..... ..... ..... ..... ..... ..... ..... </field>
+  <field num="2" width="8" height="4"> .... .... .... .... .... .... .... .... </field>
+</document>

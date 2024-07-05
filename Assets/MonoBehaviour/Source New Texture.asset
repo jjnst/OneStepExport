@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -670829987, guid: d475063df6f76640a057743d39c7d5b7, type: 3}
+  m_Name: Source New Texture
+  m_EditorClassIdentifier:
+  rect:
+    x: -490
+    y: 170
+    width: 148
+    height: 210
+  nodeKnobs:
+  - {fileID: 11400000, guid: e3f73cef671d8a545bbedc71e2bb42b3, type: 2}
+  Inputs: []
+  Outputs:
+  - {fileID: 11400000, guid: e3f73cef671d8a545bbedc71e2bb42b3, type: 2}
+  tex: {fileID: 0}
+  MemoCount: 1

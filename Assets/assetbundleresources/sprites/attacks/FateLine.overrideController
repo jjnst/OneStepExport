@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FateLine
+  m_Controller: {fileID: 9100000, guid: fc4a0f1134396d44d8c65b6ae2df01da, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 0}
+    m_OverrideClip: {fileID: 0}
+  - m_OriginalClip: {fileID: 7400000, guid: 7cf8fcd928b5abb4385d6b3c6af1325e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 44bb00b7bdcc370439d16466b132e5e0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2aea4af98c6b6dc43a5fc675ddd22ed5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2f57690f4da6dbc4ea79b8f3a21ad83d, type: 2}
